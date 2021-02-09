@@ -1,0 +1,78 @@
+<section class="host-quiz-component" *ngIf="!isAllDone">
+    <div class="host-quiz-section"><br />
+        <div style="display: flex; justify-content: space-evenly; flex-wrap: wrap;">
+            <a [routerLink]="['']"><img src="assets/main-logo.png" height="80px" /></a>
+            <h1 style="font-weight: 800; font-family: 'Montserrat'; color: black;">Host a Quiz</h1>
+        </div>
+
+        <!-- Quiz Info -->
+        <div *ngIf="quizInfo" class="quiz-info" [formGroup]="quizDetails">
+            <input type="text"  placeholder="Select a Quiz Title" aria-label="QuizTitle" formControlName="quizTitle">
+            <div style="display: grid;">
+                <label style="text-align: left;">Select Quiz Domain</label>
+                <select class="form-select" aria-label="QuizDomain" formControlName="quizDomain">
+                    <option [value]="domain.domainId" *ngFor="let domain of domainList" >{{ domain.domain }}</option>
+                </select>
+            </div>
+            <div style="display: grid;">
+                <label style="text-align: left;">Duration</label>
+                <select class="form-select" aria-label="QuizDomain" formControlName="quizDuration">
+                    <option value="0.5">30mins</option>
+                    <option value="1">1hr</option>
+                    <option value="1.5">1.5hrs</option>
+                    <option value="2">2hrs</option>
+                    <option value="2.5">2.5hrs</option>
+                    <option value="3">3hrs</option>
+                </select>
+            </div>
+
+            <button (click)="acceptQuizInfo()" [disabled]="!quizDetails.valid" class="btn next-btn" style="justify-self: right; width: 10em;" >Next</button>
+        </div>
+
+
+        <!-- Quiz Questions --><br /><br />
+        <div *ngIf="!quizInfo" class="quiz-question" [formGroup]="questionDetails">
+            <textarea placeholder="Enter your Question" style="height: 100px" formControlName="question"></textarea>
+            <div style="display: grid;">
+                <label style="text-align: left;">Select a Question Instead</label>
+                <select class="form-select" aria-label="QuizDomain"  (change)="selectQuestion($event)">
+                    <option selected>-- Select a Question</option>
+                    <option [value]="question.questionId" *ngFor="let question of questionsList">{{ question.question.substring(0,30)+'...' }}</option>
+                </select>
+            </div>
+            <div style="display: grid;">
+                <label style="text-align: left;">Select Difficulty</label>
+                <select class="form-select" aria-label="QuizDomain" formControlName="difficulty">
+                    <option value="EASY" >EASY</option>
+                    <option value="MED" >MEDIUM</option>
+                    <option value="HARD" >HARD</option>
+                </select>
+            </div>
+            <div class="options">
+                <div class="option">
+                    <input type="text"  placeholder="Enter Option 1" aria-label="Option1" formControlName="option1">
+                    <input type="text"  placeholder="Enter Option 2" aria-label="Option2" formControlName="option2"> 
+                </div>
+                <div class="option">
+                    <input type="text"  placeholder="Enter Option 3" aria-label="Option3" formControlName="option3">
+                    <input type="text"  placeholder="Enter Option 4" aria-label="Option4" formControlName="option4">
+                </div>
+                <div >
+                    <input style="height: auto;" type="text"  placeholder="Enter Correct Option" aria-label="CorrectOption" formControlName="correctOption">
+                    <div class="err-msg" *ngIf="isError">
+                        <small>{{ errMsg }}</small>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons-section">
+                <button (click)="addQuestion()" [disabled]="!quizDetails.valid" class="btn btn-primary" style=" width: 10em;" >Add Question</button>
+                <div *ngIf="isAdded" class="added-ques"><small>Question Added <i class="fas fa-check-circle"></i></small></div>
+            <button (click)="createQuiz()" [disabled]="!quizDetails.valid" class="btn btn-success" style=" width: 10em;" >Create Quiz</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="all-done" *ngIf="isAllDone"> 
+    <img src="assets/correct.gif">
+</section>

@@ -1,0 +1,130 @@
+<div class="dashboard-section fixed-nav sticky-footer " style="  background-color:#6084b9;" id="page-top">
+  <nav class="navbar navbar-expand-lg  fixed-top" style="  background-color:#6084b9;" id="mainNav">
+    <a [routerLink]="['']" class="main-logo"><img src="assets/main-logo.png" style="height:70px;" s></a>
+      <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars" aria-hidden="true" style="color: white;"></i>
+      </button>
+      <div class="collapse navbar-collapse"  id="navbarResponsive">
+        <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+            <a class="nav-link">
+              
+              <span class="nav-link-text" style="color: white; font-size: 26px; font-family: 'Montserrat'; font-weight: 600;">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item"data-placement="right" style="color: white; font-size: 17px;" >
+            <a class="nav-link " [routerLink]="['/dashboard/profile']" data-parent="#exampleAccordion"style="color: white;">
+              <i class="fa fa-user-alt pr-2" aria-hidden="true"></i>
+              <span class="nav-link-text">Profile</span>
+            </a>
+          
+          </li>
+        
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components"  style="color: white;">
+            <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+              <i class="fa fa-laptop-code pr-2" aria-hidden="true" style="color: white;"></i>
+              <span class="nav-link-text"  style="color: white;">Report</span>
+            </a>
+            <ul class="sidenav-second-level collapse" id="collapseComponents">
+              <li>
+               
+                <a  [routerLink]="['/dashboard/hosted']" style="color: white;">
+                  <i class="fa fa-wifi pr-2" aria-hidden="true"></i> Hosted Quiz</a>
+              </li>
+              <li>
+                <a [routerLink]="['/dashboard/activity']"  style="color: white;">
+                  <i class="fa fa-history pr-2" aria-hidden="true"></i> Activity</a>
+              </li>
+              <li>
+                <a [routerLink]="['/dashboard/performance']"  style="color: white;">
+                  <i class="fa fa-chart-line pr-1" aria-hidden="true"></i> Performance</a>
+              </li>
+              
+              
+              
+            </ul>
+          </li>
+          <!--
+          <li class="nav-item "data-placement="right" style="color: white;" >
+            <a class="nav-link "  data-parent="#exampleAccordion" [routerLink]="['/scrapregister']" style="color: white;">
+              <i class="fa fa-history pr-2" aria-hidden="true" ></i>
+              <span class="nav-link-text">Activity</span>
+            </a>
+          
+          </li>
+          <li class="nav-item"data-placement="right" style="color: white;" >
+            <a class="nav-link "  data-parent="#exampleAccordion">
+              <i class="fa fa-laptop-code pr-2" aria-hidden="true"></i>
+              <span class="nav-link-text">Performance Report</span>
+            </a>
+          
+          </li>
+        -->
+          <li class="nav-item"data-placement="right" style="color: white;" >
+            <a class="nav-link "[routerLink]="['/about-us']"  style="color: white;"  data-parent="#exampleAccordion">
+              <i class="fa fa-user-circle pr-2" aria-hidden="true"></i>
+              <span class="nav-link-text">About us </span>
+            </a>
+          
+          </li>
+          <li class="nav-item"data-placement="right" style="color: white;" >
+            <a class="nav-link " [routerLink]="['/contact-us']"  style="color: white;" data-parent="#exampleAccordion">
+              <i class="fa fa-phone pr-2" aria-hidden="true"></i>
+              <span class="nav-link-text">Contact us </span>
+            </a>
+          
+          </li>
+          
+        </ul>
+     
+        <ul class="navbar-nav ml-auto p-1 ">
+         
+        
+          <li class="nav-item mr-5  pt-1">
+              <!--
+            <form class="form-inline my-2 my-lg-0 mr-lg-2">
+              <div class="input-group">
+                <input class="form-control" type="text" placeholder="Search for...">
+                <span class="input-group-append">
+                  <button class="btn btn-primary" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </span>
+              </div>
+            </form>
+            -->
+          </li>
+          <li class="nav-item mr-5  pt-1">
+            <button type="button" class="btn btn-danger logout-btn" (click)="logoutSession()" >Logout</button>
+          </li>
+          <!--
+          <li class="nav-item mr-5 pt-1">
+            <a href="#"><i class="fa" style="font-size:35px; color: rgb(190, 196, 196);" >&#xf07a;</i>
+            <span class='badge badge-warning' id='lblCartCount'> 5 </span></a>
+          </li>
+          -->
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- Main Body -->
+    <div class="content-wrapper" style="margin-top: 80px;">
+      <div class="container-fluid">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a  [routerLink]="['/dashboard']">Home</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a  >Performance</a>
+      </li>
+    </ol>
+  </div>
+  <div class="container-fluid" style="padding: 5% 10%;" *ngIf="isGiven">
+    <google-chart [data]="pieChart"></google-chart>
+  </div>
+  <div class="container text-danger" *ngIf="!isGiven" style="padding: 5% 10%; text-align: center; ">
+    <h2>{{ errMsg }} </h2>
+  </div>
+  </div>
+</div>

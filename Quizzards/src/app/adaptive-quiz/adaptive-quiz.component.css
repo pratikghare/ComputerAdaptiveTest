@@ -1,0 +1,142 @@
+.adaptive-quiz-component{
+    background: #558576;
+    background: #615c34;
+    background: linear-gradient(rgba(231,243,255,0.7),rgba(231,243,255,0.7)), url("../../assets/bg-quiz.jpg") center/cover fixed;
+    min-height: 100vh;
+    font-family: 'Poppins';
+}
+
+h3{
+    font-weight: 600;
+}
+
+.question-section{
+    min-height: 100px;
+    max-height: 300px;
+    overflow-y: auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adaptive-section{
+    padding: 0 10%;
+    text-align: center;
+}
+
+.options-section{
+    margin-top: 5%;
+}
+
+.options-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 4em;
+    grid-row-gap: 2em;
+    margin : 2em 0;
+}
+
+.option-div{
+    border: none;
+    outline: none;
+}
+
+.option{
+    text-align: center;
+    background: coral;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.option:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4), 0 10px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+    transition: all 200ms ease-in-out;
+}
+
+.option:focus-visible{
+    background: rgb(58, 166, 185);
+    background: rgb(212, 199, 84) !important;
+    
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4), 0 10px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+    transition: all 200ms ease-in-out;
+}
+.option-1{
+    background: rgb(212, 124, 84);
+}
+
+.option-2{
+    background: rgb(84, 161, 212);
+}
+
+.option-3{
+    background: rgb(84, 139, 212);
+}
+
+.option-4{
+    background: rgb(212, 84, 106);
+}
+
+.button-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button-section button{
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #f3f3f3;
+    background: #5755b8;
+    border-bottom: 4px solid #2e2d63;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button-section button:hover{
+    background: rgba(87, 85, 184, 0.9);
+    
+    transform: scale(1.03);
+    transition: all 200ms ease-in-out;
+}
+
+.button-section button:focus{
+    transform: scale(1);
+    transition: all 200ms ease-in-out;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+label{
+    width: 100%;
+}
+
+.button-section>img{
+   height: 300px; 
+   border-radius: 50% 50% 45% 40%;
+}
+
+@media screen and (max-width : 410px){
+    .button-section>img{
+        height: 200px;
+    }
+}
+.options-div button{
+    height: 100%;
+}

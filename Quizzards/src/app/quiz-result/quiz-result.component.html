@@ -1,0 +1,47 @@
+<section class="quiz-result-component">
+    <div class="quiz-result">
+        <h4 style="font-family: 'Montserrat';"><i class="fas fa-medal"></i> Summary <i class="fas fa-medal"></i></h4>
+        <p>{{ quizResult.quiz.quizTitle }}</p>
+        <div class="summary-class">
+            <div>
+                <h4>{{ correct }}</h4>
+                <p>Correct</p>
+            </div>
+            
+            <div>
+                <h4>{{ quizResult.scoredMarks }} / {{ quizResult.totalMarks }}</h4>
+                <p>Total Marks</p>
+            </div>
+            
+            <div>
+                <h4>{{ quiz.questions.length }}</h4>
+                <p>Questions</p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <p>Accuracy : {{ accuracy }}%</p>
+        </div>
+        <div class="accuracy" >
+            <div class="sub-acc" [ngClass]="getBarColor('outer')">
+                <div class="accuracy-per" [style.width.%]="accuracy" [ngClass]="getBarColor('inner')">
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <button class="bg-success" (click)="playAgain()" *ngIf="canPlay && !hostCheck">Play Again!</button>
+        <button class="bg-primary" *ngIf="!hostCheck" [routerLink]="['']">Find new Quiz</button>
+       
+
+        <div class="question-summary">
+            <div class="question card" [ngClass]="getDifficultyColor(question.difficulty)" *ngFor="let question of questionsList; index as i">
+                <h6  style="font-weight: 600;">Q{{ i+1 }}) {{ question.question }}</h6><br>
+                <p style="border-left: 5px solid transparent; padding:6px" [ngClass]="getOptionColor(question, question.option1)">1. {{ question.option1 }}</p>
+                <p style="border-left: 5px solid transparent;padding:5px" [ngClass]="getOptionColor(question, question.option2)">2. {{ question.option2 }}</p>
+                <p style="border-left: 5px solid transparent;padding:5px" [ngClass]="getOptionColor(question, question.option3)">3. {{ question.option3 }}</p>
+                <p style="border-left: 5px solid transparent;padding:5px" [ngClass]="getOptionColor(question, question.option4)">4. {{ question.option4 }}</p>
+            </div>
+        </div>
+    </div>
+</section>

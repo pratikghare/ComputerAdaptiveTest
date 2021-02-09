@@ -1,0 +1,108 @@
+.page-not-found-component{
+    background: url('../../assets/bg-home.jpg') center/cover fixed;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+nav{
+    background: transparent !important;
+    font-family: 'Poppins';
+}
+
+.nav-item{
+    margin: 0 1em;
+}
+
+.page-not-found{
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    align-items: center;
+}
+
+.inside-pnf{
+    grid-column: 2;
+    text-align: center;
+}
+
+.fas{
+    font-size: 50px;
+}
+.error-page{
+    font-family: 'Poppins';
+}
+
+.error-content{
+    padding: 0 2%;
+}
+
+
+img{
+    width:450px;
+}
+
+h1, p{
+    max-width: 90%;
+}
+
+@media screen and (max-width : 460px){
+    img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width : 450px){
+    .error-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width : 451px){
+    .error-content{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width : 310px){
+    img{
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width : 600px){
+    .error-message{
+        margin-left: 10%;
+    }
+    .error-message{
+        margin-top: 4em;
+    }
+    
+    .error-img{
+        margin-top: 5em;
+    }
+}
+
+button{
+    padding: 10px 20px;
+    margin-top: 1em;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #6C63FF;
+    color: #fff;
+    border-bottom: 4px solid #26235e;
+}
+
+button:hover{
+    background: rgba(108, 99, 255, 0.9);
+    color: #fff;
+}

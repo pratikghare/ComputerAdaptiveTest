@@ -1,0 +1,143 @@
+.search-result-section{
+    background: url("../../assets/bg-quiz.jpg") center/cover fixed;
+    min-height: 100vh;
+}
+
+nav{
+    background: transparent !important;
+    font-family: 'Poppins';
+}
+
+.nav-item{
+    margin: 0 1em;
+}
+
+.main-search-reult-body{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin-top: 5em;
+    font-family: 'Poppins';
+    padding-bottom: 10%;
+}
+.main-search-reult-body > *{
+    grid-column: 2;
+}
+
+.result-div{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2em;
+}
+
+.item-box{
+    height: 180px;
+    width: 300px;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    
+}
+.item-box:hover{
+    transform: scale(1.02);
+    transition: all 180ms ease-in-out;
+}
+
+
+.data-structure{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/data-structure.png') no-repeat center/cover;
+}
+
+.java{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/java-1.webp') no-repeat center/cover;
+}
+
+.maths{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/maths-1.jpg') no-repeat center/cover;
+}
+
+.adv-java{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/adv-java.png') no-repeat center/cover;
+}
+
+.algebra{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/algebra-1.png') no-repeat center/cover;
+}
+
+.geometry{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/geometry.gif') no-repeat center/cover;
+}
+
+.science{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/science.jpg') no-repeat center/cover;
+}
+
+.biology{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/biology.jpg') no-repeat center/cover;
+}
+
+.awp{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/awp.png') no-repeat center/cover;
+} 
+
+.chemistry{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/chemistry.jpg') no-repeat center/cover;
+}
+
+.civics{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/civics.png') no-repeat center/cover;
+}
+
+.code{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/code.jpg') no-repeat center/cover;
+    color: #fff !important;    
+}
+
+.default-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/default.png') no-repeat center/cover;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.default-bg-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/default.jpg') no-repeat center/cover;
+    color: black !important;
+    font-weight: 600;
+}
+
+
+.dot-net{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/dot-net.jpg') no-repeat center/cover;
+}
+
+.geography{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/geography.jpg') no-repeat center/cover;
+}
+
+.history{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/history.png') no-repeat center/cover;
+}
+
+.mean-stack{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/mean-stack.jpg') no-repeat center/cover;
+}
+
+.mysql{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/mysql.jpg') no-repeat center/cover;
+}
+
+.operating-system{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/operating-system.png') no-repeat center/cover;
+}
+
+.physics{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/physics.png') no-repeat center/cover;
+}
+
+.software-engg{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../assets/subjects/software-engg.jpg') no-repeat center/cover;
+}

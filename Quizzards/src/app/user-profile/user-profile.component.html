@@ -1,0 +1,272 @@
+<div class="dashboard-section fixed-nav sticky-footer " style="  background-color:#6084b9;" id="page-top">
+  <nav class="navbar navbar-expand-lg  fixed-top" style="  background-color:#6084b9;" id="mainNav">
+    <a [routerLink]="['']" class="main-logo"><img src="assets/main-logo.png" style="height:70px;" s></a>
+      <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars" aria-hidden="true" style="color: white;"></i>
+      </button>
+      <div class="collapse navbar-collapse"  id="navbarResponsive">
+        <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+            <a class="nav-link">
+              
+              <span class="nav-link-text" style="color: white; font-size: 26px; font-family: 'Montserrat'; font-weight: 600;">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item"data-placement="right" style="color: white; font-size: 17px;" >
+            <a class="nav-link " [routerLink]="['/dashboard/profile']" data-parent="#exampleAccordion"style="color: white;">
+              <i class="fa fa-user-alt pr-2" aria-hidden="true"></i>
+              <span class="nav-link-text">Profile</span>
+            </a>
+          
+          </li>
+        
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components"  style="color: white;">
+            <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+              <i class="fa fa-laptop-code pr-2" aria-hidden="true" style="color: white;"></i>
+              <span class="nav-link-text"  style="color: white;">Report</span>
+            </a>
+            <ul class="sidenav-second-level collapse" id="collapseComponents">
+              <li>
+               
+                <a [routerLink]="['/dashboard/hosted']" style="color: white;">
+                  <i class="fa fa-wifi pr-2" aria-hidden="true"></i> Hosted Quiz</a>
+              </li>
+              <li>
+                <a style="color: white;">
+                  <i class="fa fa-history pr-2" aria-hidden="true"></i> Activity</a>
+              </li>
+              <li>
+                <a [routerLink]="['/dashboard/performance']"  style="color: white;">
+                  <i class="fa fa-chart-line pr-1" aria-hidden="true"></i> Performance</a>
+              </li>
+              
+              
+              
+            </ul>
+          </li>
+          <!--
+          <li class="nav-item "data-placement="right" style="color: white;" >
+            <a class="nav-link "  data-parent="#exampleAccordion" [routerLink]="['/newactivity']" style="color: white;">
+              <i class="fa fa-history pr-2" aria-hidden="true" ></i>
+              <span class="nav-link-text">Activity</span>
+            </a>
+          
+          </li>
+          <li class="nav-item"data-placement="right" style="color: white;" >
+            <a class="nav-link "  data-parent="#exampleAccordion">
+              <i class="fa fa-laptop-code pr-2" aria-hidden="true"></i>
+              <span class="nav-link-text">Performance Report</span>
+            </a>
+          
+          </li>
+        -->
+          <li class="nav-item"data-placement="right" style="color: white;" >
+            <a class="nav-link "[routerLink]="['/about-us']"  style="color: white;"  data-parent="#exampleAccordion">
+              <i class="fa fa-user-circle pr-2" aria-hidden="true"></i>
+              <span class="nav-link-text">About us </span>
+            </a>
+          
+          </li>
+          <li class="nav-item"data-placement="right" style="color: white;" >
+            <a class="nav-link " [routerLink]="['/contact-us']"  style="color: white;" data-parent="#exampleAccordion">
+              <i class="fa fa-phone pr-2" aria-hidden="true"></i>
+              <span class="nav-link-text">Contact us </span>
+            </a>
+          
+          </li>
+          
+        </ul>
+     
+        <ul class="navbar-nav ml-auto p-1 ">
+         
+        
+          <li class="nav-item mr-5  pt-1">
+              <!--
+            <form class="form-inline my-2 my-lg-0 mr-lg-2">
+              <div class="input-group">
+                <input class="form-control" type="text" placeholder="Search for...">
+                <span class="input-group-append">
+                  <button class="btn btn-primary" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </span>
+              </div>
+            </form>
+            -->
+          </li>
+          <li class="nav-item mr-5  pt-1">
+            <button type="button" class="btn btn-danger logout-btn" (click)="logoutSession()" >Logout</button>
+          </li>
+          <!--
+          <li class="nav-item mr-5 pt-1">
+            <a href="#"><i class="fa" style="font-size:35px; color: rgb(190, 196, 196);" >&#xf07a;</i>
+            <span class='badge badge-warning' id='lblCartCount'> 5 </span></a>
+          </li>
+          -->
+        </ul>
+      </div>
+    </nav>
+      <div class="content-wrapper" style="margin-top: 80px;">
+        <div class="container-fluid">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a  [routerLink]="['/dashboard']">Home</a>
+              </li>
+              <li class="breadcrumb-item active">User Profile</li>
+            </ol>
+          </div>
+          <div class="container bootstrap snippets bootdey">
+            <div class="alert alert-info" role="alert">
+                <h4>Profile Details</h4>
+                <p>Please fill accurate address and contact details to communicate further.  </p>
+              </div>
+            <div class="row">
+                
+              
+              <div class="profile-info col-md-9">
+                
+                  <div class="panel">
+                     
+                      <div class="panel-body bio-graph-info mt-1">
+                          <h2 style="color: #181c1f; font-weight: 600; font-family: 'Montserrat';">Personal Details :</h2>
+                          <br><br>
+                         
+
+                          <form #registerFrom="ngForm"  (ngSubmit)="updateDetails()" >
+                            <small class="text-danger"></small>  
+                          <div style="display: flex; justify-content: space-between;">
+                            <div class=" form-group">
+                              <!-- <span style="text-align: left"><i class="fa fa-user"></i></span>  -->
+                              <input name="firstName" class="form-control" placeholder="First Name" name="firstName" id="firstName" [(ngModel)] = "user.firstName" 
+                              pattern="^[a-zA-Z ]*$" minlength="5" required #firstName="ngModel" 
+                              [class.is-invalid]="firstName.invalid && firstName.touched"
+                              >
+                              <div *ngIf="firstName.errors && (firstName.invalid && firstName.touched)">
+                                  <small class="text-danger" *ngIf="firstName.errors.required" >FirstName is required</small>
+                                  <small class="text-danger" *ngIf="firstName.errors.pattern" >Enter Valid FirstName</small>
+                              </div>
+                          </div>
+
+                          <div class=" form-group">
+                            <!-- <span style="text-align: left"><i class="fa fa-user"></i></span>  -->
+                          <input name="lastName" class="form-control" placeholder="Last Name" name="lastName" id="lastName" [(ngModel)] = "user.lastName" 
+                          pattern="^[a-zA-Z ]*$" minlength="5" required #lastName="ngModel" 
+                          [class.is-invalid]="lastName.invalid && lastName.touched"
+                          >
+                          <div *ngIf="lastName.errors && (lastName.invalid && firstName.touched)">
+                              <small class="text-danger" *ngIf="lastName.errors.required" >LastName is required</small>
+                              <small class="text-danger" *ngIf="lastName.errors.pattern" >Enter Valid LastName</small>
+                          </div>
+                      </div>
+                          </div>
+        
+        
+                          <div class=" form-group">
+                              <!-- <span><i class="fa fa-envelope"></i></span>  -->
+                              <input type="email" placeholder="Email Address" class="form-control" id="emailID" name="emailID" [(ngModel)] = "user.emailID" 
+                              pattern='^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$' required #emailID="ngModel"
+                              [class.is-invalid]="emailID.invalid && emailID.touched"
+                              >
+                              <div *ngIf="emailID.errors && (emailID.invalid && emailID.touched)">
+                                  <small class="text-danger" *ngIf="emailID.errors.required" >Email is required</small>
+                                  <small class="text-danger" *ngIf="emailID.errors.pattern" >Enter a Valid Email</small>
+                              </div>
+                          </div>
+        
+                          <div class="form-group">
+                              <!-- <span><i class="fa fa-phone"></i></span> -->
+                              <input name="contact" class="form-control" placeholder="Contact" name="contact" id="contact" [(ngModel)] = "user.contact" 
+                              pattern="^([+]\d{2})?\d{10}$" minlength="10" maxlength="10" required #contact="ngModel" 
+                              [class.is-invalid]="contact.invalid && contact.touched"
+                              >
+                          
+                              <div *ngIf="contact.errors && (contact.invalid && contact.touched)">
+                                  <small class="text-danger" *ngIf="contact.errors.required" >Phone number is required</small>
+                                  <small class="text-danger" *ngIf="contact.errors.pattern" >Enter Valid Phone number</small>
+                              </div>
+                          </div>
+                          
+                          <div class="form-group">
+                            <select class="form-select" aria-label="Default select example" name="gender" [(ngModel)] = "user.gender"  >
+                                <option selected>-- Select a Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                              </select>
+                          </div>
+
+                          <!-- <div class="form-group">
+                               <span><i class="fa fa-lock"></i></span>
+                              <input name="userAddress" class="form-control" placeholder="Address" name="userAddress" id="userAddress" [(ngModel)] = "user.userAddress" 
+                              pattern='' type="text" required #username="ngModel" >
+                          </div> -->
+        
+                        
+              
+                          <div class=" form-group">
+                              <!-- <span><i class="fa fa-lock"></i></span> -->
+                              <input type="password" placeholder="Password" class="form-control" id="password" name="password" [(ngModel)] = "user.password"
+                              pattern='^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$' required #password="ngModel"
+                              [class.is-invalid]="password.invalid && password.touched"
+                              >
+                              <!-- [class.is-valid]="password.valid && password.touched" -->
+                              <div *ngIf="password.errors && (password.invalid && password.touched)">
+                                  <small class="text-danger" *ngIf="password.errors.required" >Password is required</small>
+                                  <small class="text-danger" *ngIf="password.errors.pattern" >Password should contain atleast 1 capital letter, 1 small letter, Number and Special Character</small>
+                              </div>
+                          </div>
+                          
+                          <!--
+                          <div class="form-group">
+                             <span><i class="fa fa-lock"></i></span> 
+                              <input name="confirmPassword" class="form-control" placeholder="Conform Password" name="userConformPassword" id="userConformPassword" (ngModel) = "user.userPassword" 
+                               type="password" required #conformPassword
+                              [class.is-invalid]="conformPassword.invalid && conformPassword.touched"
+                              >
+                              <small class="text-danger" [class.d-none]="conformPassword.value=='' || (conformPassword.value == password.value) || conformPassword.untouched">Password and Conform Password Not Matched</small>
+                          </div>
+                        -->
+                          
+                          <div class="text-left mb-3">
+                              <button [disabled]="registerFrom.form.invalid " type="submit" class="btn">Update</button>
+                          </div>
+        
+                      </form>
+                      <!--
+                      <div class="panel-body bio-graph-info mt-1">
+                        <h1 style="color: #181c1f; font-weight: 400;">Company Address Details :</h1>
+                        <div class="row">
+                            <div class="bio-row">
+                                <p><span>First Name </span>: Camila</p>
+                            </div>
+                            <div class="bio-row">
+                                <p><span>Last Name </span>: Smith</p>
+                            </div>
+                            <div class="bio-row">
+                                <p><span>Country </span>: Australia</p>
+                            </div>
+                            <div class="bio-row">
+                                <p><span>Birthday</span>: 13 July 1983</p>
+                            </div>
+                            <div class="bio-row">
+                                <p><span>Occupation </span>: UI Designer</p>
+                            </div>
+                            <div class="bio-row">
+                                <p><span>Email </span>: jsmith@flatlab.com</p>
+                            </div>
+                            <div class="bio-row">
+                                <p><span>Mobile </span>: (12) 03 4567890</p>
+                            </div>
+                            <div class="bio-row">
+                                <p><span>Phone </span>: 88 (02) 123456</p>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                  </div>
+                 
+              </div>
+              
+            </div>
+    </div>
+</div>
+    

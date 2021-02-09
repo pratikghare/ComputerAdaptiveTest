@@ -1,0 +1,171 @@
+<section class="about-section">
+
+  <!--  Navigation Bar  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="assets/main-logo.png" style="height: 80px;" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link "  [routerLink]="['']">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link "  style="cursor: pointer;" [routerLink]="['/contact-us']">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" style="cursor: pointer;"  [routerLink]="['/about-us']">About Us</a>
+            </li>
+            <li class="nav-item dropleft"  *ngIf="isLoggedIn">
+              <a class="nav-link"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fab fa-ioxhost"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" [routerLink]="['dashboard']">Hi, {{ userName }}!</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/dashboard/hosted']">Hosted</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/dashboard/activity']">Activity</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/dashboard/performance']">Performance</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" (click)="logoutSession()">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+
+
+  <!--  Main Section  -->
+  <div>
+      
+      <div class="bg-light">
+        <div class="container py-5">
+          <div class="row h-100 align-items-center py-5">
+            <div class="col-lg-6">
+              <h1 class="display-4">About us </h1>
+              <p class="lead text-muted mb-0">Quizzards : Learning is not attained by chance. It must be sought for with ardor and attended with diligence.</p>
+              
+            </div>
+            <div class="col-lg-6 d-none d-lg-block"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/illus_kftyh4.png" alt="" class="img-fluid"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white py-5">
+        <div class="container py-5">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+              <h2 class="font-weight-light">Quizzards</h2>
+              <p class="font-italic text-muted mb-4">Online platform for adaptive testing where we will provide the facility to host as well as attempt the quiz online which increases the difficulty on a correct answers.
+                  Static multiple choice tests that nearly everyone has experienced, with a fixed set of items administered to all examinees, computer-adaptive tests require fewer test items to arrive at equally accurate scores
+                  </p><a [routerLink]="['']"class="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+            </div>
+            <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834139/img-1_e25nvh.jpg" alt="" class="img-fluid mb-4 mb-lg-0"></div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-5 px-5 mx-auto"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834136/img-2_vdgqgn.jpg" alt="" class="img-fluid mb-4 mb-lg-0"></div>
+            <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
+              <h2 class="font-weight-light">Our History</h2>
+              <p class="font-italic text-muted mb-4">As in the industries we are working on providing the best user learning experience and adaptively changing difficulty project so Quizzards come up with a good solution in 2020.</p><a [routerLink]="['']" class="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-light py-5">
+        <div class="container py-5">
+          <div class="row mb-4">
+            <div class="col-lg-5">
+              <h2 class="display-4 font-weight-light">Meet Our team</h2>
+              <p class="font-italic text-muted">“Alone we can do so little, together we can do so much.”</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <!-- Team item-->
+            <div class="col-xl-4 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/about/pratik.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Pratik Ghare</h5><span class="small text-uppercase text-muted">PG - DAC</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="https://twitter.com/account/access" class="social-link"><img src="assets/icons/twitter.jpg"></a></li>
+                  <li class="list-inline-item"><a href="https://www.linkedin.com/in/pratik-ghare-5640b31b4/" class="social-link"><img src="assets/icons/linkedin.png"></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End-->
+            <div class="col-xl-4 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/about/sanket.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Sanket Gavade</h5><span class="small text-uppercase text-muted">PG - DAC</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/fb.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/twitter.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/insta.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/linkedin.png"></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Team item-->
+            <div class="col-xl-4 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/about/dipesh.jpeg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Dipesh Chaudhari</h5><span class="small text-uppercase text-muted">PG - DAC</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/fb.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/twitter.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/insta.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/linkedin.png"></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End-->
+
+            <!-- Team item-->
+            <div class="col-xl-4 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/about/aish.jpeg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Aishwarya Kapileshwar</h5><span class="small text-uppercase text-muted">PG - DAC</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/fb.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/twitter.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/insta.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/linkedin.png"></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End-->
+
+            <!-- Team item-->
+            <div class="col-xl-4 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/about/monika.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Monika Patil</h5><span class="small text-uppercase text-muted">PG - DAC</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/fb.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/twitter.jpg"></a></li>
+                  <li class="list-inline-item"><a href="https://www.instagram.com/_dip_zone/" class="social-link"><img src="assets/icons/insta.jpg"></a></li>
+                  <li class="list-inline-item"><a href="https://www.linkedin.com/in/dipesh-chaudhari-a9ba971ba/" class="social-link"><img src="assets/icons/linkedin.png"></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End-->
+
+            <!-- Team item-->
+            <div class="col-xl-4 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="assets/about/utkarsha.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Utkarsha Mogal</h5><span class="small text-uppercase text-muted">PG - DAC</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/fb.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/twitter.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/insta.jpg"></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><img src="assets/icons/linkedin.png"></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- End-->
+
+          </div>
+        </div>
+      </div>
+
+  </div>
+</section>

@@ -1,0 +1,54 @@
+<section class="quiz-result-component">
+    <div class="quiz-result" *ngIf="isQuiz">
+        <div class="back-button" style="position: absolute;  left: 15%;">
+            <a class="btn btn-secondary" [routerLink]="['/dashboard']" ><i class="fas fa-arrow-left"></i> Back Home</a>
+        </div>
+        <h4 style="font-family: 'Montserrat';">LEADERBOARDS   <i class="fas fa-clipboard-list"></i></h4>
+        <p>{{ quiz.quizTitle }} : {{ quiz.quizId }}</p>
+        <div class="summary-class">
+            <div>
+                <h4>{{ usersList.length }}</h4>
+                <p>Players</p>
+            </div>
+            
+            <div>
+                <h4>{{ quiz.questions.length }}</h4>
+                <p>Questions</p>
+            </div>
+        </div>
+        <button class="bg-danger" (click)="deleteQuiz()">Delete Quiz</button>
+       
+        <br>
+        <div class="leaderboards-summary">
+            <!--<div *ngFor="let question of questionsList; index as i">-->
+            <div style="display: grid;">
+                <table class="table table-striped " style=" width: 100% !important;" id="header-fixed">
+                    <thead class="table-dark">
+                        <tr>
+                            <th  class="align-middle">Rank</th>
+                            <th class="align-middle">First Name</th>
+                            <th class="align-middle">Last Name</th>
+                            <th class="align-middle">Email</th>
+                            <th class="align-middle">Marks</th>
+                            <th class="align-middle"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTableBody" *ngFor="let user of usersList; index as i">
+    
+                        <tr  style="color:dark; background: rgba(255, 255, 255, 0.5);">
+                            <td class="align-middle">{{ i+1 }}</td>
+                            <td class="align-middle">{{ user.firstName }}</td>
+                            <td class="align-middle">{{ user.lastName }}</td>
+                            <td class="align-middle">{{ user.emailID }}</td>
+                            <td class="align-middle">{{ user.result.scoredMarks }}</td>  
+                            <td class="align-middle"><a (click)="getUserReport(user.result)">Check Report</a> <i class="fas fa-chart-line text-primary"></i></td>  
+                        </tr>
+    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    
+</section>

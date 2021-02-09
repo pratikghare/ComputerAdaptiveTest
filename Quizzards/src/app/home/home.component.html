@@ -1,0 +1,78 @@
+<section class="home-section">
+
+    <!--  Navigation Bar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/main-logo.png" style="height: 80px;" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" [routerLink]="['']">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['contact-us']">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['about-us']">About Us</a>
+              </li>
+              <li class="nav-item dropleft" *ngIf="isLoggedIn">
+                <a class="nav-link" style="cursor: pointer;"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fab fa-ioxhost"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" [routerLink]="['dashboard']">Hi, {{ userName }}!</a></li>
+                  <li><a class="dropdown-item" [routerLink]="['/dashboard/hosted']">Hosted</a></li>
+                  <li><a class="dropdown-item" [routerLink]="['dashboard/activity']">Activity</a></li>
+                  <li><a class="dropdown-item" [routerLink]="['dashboard/performance']">Performance</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" (click)="logoutSession()">Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+
+    <!--  Main Section  -->
+    <div class="main-home-body" >
+        <div class="login-home-section"  *ngIf="isLoggedIn">
+          <div class="inside-login-section-1" style="display: grid; grid-gap: 2em;" [formGroup]="fbFormGroup">
+            <input type="text" class="form-control" placeholder="Enter Quiz Code" formControlName="quizCode" aria-label="Username" aria-describedby="addon-wrapping">
+            <button type="submit" class="btn" (click)="joinQuiz()" [disabled]="!fbFormGroup.valid">Join Quiz</button>
+          </div>
+          <div class="inside-login-section-1" style="display: grid; grid-gap: 1em;" >
+            <div class="input-group mb-3" [formGroup]="searchForm">
+              <input type="text" class="form-control" placeholder="Search for Quiz" aria-label="Recipient's username" aria-describedby="basic-addon2" formControlName="quizDomain">
+              <span class="input-group-text" style="background: transparent; position: absolute; right: 0; border: none; margin-top: 5px;" id="basic-addon2"><i class="fas fa-search"></i></span>
+            </div>
+            <button type="submit" class="btn" (click)="searchByDomain()" [disabled]="!searchForm.valid">Search </button>
+          </div>
+          <!--
+          <div class="inside-login-section">
+            <img src="assets/dashboard.svg" class="img-fluid border-radius p-4" alt="" style="height:250px">
+            <button [routerLink]="['dashboard']" >Check your Report</button>
+          </div>
+          -->
+        </div>
+        <br /><br />
+        <div *ngIf="isLoggedIn" class="login-home-section" >
+            
+            <button [routerLink]="['/host']" ><i class="fas fa-plus-circle"></i>  Create a Quiz</button>
+        </div>
+
+        <div *ngIf="!isLoggedIn" class="login-home-section">
+            <div class="login-now" style="display:grid;">
+              <img src="assets/login-home.svg" /><br /><br />
+                <button (click)="navigateTo('login')">Login to Take a Quiz</button>
+            </div>
+        </div>
+
+        
+
+    </div>
+</section>

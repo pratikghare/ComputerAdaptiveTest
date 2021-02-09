@@ -1,0 +1,409 @@
+package com.app.controller;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
+import java.util.Random;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.app.dao.AnswersCRUD;
+import com.app.dao.OTP_CRUD;
+import com.app.dao.QuestionCRUD;
+import com.app.dao.QuizCRUD;
+import com.app.dao.ResultCRUD;
+import com.app.dao.UserCRUD;
+import com.app.dto.Answers;
+import com.app.dto.OTP;
+import com.app.dto.Result;
+import com.app.dto.User;
+import com.app.supportive.UserSupport;
+
+@RestController
+@CrossOrigin
+public class UserController {
+	@Autowired
+	UserCRUD userCRUD;
+	
+	@Autowired
+	QuestionCRUD quesCRUD;
+	
+	@Autowired
+	ResultCRUD resultCRUD;
+	
+	@Autowired
+	AnswersCRUD ansCRUD;
+	
+	@Autowired
+	QuizCRUD quizCRUD;
+	
+	@Autowired
+	OTP_CRUD otpCRUD;
+	
+	@Autowired
+    private JavaMailSender javaMailSender;
+	
+	@PostMapping("regUser")
+	public User UpdateUser(@RequestBody User user) {
+		if(user.getQuizResultList().isEmpty())
+			System.out.println("empty");
+		else {
+			int lastAns=1, lastRes=1;
+			if(ansCRUD.getCount()>0)
+				lastAns = ansCRUD.getLastPrimaryKey()+1;
+			if(resultCRUD.getCount()>0)
+				lastRes = resultCRUD.getLastPrimaryKey()+1;
+			System.out.println(lastAns + " " + lastRes);
+			List<Result> resultList = user.getQuizResultList();
+			System.out.println("RESULT 1---  " + resultList);
+			System.out.println("RESULT 1---  " + user.getQuizResultList());
+			for(Result result : resultList) {
+				if(result.getResultId()==0) {
+					result.setResultId(lastRes++);
+				}
+				System.out.println(result);
+				List<Answers> ansList = result.getAnswers();
+				System.out.println( " ANSWERS 2------ " + ansList);
+				System.out.println( " ANSWERS 2------ " + result.getAnswers());
+				for(Answers ans : ansList) {
+					if(ans.getAnsId()==0) {
+						ans.setAnsId(lastAns++);
+					}
+					
+				}
+				//ansCRUD.saveAll(ansList);
+				
+				System.out.println("Result updated");
+			}
+			//resultCRUD.saveAll(resultList);
+		}
+		
+		//userCRUD.save(user);
+		quesCRUD.setStatusToZero();
+		user.setStatus(true);
+		System.out.println("User Updated");
+		return user;
+	}
+	
+	
+	@PostMapping("register")
+	public User Resigter(@RequestBody User user) {
+		User userTemp = userCRUD.findByEmailID(user.getEmailID());
+		if(Objects.nonNull(userTemp)) {
+			user.setStatus(false);
+			return user;
+		}
+		
+		if(user.getQuizResultList().isEmpty())
+			System.out.println("empty");
+		else {
+			
+			int lastAns = ansCRUD.getLastPrimaryKey()+1;
+			int lastRes = resultCRUD.getLastPrimaryKey()+1;
+			System.out.println(lastAns + " " + lastRes);
+			List<Result> resultList = user.getQuizResultList();
+			for(Result result : resultList) {
+				if(result.getResultId()==0) {
+					result.setResultId(lastRes++);
+				}
+				System.out.println(result);
+				List<Answers> ansList = result.getAnswers();
+				for(Answers ans : ansList) {
+					if(ans.getAnsId()==0) {
+						ans.setAnsId(lastAns++);
+					}
+					ansCRUD.save(ans);
+				}
+				resultCRUD.save(result);
+				System.out.println("Result updated");
+			}
+		}
+		System.out.println(user);
+		userCRUD.save(user);
+		quesCRUD.setStatusToZero();
+		user.setStatus(true);
+		System.out.println("User Updated");
+		return user;
+	}
+	
+	
+	
+	@PostMapping("login")
+	public User Login(@RequestBody User user, HttpServletRequest request) {
+		System.out.println("======================================");
+		System.out.println(user);
+		quesCRUD.setStatusToZero();
+		
+		User checkUser;
+		
+		if(user.getEmailID().equals("admin") && user.getPassword().equals("admin")) {
+			user.setAdmin(true);
+			user.setStatus(true);
+			return user;
+		}
+			
+		
+		try {
+			checkUser = userCRUD.findByEmailIDAndPassword(user.getEmailID(), user.getPassword());
+			System.out.println("======================================");
+			System.out.println(checkUser);
+			checkUser.setStatus(false);
+			checkUser.setAdmin(false);
+			if(Objects.nonNull(checkUser))
+			{
+				request.getSession().setAttribute("user", checkUser.getEmailID());
+				System.out.println("------------------------- SESSION OBJECT -------------------------");
+				System.out.println(request.getSession().getAttribute("user"));
+				if(checkUser.getEmailID().equals("admin") && checkUser.getPassword().equals("admin")) {
+					checkUser.setAdmin(true);
+				}
+				checkUser.setStatus(true);
+			}
+		}
+		catch(Exception e) {
+			checkUser = new User();
+			checkUser.setStatus(false);
+		}
+		
+		
+		return checkUser;
+	}
+	
+	@PostMapping("/account/updateUser")
+	public User updateUser(@RequestBody User user) {
+		//System.out.println(user);		
+		userCRUD.save(user);
+		user.setStatus(true);
+		return user;
+	}
+	
+	@RequestMapping("/account")
+	public Optional getUserDetails(@RequestParam String userId) {
+		Optional<User> user = userCRUD.findById(userId);
+		return user;
+	}
+	
+	@RequestMapping("/join")
+	public String joinAQuiz(HttpServletRequest request) {
+		System.out.println("========================");
+		System.out.println(request.getSession().getAttribute("user"));
+		return "Hello";
+	}
+	
+	
+	@RequestMapping("/logout")
+	public User Logout(HttpServletRequest request) {
+
+		User user = new User();
+		user.setGender("FAILED");
+		System.out.println("------------------------- SESSION OBJECT -------------------------");
+		System.out.println((User)request.getSession().getAttribute("user"));
+		if((User)request.getSession().getAttribute("user") != null)
+		{
+			request.getSession().invalidate();
+			System.out.println("SUCCESS LOGOUT");
+			user.setGender("SUCCESS");
+		}
+		
+		return user;
+	}
+	
+	@RequestMapping("/getAdaptiveCount")
+	public int getAdaptiveCount(@RequestParam String emailID) {
+		int count = -1;
+		try {
+			count = resultCRUD.getAdaptiveCount(emailID);
+			count++;
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+		}
+		return count;
+	}
+	
+	
+	@RequestMapping("/checkResult")
+	public Result getResultIfPresent(@RequestParam String emailID, @RequestParam int quizId) {
+		Result resultId=null;
+		try {
+			resultId = resultCRUD.getResultId(emailID, quizId);
+		}
+		catch(Exception e) {
+			
+		}
+		return resultId;
+	}
+	
+	
+	@RequestMapping("/getPlayers")
+	public List<Optional<User>> getPlayers(@RequestParam int quizId) {
+		List<Optional<User>> user=new ArrayList<Optional<User>>();
+		List<String> emails = resultCRUD.getQuizPlayers(quizId);
+		for(String email : emails) {
+			user.add(userCRUD.findById(email));
+		}
+		return user;
+	}
+	
+	@RequestMapping("/delUser")
+	public void deleteUser(@RequestParam String emailID) {
+		User user = new User();
+		user.setEmailID(emailID);
+		List<Result> resultList = resultCRUD.getResultbyEmail(emailID);
+		if(!resultList.isEmpty()) {
+			for(Result result : resultList) {
+				List<Integer> ansIDList = resultCRUD.getAnswerIDs(result.getResultId());
+				if(!ansIDList.isEmpty()) {
+					for(Integer ansID : ansIDList) {
+						Answers ans = new Answers();
+						ans.setAnsId(ansID);
+						ansCRUD.delete(ans);
+					}
+				}
+				resultCRUD.delete(result);
+			}
+		}
+		quizCRUD.setHostedQuizToAdmin(emailID);
+		userCRUD.delete(user);
+		
+	}
+	
+	@PostMapping("/sendOTP")
+	public UserSupport sendOtp(@RequestBody UserSupport user) {
+		System.out.println(user);
+		//System.out.println(user);
+		User userObj = userCRUD.findByEmailID(user.getEmailId());
+		System.out.println(userObj);
+		String userStatus = user.getStatus();
+		if(userStatus.equalsIgnoreCase("register")) {
+			System.out.println("inside register");
+			if(userObj!=null) {
+				user.setStatus("false");
+				System.out.println("returning ");
+				return user;
+			}
+		}
+		else {
+			System.out.println("inside forgot");
+			if(userCRUD.findById(user.getEmailId())==null) {
+				System.out.println("returning ");
+				user.setStatus("false");
+				return user;
+			}
+		}
+		
+		
+		user.setStatus("true");
+		Random random = new Random();
+		int nextInt=random.nextInt(10000);
+		String otp=Integer.toString(nextInt*5);
+		SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
+		simpleMailMessage.setFrom("quizzardsapp@gmail.com");
+		simpleMailMessage.setTo(user.getEmailId());
+		simpleMailMessage.setSubject("Mail Verification");
+		simpleMailMessage.setText("Your OTP is : "+otp+"\n\n\nPlease note that this OTP will be expired after 1 minute.\n\n\n\nRegards,\nQuizzards");
+		javaMailSender.send(simpleMailMessage);
+		DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+		Calendar cal = Calendar.getInstance();
+		System.out.println(dateFormat.format(cal.getTime())); 
+		String time1 = dateFormat.format(cal.getTime());
+		OTP o = new OTP();
+		o.setEmailID(user.getEmailId());
+		o.setOTP(otp);
+		o.setTime(time1);
+		otpCRUD.save(o);
+		user.setStatus("otpsent");
+		return user;
+	}
+	
+	@PostMapping("/verifyMail")
+	public UserSupport mailchack(@RequestBody UserSupport userSupport) throws ParseException
+	{
+		DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+		Calendar cal = Calendar.getInstance();
+		System.out.println(dateFormat.format(cal.getTime())); 
+		
+		String time1 = dateFormat.format(cal.getTime());
+		SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");
+		
+		System.out.println(userSupport.getEmailId());
+		System.out.println(userSupport.getUserOTP());
+		
+		OTP o =otpCRUD.findByOTPandEmailID(userSupport.getUserOTP(), userSupport.getEmailId());
+		System.out.println(o);
+		if(Objects.nonNull(o)) {
+			System.out.println("Found");
+		}else {
+			userSupport.setStatus("invalid");
+			return userSupport;
+		}
+		String time2=o.getTime();
+		
+		Date date1 = format.parse(time1);
+		Date date2 = format.parse(time2);
+		
+		long difference = Math.abs(date2.getTime() - date1.getTime()); 
+		System.out.println(difference);
+		
+		if(difference < 60000) //1minute i.e. 60000 ms
+		{
+			if(Objects.nonNull(o))
+			{
+				otpCRUD.delete(o);
+				System.out.println("OTP successfully verified");
+				userSupport.setStatus("verified");
+				//return userSupport;
+			}
+			else 
+			{
+				System.out.println("Invalid OTP");
+				userSupport.setStatus("invalid");
+				//return userSupport;
+			}
+		}
+		else 
+		{
+			otpCRUD.delete(o);
+			System.out.println("OTP Expired");
+			userSupport.setStatus("expired");
+		}
+		return userSupport;
+	}
+	
+	
+	
+	@PostMapping("/changePass")
+	public UserSupport changePass(@RequestBody UserSupport userSupport)
+	{
+		User user = userCRUD.findByEmailID(userSupport.getEmailId());
+		System.out.println(user);
+		if(Objects.nonNull(user)) {
+			userSupport.setStatus("changed");
+			user.setPassword(userSupport.getPassword());
+			userCRUD.save(user);
+		}
+		userSupport.setStatus("error");
+		return userSupport;
+	}
+	
+}

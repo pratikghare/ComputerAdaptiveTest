@@ -1,0 +1,143 @@
+.host-quiz-component{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/green-product-background.jpg") center/cover fixed;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+.host-quiz-section{
+    grid-column: 2;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.quiz-info{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-gap: 10% 5%;
+}
+
+.quiz-info>*{
+    grid-column: 2;
+}
+
+input, select,textarea{
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+input:focus, textarea:focus{
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 180ms ease-in-out;
+}
+
+option{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+button{
+    padding: 10px 20px;
+    margin-top: 1em;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+}
+
+button:hover{
+    color: #fff;
+}
+
+.quiz-question{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.quiz-question>*{
+    grid-column: 2;
+}
+.options{
+    display: grid;
+
+}
+.options>*{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+    margin-top: 1em;
+}
+
+.buttons-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-success{
+    border-bottom: 4px solid #274e27;
+}
+
+.btn-primary{
+    border-bottom: 4px solid #012747;
+}
+
+.err-msg{
+    border: 1px solid darkred;
+    background: rgb(255, 89, 89);
+    display: flex;
+    border-radius: 10px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.next-btn{
+    background: #6C63FF;
+    color: #fff;
+    border-bottom: 4px solid #26235e;
+}
+.next-btn:hover{
+    background: #756dff;
+}
+
+.added-ques{
+    background: #31d371;
+    padding: 5px 10px;
+    border-radius: 5px 10px;
+    color: black;
+}
+.added-ques>small{
+    font-weight: 600 !important;
+}
+
+.all-done{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(231,243,255);
+}
+.all-done>img{
+    width: 500px;
+}
+
+@media screen and (max-width:500px){
+    .all-done>img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:300px){
+    .all-done>img{
+        width: 200px;
+    }
+}

@@ -1,0 +1,14 @@
+nav{
+    background: transparent !important;
+    font-family: 'Poppins';
+}
+
+.nav-item{
+    margin: 0 1em;
+}
+
+
+.list-inline-item img{
+    height: 30px;
+    border-radius: 50%;
+}

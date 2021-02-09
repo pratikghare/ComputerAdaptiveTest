@@ -1,0 +1,40 @@
+<section class="adaptive-quiz-component">
+    <div style="display: flex; justify-content: space-evenly;align-items: center; padding-top: 1em; flex-wrap: wrap;">
+        <img src="assets/main-logo.png" style="height: 80px;">
+        <h2 *ngIf="isNull" style="font-family: 'Montserrat'; font-weight: 600; text-align: center;">{{ quiz.quizTitle }} <small> ({{ quiz.quizDomain.domain }})</small></h2>
+    </div>
+    <br><br><br>
+    <div class="adaptive-section" *ngIf="isNext && isNull" >
+        <div class="question-section">
+            <h3>{{ currQuestion.question }}</h3>
+        </div>
+    
+        <div class="options-section">
+           <div class="options-div">
+                <div class="form-check ">
+                    <button (click)="nextQuestion($event)"  class="option-1 btn option">{{ currQuestion.option1 }}</button>
+                </div>
+                <div class="form-check ">
+                    <button (click)="nextQuestion($event)" class="option-2 btn option">{{ currQuestion.option2 }}</button>
+                </div>
+           </div>
+            
+           <div class="options-div">
+                <div class="form-check ">
+                    <button (click)="nextQuestion($event)" class="option-3 btn option">{{ currQuestion.option3 }}</button>
+                </div>
+                <div class="form-check ">
+                    <button (click)="nextQuestion($event)" class="option-4 btn option">{{ currQuestion.option4 }}</button>
+                </div>
+                
+           </div>
+        </div>
+        <br>
+        <br><br>
+    </div>
+    
+    <div class="button-section" style="display: grid;">
+        <img *ngIf="!isNext" src="assets/correct.gif" />
+        <button *ngIf="!isNext" (click)="submitQuiz()">Submit</button>
+    </div>
+</section>

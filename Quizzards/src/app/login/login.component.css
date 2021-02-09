@@ -1,0 +1,93 @@
+.login-component{
+    background: url("../../assets/bg-login.jpg") center/cover fixed;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+
+.login-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input[type="email"], input[type="password"]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+
+@media screen and (max-width : 900px){
+    .login-logo{
+        max-height: 300px;
+        margin-bottom: 1em;
+    }
+    .login-section{
+        justify-content: center;
+    }
+}
+@media screen and (max-width : 500px){
+    .login-logo{
+        max-height: 200px;
+    }
+    .login-section{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:901px){
+    .login-logo{
+        max-height: 350px;
+    }
+    .login-section{
+        margin-top: 5%;
+    }
+}
+
+label{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+.login-form input[type="email"], input[type="password"]{
+    padding: 10px 20px;
+    margin: 1em 0;
+    background: transparent;
+    border: none;
+    width: 20em;
+    outline: none;
+    font-family: 'Poppins';
+    border-bottom: 1px solid rgb(21, 37, 107);
+    border-radius: 0 !important;
+}
+
+.login-form input[type="email"]:focus, input[type="password"]:focus{
+    background: rgba(255, 255, 255, 0.3);
+}
+.login-form button{
+    padding: 10px 20px;
+    margin-top: 1em;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #6C63FF;
+    color: #fff;
+    border-bottom: 4px solid #26235e;
+}
+
+.login-form button:hover{
+    background: rgba(108, 99, 255, 0.9);
+}
+.login-form a{
+    font-family: 'Poppins';
+    color: #000;
+}

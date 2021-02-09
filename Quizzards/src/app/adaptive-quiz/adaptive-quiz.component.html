@@ -1,0 +1,41 @@
+<section class="adaptive-quiz-component">
+    <div style="display: flex; justify-content: space-evenly;align-items: center; padding-top: 1em; flex-wrap: wrap;">
+        <img src="assets/main-logo.png" style="height: 80px;">
+        <h2 style="font-family: 'Montserrat'; font-weight: 400;">{{ domainName }}</h2>
+    </div>
+    <br><br><br>
+    <div class="adaptive-section" *ngIf="isNext">
+        <div class="question-section">
+            <h3>{{ currQuestion.question }}</h3>
+        </div>
+    
+        <div class="options-section">
+           <div class="options-div">
+                <div class="form-check ">
+                    <button (click)="nextQuestion($event)"  class="option-1 btn option">{{ currQuestion.option1 }}</button>
+                </div>
+                <div class="form-check ">
+                    <button (click)="nextQuestion($event)" class="option-2 btn option">{{ currQuestion.option2 }}</button>
+                </div>
+           </div>
+            
+           <div class="options-div">
+                <div class="form-check ">
+                    <button (click)="nextQuestion($event)" class="option-3 btn option">{{ currQuestion.option3 }}</button>
+                </div>
+                <div class="form-check ">
+                    <button (click)="nextQuestion($event)" class="option-4 btn option">{{ currQuestion.option4 }}</button>
+                </div>
+                
+           </div>
+        </div>
+        <br>
+        <br><br>
+    </div>
+    
+    <div class="button-section" style="display: grid;" *ngIf="!isNext">
+        <img  src="assets/correct.gif" /><br />
+        <button *ngIf="!isSubmitClicked" (click)="submitQuiz()">Submit</button>
+        <h3 *ngIf="isSubmitClicked" style="text-align: center;">Please Wait!</h3>
+    </div>
+</section>

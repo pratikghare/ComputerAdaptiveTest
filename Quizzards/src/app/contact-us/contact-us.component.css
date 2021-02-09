@@ -1,0 +1,119 @@
+.contact-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/bg-host-1.jpg") center/cover fixed;
+    min-height: 100vh;
+    font-family: 'Poppins';
+}
+
+nav{
+    background: transparent !important;
+    font-family: 'Poppins';
+}
+
+.nav-item{
+    margin: 0 1em;
+}
+
+html,body{
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   }
+   
+   #nav
+   {
+       text-align: center;
+       font-size: xx-large;
+       color : rgb(245, 245, 245);
+       font-family: cursive;
+       
+   }
+   
+   .container{
+       height: 100%;
+       align-content: center;
+       }
+       
+       .card{
+       height: 370px;
+       margin-top: auto;
+       margin-bottom: auto;
+       width: 400px;
+       background-color: rgba(0,0,0,0.5) !important;
+       }
+       
+       .social_icon span{
+       font-size: 60px;
+       margin-left: 10px;
+       color: #FFC312;
+       }
+       
+       .social_icon span:hover{
+       color: black;
+       cursor: pointer;
+       }
+       
+       .card-header h3{
+       color: white;
+       }
+       
+       .social_icon{
+       position: absolute;
+       right: 20px;
+       top: -45px;
+       }
+       
+       .input-group-prepend span{
+       width: 50px;
+       background-color: #FFC312;
+       color: black;
+       border:0 !important;
+       }
+       
+       input:focus{
+       outline: 0 0 0 0  !important;
+       box-shadow: 0 0 0 0 !important;
+       
+       }
+       
+       .A_btn{
+       color: black;
+       background-color: #FFC312;
+       width: 100px;
+       }
+       
+       .A_btn:hover{
+       color: black;
+       }
+       
+       .links{
+       color: white;
+       }
+       
+       .links a{
+       margin-left: 4px;
+       }
+   
+.main-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+.main-contact>*{
+    flex: 1;
+    margin-bottom: 4em;
+}
+
+@media screen and (max-width: 610px){
+    iframe{
+        max-width: 300px;
+        height: auto;
+    }
+
+    .main-contact{
+        margin-top: 2em;
+    }
+}
