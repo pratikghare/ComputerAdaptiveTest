@@ -1,0 +1,404 @@
+{
+    "quizId": "111111",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 117,
+        "domain": "Advanced Web Programming"
+    },
+    "quizDuration": "1",
+    "questions": [
+        
+        {
+            "questionId": "603",
+            "question": "__ event handler will be called when textfield and  textarea is modified and loses the current input focus.",
+            "difficulty": "HARD",
+            "correctOption": "onFocus",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "onChange",
+            "option2": "onFocus",
+            "option3": "onError",
+            "option4": "onClick"
+        },
+        {
+            "questionId": "604",
+            "question": "The extensions of <HR> tags are ___________ ,___________ , ____________ & __________   ",
+            "difficulty": "HARD",
+            "correctOption": "size  ,no shade, align ,width",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "size ,width ,no shade, shape",
+            "option2": "size ,width ,align ,2D ",
+            "option3": "align ,size ,no shade ,3D ",
+            "option4": "size  ,no shade, align ,width"
+        },
+        {
+            "questionId": "605",
+            "question": "Which of the following instruct the  browser which stylsheet to use?",
+            "difficulty": "HARD",
+            "correctOption": "<? xml-stylesheet type=”txt/xsl” href=”cd.xsl”?>",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "<xml-stylesheet type=”txt/xsl” href=”cd.xsl”>",
+            "option2": "<? xml-stylesheet type=”txt/xsl” href=”cd.xsl”?>",
+            "option3": "<! xml-stylesheet type=”txt/xsl” href=”cd.xsl”!>",
+            "option4": "<!! xml-stylesheet type=”txt/xsl” href=”cd.xsl”!>"
+        },
+        {
+            "questionId": "606",
+            "question": "Say you want to report error concerned about fatal run-time, fatal compile-time error and core error which statement would you use?",
+            "difficulty": "HARD",
+            "correctOption": "error_reporting = E_ERROR | E_COMPILE_ERROR | E_CORE_ERROR",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": " error_reporting = E_ALL",
+            "option2": " error_reporting = E_ERROR | E_PARSE | E_CORE_ERROR",
+            "option3": " error_reporting = E_ERROR | E_COMPILE_WARNING | E_CORE_ERROR",
+            "option4": "error_reporting = E_ERROR | E_COMPILE_ERROR | E_CORE_ERROR"
+        },
+        {
+            "questionId": "607",
+            "question": "Which of the following statements causes PHP to disregard repeated error messages that occur within the same file and on the same line?",
+            "difficulty": "HARD",
+            "correctOption": "ignore_repeated_errors",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "ignore_repeated_errors",
+            "option2": "ignore_repeat_error",
+            "option3": "repeatedly_ignore_error",
+            "option4": "repeated_error_ignore"
+        },
+        {
+            "questionId": "608",
+            "question": "Which function initializes the constants necessary for using the openlog(), clodelog(), and syslog() functions?",
+            "difficulty": "HARD",
+            "correctOption": "define_syslog_variable()",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "define_variable()",
+            "option2": "define_log_variable()",
+            "option3": "log_variable()",
+            "option4": "define_syslog_variable()"
+        },
+        {
+            "questionId": "609",
+            "question": "In DOM operation which of the following is the current syntax to use createElement() ?",
+            "difficulty": "HARD",
+            "correctOption": "document.createElement(‘div’)",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "document.createElement(‘div’)",
+            "option2": "document.createElement(‘<div>’)",
+            "option3": "document.createElement(‘<div></div>’)",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "610",
+            "question": "In Javascript which of the following methods is used to find the position of an element in an array?",
+            "difficulty": "HARD",
+            "correctOption": "indexOf()",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "position()",
+            "option2": "index()",
+            "option3": "indexOf()",
+            "option4": "splice()"
+        },
+        {
+            "questionId": "611",
+            "question": "In Javascript which of the following are correct declarations of an array?",
+            "difficulty": "HARD",
+            "correctOption": "all",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "[ ]",
+            "option2": "[1, “1”, 1.1]",
+            "option3": "[1, ()=> {}]",
+            "option4": "all"
+        },
+        {
+            "questionId": "612",
+            "question": "In Javascript the method used to make a string into lower case?",
+            "difficulty": "HARD",
+            "correctOption": "toLowerCase()",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "toLower()",
+            "option2": "toLowerCase()",
+            "option3": "toSmall()",
+            "option4": "toSmall()Case"
+        },
+        {
+            "questionId": "613",
+            "question": "In Javascript which method used to make a get all the words from a sentence?",
+            "difficulty": "HARD",
+            "correctOption": "split(‘ ’)",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "words(‘ ’)",
+            "option2": "getWords(‘ ’)",
+            "option3": "split(‘ ’)",
+            "option4": "getWordsFromSentence(‘ ’)"
+        },
+        {
+            "questionId": "614",
+            "question": "In DOM operation which property is used to navigate to the ancestor?",
+            "difficulty": "HARD",
+            "correctOption": "parent",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "ancestor",
+            "option2": "successor",
+            "option3": "parent",
+            "option4": "all of the above"
+        },
+        {
+            "questionId": "615",
+            "question": "In Javascript which of the following methods is used to schedule an execution at every certain interval?",
+            "difficulty": "HARD",
+            "correctOption": "setInterval()",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "setTimeout()",
+            "option2": "setInterval()",
+            "option3": "interval();",
+            "option4": "All"
+        },
+        {
+            "questionId": "616",
+            "question": "In Javascript which of the following is the correct way to call the following function? function hello(fn) { fn() }",
+            "difficulty": "HARD",
+            "correctOption": "hello(function(){})",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "hello()",
+            "option2": "hello(1)",
+            "option3": "hello(true)",
+            "option4": "hello(function(){})"
+        },
+        {
+            "questionId": "617",
+            "question": "In Javascript which of the following is correct to call setInterval function?",
+            "difficulty": "HARD",
+            "correctOption": "All",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "setInterval(function(){}, 1000)",
+            "option2": "setInterval(() => {}, 1000)",
+            "option3": "let afn = ()=> {};setInterval(afn, 1000);",
+            "option4": "All"
+        },
+        {
+            "questionId": "618",
+            "question": "In Javascript which method used to remove space from beginning and end of string?",
+            "difficulty": "HARD",
+            "correctOption": "trim()",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "remove()",
+            "option2": "removeSpace()",
+            "option3": "trim()",
+            "option4": "trimSpace()"
+        },
+        {
+            "questionId": "619",
+            "question": "Which of the following syntax is correct  for image?",
+            "difficulty": "HARD",
+            "correctOption": "<img src=”a.jpg”>",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "<image src=”a.jpg”>",
+            "option2": "<img src=”a.jpg”>",
+            "option3": "<img href=”a.jpg”>",
+            "option4": "<image href=”a.jpg”>"
+        },
+        {
+            "questionId": "620",
+            "question": "In DOM operation which method is used to add new element to the end of the parent container ?",
+            "difficulty": "HARD",
+            "correctOption": "appendChild()",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "append()",
+            "option2": "appendChild()",
+            "option3": "insert()",
+            "option4": "insertBefore()"
+        },
+        {
+            "questionId": "621",
+            "question": "In Javascript which of the following methods is used to arrange all the elements in particular order?",
+            "difficulty": "HARD",
+            "correctOption": "sort()",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "order()",
+            "option2": "sort()",
+            "option3": "ascending()",
+            "option4": "descending()"
+        },
+        {
+            "questionId": "622",
+            "question": "In Javascript which of the following is correct to call setTimeout function",
+            "difficulty": "HARD",
+            "correctOption": "All",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "setTimeout(function(){}, 1000)",
+            "option2": "setTimeout(() => {}, 1000)",
+            "option3": "let afn = ()=> {};setTimeout(afn, 1000);",
+            "option4": "All"
+        },
+        {
+            "questionId": "623",
+            "question": "In DOM operation document.querySelector are used to find an HTML Element as ?",
+            "difficulty": "HARD",
+            "correctOption": "All of the above",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "ID Selector",
+            "option2": "Class Selector",
+            "option3": "Element Selector",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "624",
+            "question": "In Javascript which of the following methods is used to add an element at any particular index?",
+            "difficulty": "HARD",
+            "correctOption": "splice()",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "slice()",
+            "option2": "push()",
+            "option3": "pop()",
+            "option4": "splice()"
+        },
+        {
+            "questionId": "625",
+            "question": "In DOM operation which of the following is current syntax to use getElementById() ?",
+            "difficulty": "HARD",
+            "correctOption": "document.getElementById(‘id’)",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "document.getElementById(‘#id’)",
+            "option2": "document.getElementById(‘.id’)",
+            "option3": "document.getElementById(‘id’)",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "626",
+            "question": "In Javascript which of the following is an example of Anonymous function declaration?",
+            "difficulty": "HARD",
+            "correctOption": "let hello = function() {}",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "function hello() {}",
+            "option2": "let hello = function() {}",
+            "option3": "let hello = () => {}",
+            "option4": "All"
+        },
+        {
+            "questionId": "627",
+            "question": "In bootstrap, which of the following classes is used for to create new rows in grid layout?",
+            "difficulty": "HARD",
+            "correctOption": "row",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "row",
+            "option2": "col",
+            "option3": "container",
+            "option4": "container-fluid"
+        },
+        {
+            "questionId": "628",
+            "question": "Which of the following is used to specify attribute list of an element?",
+            "difficulty": "HARD",
+            "correctOption": "!ATTLIST",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "ATTLIST",
+            "option2": "?ATTLIST",
+            "option3": "!ATTLIST",
+            "option4": "#ATTLIST"
+        },
+        {
+            "questionId": "629",
+            "question": "What is the correct syntax Of the declaration which defines XML version?",
+            "difficulty": "HARD",
+            "correctOption": "<?xml version=”1.0”?>",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "<xml version=”1.0”/>",
+            "option2": "<?xml version=”1.0”?>",
+            "option3": "<?xml version=”1.0”/>",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "630",
+            "question": "What does XML stands for ?",
+            "difficulty": "HARD",
+            "correctOption": "Extensible Markup Language",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Extra Modern Link",
+            "option2": "Extensible Markup Language",
+            "option3": "Example Markup Language",
+            "option4": "X-Markup Language"
+        }
+    ]
+}

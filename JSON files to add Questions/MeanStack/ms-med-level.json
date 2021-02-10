@@ -1,0 +1,431 @@
+{
+    "quizId": "111111",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 118,
+        "domain": "MEAN Stack"
+    },
+    "quizDuration": "661",
+    "questions": [
+        {
+            "questionId": "1",
+            "question": "Which of the following is true about fork method of child_process module?",
+            "difficulty": "MED",
+            "correctOption": "Both of the above.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "The fork method is a special case of the spawn to create Node processes.",
+            "option2": "The fork method returns object with a built-in communication channel in addition to having all the methods in a normal ChildProcess instance.",
+            "option3": "Both of the above.",
+            "option4": "None of the above."
+        },
+        {
+            "questionId": "662",
+            "question": "What is applicable for dependency injection in Angular?",
+            "difficulty": "MED",
+            "correctOption": "All of these",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Angular ships with its own dependency injection framework",
+            "option2": "You don't have to create an Angular injector",
+            "option3": "Angular creates an application-wide injector for you during the bootstrap process",
+            "option4": "All of these"
+        },
+        {
+            "questionId": "663",
+            "question": "If you provide a custom service in two components’ “providers” section of @Component decorator, how many instances of service shall get created?",
+            "difficulty": "MED",
+            "correctOption": "2",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "1",
+            "option2": "2",
+            "option3": "4",
+            "option4": "3"
+        },
+        {
+            "questionId": "664",
+            "question": "What is not a benefit of dependency injection in Angular?",
+            "difficulty": "MED",
+            "correctOption": "None of these",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "easier testability",
+            "option2": "better code organization",
+            "option3": "better code modularization",
+            "option4": "None of these"
+        },
+        {
+            "questionId": "665",
+            "question": "On the opposite side of event bindings (()) lie Angular's square-bracket syntax ([]) which signify a ____________.",
+            "difficulty": "MED",
+            "correctOption": "property binding and class binding",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "property binding",
+            "option2": "class binding",
+            "option3": "style binding",
+            "option4": "property binding and class binding"
+        },
+        {
+            "questionId": "666",
+            "question": "In Angular, you can pass data from parent component to child component using...",
+            "difficulty": "MED",
+            "correctOption": "@Input()",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "@Output()",
+            "option2": "@Input()",
+            "option3": "Output",
+            "option4": "Input"
+        },
+        {
+            "questionId": "667",
+            "question": "Which option of npm command lists, the npm version?",
+            "difficulty": "MED",
+            "correctOption": "-v",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "-v",
+            "option2": "-version",
+            "option3": "-ver",
+            "option4": "None of these."
+        },
+        {
+            "questionId": "668",
+            "question": "Which character in Angular, is used to enclose for event binding?",
+            "difficulty": "MED",
+            "correctOption": "(",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "{",
+            "option2": "(",
+            "option3": "[(",
+            "option4": "["
+        },
+        {
+            "questionId": "669",
+            "question": "What is the default file encoding used by fs.writeFile() method of Node.js ?",
+            "difficulty": "MED",
+            "correctOption": "UTF-8",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "US-ASCII",
+            "option2": "UTF-8",
+            "option3": "UTF-16",
+            "option4": "UTF-32"
+        },
+        {
+            "questionId": "670",
+            "question": "package.json is used to ________________.",
+            "difficulty": "MED",
+            "correctOption": "define the properties of a package",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "install web applications",
+            "option2": "define the properties of a package",
+            "option3": "install local modules",
+            "option4": "define the properties of sample database."
+        },
+        {
+            "questionId": "671",
+            "question": "What is the advantage of the component-based architecture?",
+            "difficulty": "MED",
+            "correctOption": "Reusability",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Reusability",
+            "option2": "component-based UI Approach Accelerate Development Speed",
+            "option3": "It Provide Consistent User Experience throughout the Application",
+            "option4": "All of these."
+        },
+        {
+            "questionId": "672",
+            "question": "Where does the ExpressJS is placed in MEAN stack?",
+            "difficulty": "MED",
+            "correctOption": "backend component",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "backend component",
+            "option2": "frontend framework",
+            "option3": "middle processing pipeline",
+            "option4": "None of these"
+        },
+        {
+            "questionId": "673",
+            "question": "Which type of web application are more suitable for Angular?",
+            "difficulty": "MED",
+            "correctOption": "CURD applications",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Online gaming",
+            "option2": "Online IDE",
+            "option3": "CURD applications",
+            "option4": "Depends upon the requirement"
+        },
+        {
+            "questionId": "674",
+            "question": "Choose the correct JavaScript syntax to change the content of the following HTML code.",
+            "difficulty": "MED",
+            "correctOption": "document.getElementById (“letsfindcourse”).innerHTML = ”I am a full stack developer”;",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "document.getElement (“letsfindcourse”).innerHTML = ”I am a full stack developer”;",
+            "option2": "document.getElementById (“letsfindcourse”).innerHTML = ”I am a full stack developer”;",
+            "option3": "document.getId (“letsfindcourse”) = ”I am a full stack developer”;",
+            "option4": "document.getElementById (“letsfindcourse”).innerHTML = I am a full stack developer;"
+        },
+        {
+            "questionId": "675",
+            "question": "What can we attach to DOM elements in order to respond to events in the system?",
+            "difficulty": "MED",
+            "correctOption": "Event Listeners",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Event Handlers",
+            "option2": "Event Listeners",
+            "option3": "Event Processors",
+            "option4": "Event Coordinators"
+        },
+        {
+            "questionId": "676",
+            "question": "Why a Node.JS code is pretty fast although being written in JavaScript?",
+            "difficulty": "MED",
+            "correctOption": "Being built on Google Chrome's V8 JavaScript Engine",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Node.JS internally converts JavaScript code to Java based code and then execute the same",
+            "option2": "Node.JS internally converts JavaScript code to C based code and then execute the same",
+            "option3": "Being built on Google Chrome's V8 JavaScript Engine",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "677",
+            "question": "Why does Node not block while waiting for operations to complete?",
+            "difficulty": "MED",
+            "correctOption": "Asynchronous",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Static",
+            "option2": "Asynchronous",
+            "option3": "Synchronous",
+            "option4": "Recursive"
+        },
+        {
+            "questionId": "678",
+            "question": "What is the native functions to run code asynchronously in JavaScript ?",
+            "difficulty": "MED",
+            "correctOption": "setTimeout",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "timeout",
+            "option2": "setTimeout",
+            "option3": "repeat",
+            "option4": "interval"
+        },
+        {
+            "questionId": "679",
+            "question": "Which of the following statement is correct about AJAX?",
+            "difficulty": "MED",
+            "correctOption": "All of them",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "AJAX is based on some internet standards.",
+            "option2": "All of them",
+            "option3": "It is used for creating fast & dynamic webpages",
+            "option4": "It is used for dynamically updating the parts of the webpage without reloading the webpage."
+        },
+        {
+            "questionId": "680",
+            "question": "JSON stands for ________________",
+            "difficulty": "MED",
+            "correctOption": "JavaScript Object Notation",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Java Standard Output Network",
+            "option2": "JavaScript Object Notation",
+            "option3": "JavaScript Output Name",
+            "option4": "Java Source Open Network"
+        },
+        {
+            "questionId": "681",
+            "question": "What method do we use to create an event listener?",
+            "difficulty": "MED",
+            "correctOption": "element.addEventListener()",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "element.makeEventListener()",
+            "option2": "element.listen()",
+            "option3": "element.on()",
+            "option4": "element.addEventListener()"
+        },
+        {
+            "questionId": "682",
+            "question": "Which of the following methods are being used to send a request to the server?",
+            "difficulty": "MED",
+            "correctOption": "open()",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "open() & connect ()",
+            "option2": "open()",
+            "option3": "None of them",
+            "option4": "open() & established()"
+        },
+        {
+            "questionId": "683",
+            "question": "Which of the following is not a type of JSON?",
+            "difficulty": "MED",
+            "correctOption": "date",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "date",
+            "option2": "Object",
+            "option3": "Array",
+            "option4": "String"
+        },
+        {
+            "questionId": "684",
+            "question": "What is not an Angular feature, with respect to bulid a CURD app in a cohesive set?",
+            "difficulty": "MED",
+            "correctOption": "None of these.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Data-binding",
+            "option2": "basic templating directives",
+            "option3": "form validation",
+            "option4": "None of these."
+        },
+        {
+            "questionId": "685",
+            "question": "Which of the following is the correct syntax for creating an XMLHttpRequest Object?",
+            "difficulty": "MED",
+            "correctOption": "var xhr=new XMLHttpRequest();",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "xhr=new XMLHttpRequest();",
+            "option2": "var xhr=new XMLHttpRequest();",
+            "option3": "var xhr = XMLHttpRequest();",
+            "option4": "None of them."
+        },
+        {
+            "questionId": "686",
+            "question": "By using AJAX, web application can send",
+            "difficulty": "MED",
+            "correctOption": "Asynchronously",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "All of these",
+            "option2": "As a stream",
+            "option3": "Synchronously",
+            "option4": "Asynchronously"
+        },
+        {
+            "questionId": "687",
+            "question": "What property on the event object contains the DOM object that invoked the event?",
+            "difficulty": "MED",
+            "correctOption": "event.target",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "event.element",
+            "option2": "event.source",
+            "option3": "event.target",
+            "option4": "event.invoker"
+        },
+        {
+            "questionId": "688",
+            "question": "In AJAX, _______ ready states are available.",
+            "difficulty": "MED",
+            "correctOption": "4",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "6",
+            "option2": "5",
+            "option3": "4",
+            "option4": "8"
+        },
+        {
+            "questionId": "689",
+            "question": "What are the parameters of the method JSON.parse()?",
+            "difficulty": "MED",
+            "correctOption": "both text and reviver",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "text",
+            "option2": "reviver",
+            "option3": "both text and reviver",
+            "option4": "object"
+        },
+        {
+            "questionId": "690",
+            "question": "Observe the following JavaScript code-var text = 'Hello world !'; What is the value of text.substring(1,4)",
+            "difficulty": "MED",
+            "correctOption": "ell",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "ello",
+            "option2": "Hell",
+            "option3": "ell",
+            "option4": "Hello"
+        }
+    ]
+}

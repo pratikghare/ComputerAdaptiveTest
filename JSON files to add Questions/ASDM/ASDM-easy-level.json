@@ -1,0 +1,417 @@
+{
+    "quizId": "111114",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 113,
+        "domain": "Software Engineering"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "181",
+            "question": "Why are Patterns important?",
+            "difficulty": "EASY",
+            "correctOption": "All of the mentioned",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "They capture expert design knowledge",
+            "option2": "They capture expert design knowledge",
+            "option3": "All of the mentioned",
+            "option4": "None of the mentioned"
+        },
+        {
+            "questionId": "182",
+            "question": "Which of the following is not a process metric?",
+            "difficulty": "EASY",
+            "correctOption": "Functionality",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Productivity",
+            "option2": "Functionality",
+            "option3": "Quality",
+            "option4": "Efficiency"
+        },
+        {
+            "questionId": "183",
+            "question": "Executing the same test case by giving the number of inputs on same build called as: ",
+            "difficulty": "EASY",
+            "correctOption": "ReTesting",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Regression Testing",
+            "option2": "ReTesting",
+            "option3": "Ad hoc Testing ",
+            "option4": "Sanity Testing"
+        },
+        {
+            "questionId": "184",
+            "question": "The Adapter patterns provide object-oriented adapters in which of theses varieties?",
+            "difficulty": "EASY",
+            "correctOption": "All of the mentioned",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "One uses inheritance",
+            "option2": "one uses delegation",
+            "option3": "All of the mentioned",
+            "option4": "None of the mentioned"
+        },
+        {
+            "questionId": "185",
+            "question": "The term module in the design phase refers to?  ",
+            "difficulty": "EASY",
+            "correctOption": "All of the above",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Functions",
+            "option2": "Procedures",
+            "option3": "Sub programs",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "186",
+            "question": "To check whether we are developing the right product according to the customer requirements are not. It is a static process",
+            "difficulty": "EASY",
+            "correctOption": "Verification",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Validation ",
+            "option2": "Verification",
+            "option3": "Quality Assurance",
+            "option4": "Quality Control"
+        },
+        {
+            "questionId": "187",
+            "question": " A Non-Functional Software testing done to check if the user interface is easy to use and understand",
+            "difficulty": "EASY",
+            "correctOption": "Usability Testing",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Usability Testing",
+            "option2": "Security Testing",
+            "option3": "Unit testing",
+            "option4": "Black Box Testing "
+        },
+        {
+            "questionId": "188",
+            "question": "Which design pattern defines one-to-many dependency among objects?",
+            "difficulty": "EASY",
+            "correctOption": "Observer pattern",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Singleton pattern",
+            "option2": "Facade Pattern",
+            "option3": "Observer pattern",
+            "option4": "Factory method pattern"
+        },
+        {
+            "questionId": "189",
+            "question": "Which of the following is not a characteristic of scrum model of product development?",
+            "difficulty": "EASY",
+            "correctOption": "Stable requirements",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": " Incremental development",
+            "option2": "Agile nature",
+            "option3": "Stable requirements",
+            "option4": "Time-boxed scheduling"
+        },
+        {
+            "questionId": "190",
+            "question": "CMM is",
+            "difficulty": "EASY",
+            "correctOption": "Capability maturity model",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Company maturity model",
+            "option2": "Capability maturity model",
+            "option3": " Configuration maturity model",
+            "option4": "Company management model"
+        },
+        {
+            "questionId": "191",
+            "question": "Testing robustness of software system  by making it fail is: I.Stress test II.Crash test III Metallographic test IV. Hardness tes",
+            "difficulty": "EASY",
+            "correctOption": "All choices are correct",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": " I",
+            "option2": "I AND III",
+            "option3": "I AND II",
+            "option4": "All choices are correct"
+        },
+        {
+            "questionId": "192",
+            "question": " RUP and PSP stands for",
+            "difficulty": "EASY",
+            "correctOption": "Rational Unified Process and Personal software process",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Realtime unified process and Project software process",
+            "option2": "Realtime unified process and Personal software process",
+            "option3": " Rational Unified Process and Project software process",
+            "option4": "Rational Unified Process and Personal software process"
+        },
+        {
+            "questionId": "193",
+            "question": "Which of the following models combine the features of waterfall model and prototyping model",
+            "difficulty": "EASY",
+            "correctOption": "Spiral model",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Modified waterfall model",
+            "option2": "Spiral model",
+            "option3": "Iterfall development",
+            "option4": "Iterative developmen"
+        },
+        {
+            "questionId": "194",
+            "question": "Effective requirement document is one which does not",
+            "difficulty": "EASY",
+            "correctOption": "show ambiguity",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "show ambiguity",
+            "option2": "Refer to high level documents",
+            "option3": "have traceability requirements",
+            "option4": "depict data flow diagrams"
+        },
+        {
+            "questionId": "195",
+            "question": "Verification is:",
+            "difficulty": "EASY",
+            "correctOption": "Checking that we are building the system right",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": " Checking that we are building the right system",
+            "option2": "Checking that we are building the system right",
+            "option3": " Performed by an independent test team",
+            "option4": "Making sure that it is what the user really wants"
+        },
+        {
+            "questionId": "196",
+            "question": "If an expected result is not specified then:",
+            "difficulty": "EASY",
+            "correctOption": "It may be difficult to determine if the test has passed or failed",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "We cannot run the test",
+            "option2": "It may be difficult to repeat the test",
+            "option3": "It may be difficult to determine if the test has passed or failed",
+            "option4": "We cannot automate the user inputs"
+        },
+        {
+            "questionId": "197",
+            "question": "The purpose of requirement phase is ",
+            "difficulty": "EASY",
+            "correctOption": "All of the above",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "To freeze requirements",
+            "option2": "To understand user needs",
+            "option3": "To define the scope of testing",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "198",
+            "question": "A reliable system will be one that:",
+            "difficulty": "EASY",
+            "correctOption": "Is unlikely to cause a failure",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Is unlikely to be completed on schedule",
+            "option2": "Is unlikely to cause a failure",
+            "option3": "Is likely to be fault-free ",
+            "option4": "Is likely to be liked by the users "
+        },
+        {
+            "questionId": "200",
+            "question": "The testing which is done by going through the code is known as...,",
+            "difficulty": "EASY",
+            "correctOption": "White box Testing",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": " Unit Testing ",
+            "option2": "Black box testing",
+            "option3": "White box Testing",
+            "option4": " Regression testing"
+        },
+        {
+            "questionId": "201",
+            "question": "To test a function, the programmer has to write a ______, which calls the function and passes it test data.",
+            "difficulty": "EASY",
+            "correctOption": "Driver",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Stub",
+            "option2": "Driver",
+            "option3": "Proxy",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "202",
+            "question": "Inspections can find all the following except ",
+            "difficulty": "EASY",
+            "correctOption": "How much of the code has been covered",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": " Variables not defined in the code",
+            "option2": "Spelling and grammar faults in the documents ",
+            "option3": "Requirements that have been omitted from the design documents",
+            "option4": "How much of the code has been covered"
+        },
+        {
+            "questionId": "203",
+            "question": "Which of the following is not a main element of the project management process?",
+            "difficulty": "EASY",
+            "correctOption": "System Design",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Schedule",
+            "option2": " Plan",
+            "option3": "System Design",
+            "option4": "Monitor"
+        },
+        {
+            "questionId": "204",
+            "question": "This Testing Technique examines the basic program structure and it derives the test data from the program  logic; Ensuring that all statements and conditions executed at least once. It is called as ",
+            "difficulty": "EASY",
+            "correctOption": "White box Testing",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Block box Testing",
+            "option2": "White box Testing",
+            "option3": "Grey box Testing",
+            "option4": "Closed box Testing"
+        },
+        {
+            "questionId": "205",
+            "question": "__________ enhances performance and functionality of the software after delivery",
+            "difficulty": "EASY",
+            "correctOption": "maintenance",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "re-design",
+            "option2": "re-engineering",
+            "option3": "maintenance",
+            "option4": "post checking"
+        },
+        {
+            "questionId": "206",
+            "question": "Requirements Specification, Planning, Test case Design, Execution, Bug Reporting & Maintenance This Life Cycle comes Under ",
+            "difficulty": "EASY",
+            "correctOption": "STLC",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "SDLC",
+            "option2": "STLC",
+            "option3": "SQLC",
+            "option4": "BLC"
+        },
+        {
+            "questionId": "207",
+            "question": "The Process Model for Software engineering is chosen based on the ",
+            "difficulty": "EASY",
+            "correctOption": "All of the above",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Nature of the project and application",
+            "option2": "The methods and tools to be used",
+            "option3": "The controls and deliverables are required",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "208",
+            "question": "Retesting modules connected to the program or component after a change has been made? ",
+            "difficulty": "EASY",
+            "correctOption": "Regional Regression",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Full Regression Testing",
+            "option2": "Unit Regression",
+            "option3": "Regional Regression",
+            "option4": "Retesting"
+        },
+        {
+            "questionId": "209",
+            "question": "A good specification should be ?",
+            "difficulty": "EASY",
+            "correctOption": "All of Above",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Unambiguous",
+            "option2": "Distinctly Specific ",
+            "option3": "Functional",
+            "option4": "All of Above"
+        },
+        {
+            "questionId": "210",
+            "question": "Which of the following comments about object oriented design of software, is not true?",
+            "difficulty": "EASY",
+            "correctOption": "an object can belong to two classes",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Objects inherit the properties of class",
+            "option2": "Classes are defined based on the attributes of objects",
+            "option3": "an object can belong to two classes",
+            "option4": "classes are always different "
+        }
+    ]
+}

@@ -1,0 +1,418 @@
+{
+    "quizId": "111112",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 112,
+        "domain": "CPP"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "121",
+            "question": "If a dynamic cast fails",
+            "difficulty": "MED",
+            "correctOption": "Returns a null value",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "It throws an exception",
+            "option2": "Returns a null value",
+            "option3": "Converts to desired type",
+            "option4": "Can never say"
+        },
+        {
+            "questionId": "122",
+            "question": "Serialization is the process of",
+            "difficulty": "MED",
+            "correctOption": "Converting objects to bytes",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Converting bytes to objects",
+            "option2": "Converting objects to bytes",
+            "option3": "Converting bytes to classes",
+            "option4": "Converting classes to bytes"
+        },
+        {
+            "questionId": "123",
+            "question": "For the following allocation which would be the proper deallocation? int *p = new int[5] ",
+            "difficulty": "MED",
+            "correctOption": "Delete [] p",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Free(p)",
+            "option2": "Delete  p",
+            "option3": "Delete [] p",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "124",
+            "question": "What operator is prepended onto the member function name to indicate that the function is a destructor? ",
+            "difficulty": "MED",
+            "correctOption": "~",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "&",
+            "option2": "*",
+            "option3": "~",
+            "option4": "-"
+        },
+        {
+            "questionId": "125",
+            "question": "Which one of the following statements is true about constructors and destructors? ",
+            "difficulty": "MED",
+            "correctOption": "Constructors can take parameters, but destructors cannot.",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Both explicitly declared constructors and explicitly declared destructors are required in a class.",
+            "option2": "Neither constructors nor destructors can take parameters.",
+            "option3": "Constructors can take parameters, but destructors cannot.",
+            "option4": "It is illegal to define either a constructor or a destructor as virtual."
+        },
+        {
+            "questionId": "126",
+            "question": "int function(char c = 'd'); Which one of the following is demonstrated by the sample code above?",
+            "difficulty": "MED",
+            "correctOption": "A default function parameter",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "A default function parameter",
+            "option2": "A virtual member function",
+            "option3": "A template function",
+            "option4": "A string assignment "
+        },
+     
+        {
+            "questionId": "128",
+            "question": "Copy constructor is called in case…",
+            "difficulty": "MED",
+            "correctOption": "All of the above",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "When an object is initialized using another object",
+            "option2": "When object is passed to a function and collected in another object",
+            "option3": "When object is returned from a function and collected in another object",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "129",
+            "question": "class X { int   i;  protected:  float f; public: char  c;   };  class Y : protected X {}; Referring to the sample code above, which one of the following data members are accessible from class Y? ",
+            "difficulty": "MED",
+            "correctOption": "c and f only",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "c and f only",
+            "option2": "c only",
+            "option3": "i and c only",
+            "option4": "i and f only"
+        },
+        {
+            "questionId": "130",
+            "question": "the following program segment: int a =10;int const &b=a;a=11; printf(“%d%d”,a,b); ",
+            "difficulty": "MED",
+            "correctOption": "1 1   1 1",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Results in compile time error",
+            "option2": "Results in run time error",
+            "option3": "1 1   1 1",
+            "option4": "None of the above."
+        },
+        {
+            "questionId": "131",
+            "question": "Given following class template: #include <iostream.h> template<class t1,class t2> class myclass {}; Write a statement which will direct a compiler to ",
+            "difficulty": "MED",
+            "correctOption": "Queue",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "generate this class for  double and char  respectively.",
+            "option2": "Queue",
+            "option3": "LinkedList",
+            "option4": "Circular LinkedList"
+        },
+        {
+            "questionId": "12",
+            "question": " #include<iostream.h> class first{ int a; virtual void fun(){}  }; What is the size of the class ? (assume 16 bit architecture)",
+            "difficulty": "MED",
+            "correctOption": "4 byte",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "1 byte",
+            "option2": "2 byte",
+            "option3": "3 byte",
+            "option4": "4 byte"
+        },
+        {
+            "questionId": "133",
+            "question": "Can a for loop contain another for loop?",
+            "difficulty": "MED",
+            "correctOption": "Yes",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "No",
+            "option2": "Yes",
+            "option3": "Compilation Error",
+            "option4": "Runtime Error"
+        },
+        {
+            "questionId": "134",
+            "question": "What is the value of a in below program? int main(){ int a, b=20; a = 90/b; return 0; } ",
+            "difficulty": "MED",
+            "correctOption": "4",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "4.5",
+            "option2": "4.0",
+            "option3": "4",
+            "option4": "Compilation Error"
+        },
+        {
+            "questionId": "135",
+            "question": "Abstraction is …………",
+            "difficulty": "MED",
+            "correctOption": "Hiding of information in class so that it can be only known by abstract manner.",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Being distracted by your thoughts",
+            "option2": "The classifications of objects, grouped according to their significant similarities",
+            "option3": "Hiding of information in class so that it can be only known by abstract manner.",
+            "option4": "The classification of objects, grouped according to their significant differences"
+        },
+        {
+            "questionId": "136",
+            "question": "Which of the following is a correct call to the function pointed to by the function pointer g?",
+            "difficulty": "MED",
+            "correctOption": "g(1, 2)",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "g->(1, 2)",
+            "option2": " *g(1, 2)",
+            "option3": "g(1, 2)",
+            "option4": "(*g) (1, 2)"
+        },
+        {
+            "questionId": "137",
+            "question": "Which of the following is not the member of class?",
+            "difficulty": "MED",
+            "correctOption": "Friend function",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Static function",
+            "option2": "Friend function",
+            "option3": "Const function",
+            "option4": "Virtual function"
+        },
+        {
+            "questionId": "138",
+            "question": "Why reference is not same as a pointer?",
+            "difficulty": "MED",
+            "correctOption": "All of the above",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "A reference can never be null.",
+            "option2": "A reference once established cannot be changed.",
+            "option3": "Reference doesn't need an explicit dereferencing mechanism.",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "139",
+            "question": "Which operators carry out accessing and de-referencing simultaneously?",
+            "difficulty": "MED",
+            "correctOption": "->*, ::",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "& :: , .*",
+            "option2": " ::* , ->*",
+            "option3": "->*, ::",
+            "option4": ". , ->*"
+        },
+        {
+            "questionId": "140",
+            "question": "Which of the following statements regarding inline functions is correct?",
+            "difficulty": "MED",
+            "correctOption": "Both 1 and 3.",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": " It speeds up execution",
+            "option2": "It slows down execution",
+            "option3": "It increases the code size.",
+            "option4": "Both 1 and 3."
+        },
+        {
+            "questionId": "141",
+            "question": "Which of the following is correct about class and structure?",
+            "difficulty": "MED",
+            "correctOption": "class data members are private by default while that of structure are public by default",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "class can have member functions while structure cannot.",
+            "option2": "class data members are public by default while that of structure are private.",
+            "option3": " Pointer to structure or classes cannot be declared.",
+            "option4": "class data members are private by default while that of structure are public by default"
+        },
+        {
+            "questionId": "142",
+            "question": " Which of the following statement is correct?",
+            "difficulty": "MED",
+            "correctOption": "A constructor is called at the time of declaration of an object.",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "A constructor is called at the time of declaration of an object.",
+            "option2": "A constructor is called at the time of use of an object.",
+            "option3": "A constructor is called at the time of declaration of a class",
+            "option4": "A constructor is called at the time of use of a class."
+        },
+        {
+            "questionId": "143",
+            "question": "   Which of the following functions are performed by a constructor?",
+            "difficulty": "MED",
+            "correctOption": "Initialize objects",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Construct a new class",
+            "option2": "Construct a new object",
+            "option3": "Construct a new function",
+            "option4": "Initialize objects"
+        },
+        {
+            "questionId": "144",
+            "question": "Which DS is used to implement BFS",
+            "difficulty": "MED",
+            "correctOption": "Queue",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Stack",
+            "option2": "Queue",
+            "option3": "LinkedList",
+            "option4": "Circular LinkedList"
+        },
+        {
+            "questionId": "145",
+            "question": "Which inheritance type is used in the class given below? class A : public X, public Y {} ",
+            "difficulty": "MED",
+            "correctOption": " Multiple inheritance",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Multilevel inheritance",
+            "option2": " Multiple inheritance",
+            "option3": "Hybrid inheritance",
+            "option4": " Hierarchical Inheritance"
+        },
+        {
+            "questionId": "146",
+            "question": "Which of the following correctly describes overloading of functions?",
+            "difficulty": "MED",
+            "correctOption": "Ad-hoc polymorphism",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Virtual polymorphism",
+            "option2": "Transient polymorphism",
+            "option3": "Ad-hoc polymorphism",
+            "option4": " Pseudo polymorphism"
+        },
+        {
+            "questionId": "147",
+            "question": "Which one of the following is the correct way to declare a pure virtual function?",
+            "difficulty": "MED",
+            "correctOption": "virtual void Display(void) = 0;",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "virtual void Display(void){0};",
+            "option2": "virtual void Display = 0;",
+            "option3": "virtual void Display(void) = 0;",
+            "option4": "void Display(void) = 0;"
+        },
+        {
+            "questionId": "148",
+            "question": "What is the primary purpose of template functions? ",
+            "difficulty": "MED",
+            "correctOption": "To allow a single function to be used with varying types of arguments",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "To allow a single function to be used with varying types of arguments",
+            "option2": "To hide the name of the function from the linker (preventing duplicate symbols)",
+            "option3": "To implement container classes ",
+            "option4": "To permit the use of the debugger without the -gstabs flag"
+        },
+        {
+            "questionId": "149",
+            "question": "Which is used to describe the function using placeholder types?",
+            "difficulty": "MED",
+            "correctOption": "template type parameters",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": " template parameters",
+            "option2": "template type parameters",
+            "option3": "template type",
+            "option4": "none of the mentioned"
+        },
+        {
+            "questionId": "150",
+            "question": "What is the Run-Time Type Information?",
+            "difficulty": "MED",
+            "correctOption": "Information about an object’s datatype at runtime",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Information about an object’s datatype at runtime",
+            "option2": "Information about the variables",
+            "option3": "Information about the given block",
+            "option4": "None of the mentioned"
+        }
+    ]
+}

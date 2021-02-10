@@ -1,0 +1,449 @@
+{
+    "quizId" : "111111",
+    "quizTitle" : "MyQuiz",
+    "quizDomain" : {
+        "domainId":120,
+        "domain" : "MySQL"
+},
+    "quizDuration" : "1",
+    "questions" : [
+        {
+            "questionId" : "871",
+            "question" : " In the __________ normal form, a composite attribute is converted to individual attributes",
+            "difficulty" : "HARD",
+            "correctOption" : "first",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "first",
+            "option2" : "second",
+            "option3" : "third",
+            "option4" : "fourth"
+        },
+
+
+        {
+            "questionId" : "872",
+            "question" : "Tables in second normal form (2NF)?",
+            "difficulty" : "HARD",
+            "correctOption" : "Eliminate all hidden dependencies",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Eliminate all hidden dependencies",
+            "option2" : "Eliminate the possibility of a insertion anomalies",
+            "option3" : "Have a composite key",
+            "option4" : "Have all non key fields depend on the whole primary key"
+        },
+
+
+          {
+            "questionId" : "873",
+            "question" : "Functional Dependencies are the types of constraints that are based on______ ",
+            "difficulty" : "HARD",
+            "correctOption" : "key",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "key",
+            "option2" : "key revisited",
+            "option3" : "superset key",
+            "option4" : "None of the mentioned"
+        },
+ 
+       
+          {
+            "questionId" : "874",
+            "question" : " Which in the database which is a software component in the RDBMS that carries out analysis of SQL statement for finding the best way for its execution?",
+            "difficulty" : "HARD",
+            "correctOption" : "Query optimizer",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Query execution",
+            "option2" : "Query process",
+            "option3" : "Query optimizer",
+            "option4" : "Query transaction"
+        },
+
+           {
+            "questionId" : "875",
+            "question" : "What is the difference between a join and an outer join operation?",
+            "difficulty" : "HARD",
+            "correctOption" : "Outer join preserves a few tuples that are otherwise lost in the join",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Join preserves a few tuples that are otherwise lost in the outer join",
+            "option2" : "There is no difference",
+            "option3" : "Outer join preserves a few tuples that are otherwise lost in the join",
+            "option4" : "An outer join can be used only on outer queries whereas a join operation can be used in Subqueries"
+        },
+
+            {
+            "questionId" : "876",
+            "question" : "Which among the following is the correct syntax for creating table?",
+            "difficulty" : "HARD",
+            "correctOption" : "CREATE TABLE name;",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "CREATE TABLE name;",
+            "option2" : "CREATE name;",
+            "option3" : "CREATE TABLE",
+            "option4" : "All of the mentioned"
+        },
+   
+        {
+            "questionId" : "877",
+            "question" : "Which among the following are the correct definitions for “NULL” in Mysql?",
+            "difficulty" : "HARD",
+            "correctOption" : "All of the mentioned",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Absence of value",
+            "option2" : "Unknown",
+            "option3" : "Empty set",
+            "option4" : "All of the mentioned"
+        },
+        {
+
+
+        "questionId" : "879",
+            "question" : "What default value gets stored in columns of the table?",
+            "difficulty" : "HARD",
+            "correctOption" : "NULL",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "NULL",
+            "option2" : " 0",
+            "option3" : "-1",
+            "option4" : "1"
+        },
+
+        {
+        "questionId" : "880",
+            "question" : "Select the non-aggregate function from the following?",
+            "difficulty" : "HARD",
+            "correctOption" : "Round()",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Avg( )",
+            "option2" : "Min( ",
+            "option3" : "Max()",
+            "option4" : "Round()"
+        },
+   
+       {
+        "questionId" : "881",
+            "question" : " Which statement is used for updating existing information in the table?",
+            "difficulty" : "HARD",
+            "correctOption" : "UPDATE",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "UPDATE",
+            "option2" : " WHERE",
+            "option3" : "MODIFY",
+            "option4" : "ALTER"
+        },
+
+         {
+       
+            "questionId" : "882",
+            "question" : "How non clustered index point to the data?",
+            "difficulty" : "HARD",
+            "correctOption" : "It is used for pointing data rows containing key values",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "It never points to anything",
+            "option2" : " It points to a data row",
+            "option3" : "It is used for pointing data rows containing key values",
+            "option4" : "None of the mentioned"
+        },
+   
+       {
+            "questionId" : "883",
+            "question" : "What are composite indexes?",
+            "difficulty" : "HARD",
+            "correctOption" : "A composite index is a combination of index on 2 or more columns",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Are those which are composed by database for its internal use",
+            "option2" : "A composite index is a combination of index on 2 or more columns",
+            "option3" : "Composite index can never be createds",
+            "option4" : "None of the mentioned"
+        },
+   {
+       
+            "questionId" : "884",
+            "question" : "The language used in appliation programs to request data from the DBMS is referred to as the?",
+            "difficulty" : "HARD",
+            "correctOption" : "DML",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "DML",
+            "option2" : "DDL",
+            "option3" : "SDL",
+            "option4" : "VDL"
+        },
+   
+ 
+{
+            "questionId" : "885",
+            "question" : "Transaction processing is associated with everything below except?",
+            "difficulty" : "HARD",
+            "correctOption" : "confirming an action or triggering a response",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "producing detail,summary, or exception reports",
+            "option2" : "recording a business activity",
+            "option3" : "confirming an action or triggering a response",
+            "option4" : "maintaining data"
+        },
+   
+       {
+            "questionId" : "886",
+            "question" : "It is better to use files than a DBMS where there are?",
+            "difficulty" : "HARD",
+            "correctOption" : "Multiple users wish to access the data",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Stringent real-time requirements",
+            "option2" : "Multiple users wish to access the data",
+            "option3" : "Complex relationships among data",
+            "option4" : "All of the above"
+        },
+   
+        {
+            "questionId" : "887",
+            "question" : "The physical location of a record is determined by a mathematical formula that transforms a file key into a record location is",
+            "difficulty" : "HARD",
+            "correctOption" : "Hashed File",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "B-Tree File",
+            "option2" : "Hashed File",
+            "option3" : "Indexed File",
+            "option4" : "sequential File"
+        },
+
+       {
+            "questionId" : "888",
+            "question" : "To create a table name Customer having fields Cust-name, Cust_address from the table Employee and Customer table should not be populated with any record from Employee table which of the following query will be correct??",
+            "difficulty" : "HARD",
+            "correctOption" : "Create table Customer (Cust-name, Cust_address) As Select emp_name, emp_address from Employee where 1=2;",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Create table Customer (Cust-name, Cust_address) As Select emp_name, emp_address from Employee;",
+            "option2" : "Create table Customer (Cust-name, Cust_address) As Select emp_name, emp_address from Employee 1=1;",
+            "option3" : "Create table Customer (Cust-name, Cust_address) As Select emp_name, emp_address from Employee where 1=2;",
+            "option4" : "Create table Customer (Cust-name, Cust_address) As Select emp_name, emp_address from Employee where a=b;"
+        },
+   {
+       
+            "questionId" : "889",
+            "question" : "cross product is a",
+            "difficulty" : "HARD",
+            "correctOption" : "Binary Operator",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Unary Operator",
+            "option2" : " Ternary Operator",
+            "option3" : "Binary Operator",
+            "option4" : "Not an Operator "
+        },
+   {
+            "questionId" : "890",
+            "question" : "_____defines rules regarding the values allowed in columns and is the standard mechanism for enforcing database integrity",
+            "difficulty" : "HARD",
+            "correctOption" : "Constraint",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Column",
+            "option2" : "Constraint",
+            "option3" : "Index",
+            "option4" : "Trigger"
+        },
+    {   
+            "questionId" : "891",
+            "question" : "___ is a special type of integrity constraint that relates two relations & maintains consistency across the relations",
+            "difficulty" : "HARD",
+            "correctOption" : "Referential Integrity Constraints",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Referential Integrity Constraints",
+            "option2" : " Domain Integrity Constraints",
+            "option3" : "Domain Constraints",
+            "option4" : "Entity Integrity Constraints"
+        },
+{
+            "questionId" : "892",
+            "question" : "Which normal form is considered adequate for relational database design",
+            "difficulty" : "HARD",
+            "correctOption" : "3 NF",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "2NF",
+            "option2" : "3 NF",
+            "option3" : "4NF",
+            "option4" : "BCNF"
+        },
+ {  
+            "questionId" : "893",
+            "question" : "____is a statement that is executed automatically by the system",
+            "difficulty" : "HARD",
+            "correctOption" : "trigger",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "trigger",
+            "option2" : "assertion",
+            "option3" : "durability",
+            "option4" : "integrity constraint"
+        },
+       
+         {
+     
+           "questionId" : "894",
+            "question" : "Which of the following is used to access the database server at the time of executing the program and get the data from the server accordingly",
+            "difficulty" : "HARD",
+            "correctOption" : "Dynamic SQL",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Embedded SQL",
+            "option2" : "Dynamic SQL",
+            "option3" : "SQL declarations",
+            "option4" : "SQL declarations"
+        },
+   
+       
+         {
+     
+           "questionId" : "895",
+            "question" : "The ___ operator is used to calculate aggregates and super aggregates for expressions within a",
+            "difficulty" : "HARD",
+            "correctOption" : "ROLLUP, GROUP BY",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "ROLLUP, GROUP BY",
+            "option2" : "ROLLUP, ORDER BY",
+            "option3" : "CUBE , GROUP BY",
+            "option4" : "ROLLUP,CUBE"
+        },
+       
+       {
+     
+           "questionId" : "896",
+            "question" : "Which of the following is a following statement is a prepared statements",
+            "difficulty" : "HARD",
+            "correctOption" : "Insert into department values(?,?,?)",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Insert into department values(?,?,?)",
+            "option2" : " Insert into department values(x,x,x)",
+            "option3" : "SQLSetConnectOption(conn, SQL AUTOCOMMIT, 0)",
+            "option4" : "SQLTransact(conn, SQL ROLLBACK)"
+        },
+   
+       
+     
+   
+       
+       {
+     
+           "questionId" : "898",
+            "question" : "A type of query that is placed within a WHERE or HAVING clause of another query is called?",
+            "difficulty" : "HARD",
+            "correctOption" : "Sub query",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Super query",
+            "option2" : "Sub query",
+            "option3" : "Master query",
+            "option4" : "Multi-query"
+        },
+   
+       
+       {
+     
+           "questionId" : "899",
+            "question" : "To pass on granted privileges to other user the ____ clause is used",
+            "difficulty" : "HARD",
+            "correctOption" : "grant option",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+             },
+            "option1" : "create option",
+            "option2" : "grant option",
+            "option3" : "update option",
+            "option4" : "select option"
+        },
+           
+       {
+     
+           "questionId" : "900",
+            "question" : " Disadvantages of File systems to store data is Options are?",
+            "difficulty" : "HARD",
+            "correctOption" : "All of the options",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Data redundancy and inconsistency",
+            "option2" : " Data isolation",
+            "option3" : "Difficulty in accessing data",
+            "option4" : "All of the options"
+        }
+   ]
+}
+
+
+
+
+

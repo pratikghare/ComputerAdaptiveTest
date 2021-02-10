@@ -1,0 +1,431 @@
+{
+    "quizId": "111111",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 118,
+        "domain": "MEAN Stack"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "691",
+            "question": "Observe the following JavaScript code:-> var str = 'my-' ; alert ( str.split( '-' ) [1] );What will be alerted",
+            "difficulty": "HARD",
+            "correctOption": "An empty string",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "An empty string",
+            "option2": "my",
+            "option3": "-",
+            "option4": "Error"
+        },
+        {
+            "questionId": "692",
+            "question": "Observe the following JavaScript code- > if ( ! ( 'a'in window) ) { var a = 1;} alert (a); What does the alert statement output?",
+            "difficulty": "HARD",
+            "correctOption": "undefined",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "No output is given",
+            "option2": "No output is given",
+            "option3": "1",
+            "option4": "undefined"
+        },
+        {
+            "questionId": "693",
+            "question": "The following example uses what type of function to handle an event? element.addEventListener('click', function(event){});",
+            "difficulty": "HARD",
+            "correctOption": "anonymous function",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "named function",
+            "option2": "anonymous function",
+            "option3": "inline function",
+            "option4": "arrow function"
+        },
+        {
+            "questionId": "694",
+            "question": "Which of the following is true about fork method of child_process module? ",
+            "difficulty": "HARD",
+            "correctOption": "Both of the above.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "The fork method is a special case of the spawn to create Node processes.",
+            "option2": "The fork method returns object with a built-in communication channel in addition to having all the methods in a normal ChildProcess instance.",
+            "option3": "Both of the above.",
+            "option4": "undefined"
+        },
+        {
+            "questionId": "695",
+            "question": " What will be the output of the following JavaScript code? document.writeln('<br/>navigator.appCodeName: '+navigator.appCodeName);",
+            "difficulty": "HARD",
+            "correctOption": "Browser name",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Browser name",
+            "option2": "Version",
+            "option3": "Error",
+            "option4": "Undefined"
+        },
+        {
+            "questionId": "696",
+            "question": "What will be the output of the following JavaScript code? <p id='demo'></p><script> document.getElementById('demo').innerHTML = Math.abs(-4.5); </script>",
+            "difficulty": "HARD",
+            "correctOption": "4.5",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": " -4.5",
+            "option2": "4.5",
+            "option3": "0",
+            "option4": "ERROR"
+        },
+        {
+            "questionId": "697",
+            "question": "What is not a benefit of dependency injection in Angular?",
+            "difficulty": "HARD",
+            "correctOption": "None of these",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "easier testability",
+            "option2": "better code organization",
+            "option3": "better code modularization",
+            "option4": "None of these"
+        },
+        {
+            "questionId": "698",
+            "question": "What is the JavaScript code snippet to find all container elements with class “reveal”?",
+            "difficulty": "HARD",
+            "correctOption": "var elements = document.getElementsByClassName(“reveal”);",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "var elements = document.getElementByClassName(“reveal”);",
+            "option2": "var elements = document.getElementByName(“reveal”);",
+            "option3": "var elements = document.getElementsByClassName(“reveal”);",
+            "option4": "var elements = document.getElementsClassName(“reveal”);"
+        },
+        {
+            "questionId": "699",
+            "question": "The decodeURIComponent() is defined by _____________",
+            "difficulty": "HARD",
+            "correctOption": "Client-side JavaScript",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Server-side JavaScript",
+            "option2": "Client-side JavaScript",
+            "option3": "Both Server-side and Client-side JavaScript",
+            "option4": "none"
+        },
+        {
+            "questionId": "700",
+            "question": "What will be the output of the following JavaScript code? <p>1</p> <p>2</p> <p>3</p> function myFunction() { var x = document.getElementsByTagName('P').item(0); alert(x.innerHTML); }",
+            "difficulty": "HARD",
+            "correctOption": "1",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "1",
+            "option2": "2",
+            "option3": "3",
+            "option4": "error"
+        },
+        {
+            "questionId": "701",
+            "question": "How are windows, tabs, iframes, and frames treated according to client-side javascript?",
+            "difficulty": "HARD",
+            "correctOption": "They are all browsing contexts",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": " They are all browsing information",
+            "option2": "They are all Window objects",
+            "option3": "They are all Window contexts",
+            "option4": "They are all browsing contexts"
+        },
+        {
+            "questionId": "702",
+            "question": "What will happen if the first argument of open() is omitted?",
+            "difficulty": "HARD",
+            "correctOption": "Remains in the same page",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Error Page",
+            "option2": "Remains in the same page",
+            "option3": "about:blank",
+            "option4": "Reloads the page"
+        },
+        {
+            "questionId": "703",
+            "question": ". When will the fourth argument to open() useful?",
+            "difficulty": "HARD",
+            "correctOption": "When the second argument names an existing window",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "When the second argument names a retired window",
+            "option2": "When the first argument names an existing window",
+            "option3": "When the second argument names an existing window",
+            "option4": "When the first argument names a retired window"
+        },
+        {
+            "questionId": "704",
+            "question": "The events that are not triggered directly by user activity are called ___________",
+            "difficulty": "HARD",
+            "correctOption": "State change events",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Device-independent input events",
+            "option2": "Device-dependent input events",
+            "option3": "User interface events",
+            "option4": "State change events"
+        },
+        {
+            "questionId": "705",
+            "question": "Which event is triggered sooner when the document and its elements are ready to manipulate?",
+            "difficulty": "HARD",
+            "correctOption": "Both DOMContentLoaded & readystatechange",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "DOMContentLoaded",
+            "option2": " readystatechange",
+            "option3": "Both DOMContentLoaded & readystatechange",
+            "option4": "Statechange"
+        },
+        {
+            "questionId": "706",
+            "question": "How can you set a Cookie visibility scope to localStorage?",
+            "difficulty": "HARD",
+            "correctOption": "/",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "/",
+            "option2": "%",
+            "option3": "*",
+            "option4": "//"
+        },
+        {
+            "questionId": "707",
+            "question": "Which is the JavaScript code that asks for the set of all div elements in a document?",
+            "difficulty": "HARD",
+            "correctOption": "var divs = $('div');",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "var divs = $(div);",
+            "option2": "var divs = jQuery('div');",
+            "option3": "var divs = $('div');",
+            "option4": "var divs = #(div);"
+        },
+        {
+            "questionId": "708",
+            "question": "Which of the following is a utility function in jQuery?",
+            "difficulty": "HARD",
+            "correctOption": "jQuery.noConflict()",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "jQuery.noConflict()",
+            "option2": "jQuery.parseJSON()",
+            "option3": "jQuery.noflict()",
+            "option4": "jQuery.each()"
+        },
+        {
+            "questionId": "709",
+            "question": "Which of the following is true about $routeProvider?",
+            "difficulty": "HARD",
+            "correctOption": "All of the above.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": " $routeProvider is the key service which set the configuration of urls.",
+            "option2": " $routeProvider maps Urls with the corresponding html page or ng-template.",
+            "option3": "$routeProvider attaches a controller with the view.",
+            "option4": "All of the above."
+        },
+        {
+            "questionId": "710",
+            "question": "Which of the following is true about AngularJS expressions?",
+            "difficulty": "HARD",
+            "correctOption": "All of the above.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Expressions are used to bind application data to html.",
+            "option2": "Expressions are written inside double braces like {{ expression}}.",
+            "option3": "Expressions behave in same way as ng-bind directives.",
+            "option4": "All of the above."
+        },
+        {
+            "questionId": "711",
+            "question": "Which of the following code can create a web server ?",
+            "difficulty": "HARD",
+            "correctOption": "http.createServer(callback)",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "http.createServer(callback)",
+            "option2": "http.createWebServer(callback)",
+            "option3": "http.createHTTPServer(callback)",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "712",
+            "question": "Which method of fs module is used to read a file?",
+            "difficulty": "HARD",
+            "correctOption": "fs.read(fd, buffer, offset, length, position, callback)",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "fs.open(path, flags[, mode], callback)",
+            "option2": "fs.openFile(path, flags[, mode], callback)",
+            "option3": "fs.openPath(path, flags[, mode], callback)",
+            "option4": "fs.read(fd, buffer, offset, length, position, callback)"
+        },
+        {
+            "questionId": "713",
+            "question": "How to import module in Node.js?",
+            "difficulty": "HARD",
+            "correctOption": "Using require() function.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Using require() function.",
+            "option2": "Using module.import",
+            "option3": "Using include() function",
+            "option4": "Using app.use() function"
+        },
+        {
+            "questionId": "714",
+            "question": "Which of the following is true about fs module of Node?",
+            "difficulty": "HARD",
+            "correctOption": "Both of the above",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Every method in fs module have synchronous as well as asynchronous form",
+            "option2": "Asynchronous methods of fs module take last parameter as completion function callback and first parameter of the callback function as error",
+            "option3": "Both of the above",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "715",
+            "question": "How to test if two nodes are equal?",
+            "difficulty": "HARD",
+            "correctOption": "isEqualNode()",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "isEqualNode()",
+            "option2": "equal()",
+            "option3": ". ==",
+            "option4": "None of the mentioned"
+        },
+        {
+            "questionId": "716",
+            "question": "Third-party packages can be install/update/delete using ________.",
+            "difficulty": "HARD",
+            "correctOption": "Node Package Manager",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Node Package Manager",
+            "option2": "Node.exe",
+            "option3": "Module.exports",
+            "option4": "REPL"
+        },
+        {
+            "questionId": "717",
+            "question": "Which of the following are objective database and not a relational database?",
+            "difficulty": "HARD",
+            "correctOption": "IndexedDB",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Web SQL Database",
+            "option2": "fileSystem API",
+            "option3": "IndexedDB",
+            "option4": "User data"
+        },
+        {
+            "questionId": "718",
+            "question": "Which of the following module is required for exception handling in Node?",
+            "difficulty": "HARD",
+            "correctOption": "domain module",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "web module",
+            "option2": "net module",
+            "option3": "domain module",
+            "option4": "error module"
+        },
+        {
+            "questionId": "719",
+            "question": "What is Callback?",
+            "difficulty": "HARD",
+            "correctOption": "Both of the above.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Callback is an asynchronous equivalent for a function.",
+            "option2": "Callback is a technique in which a method call back the caller method.",
+            "option3": "Both of the above.",
+            "option4": "None of the above."
+        },
+        {
+            "questionId": "720",
+            "question": "What is the default scope in Node.js application.",
+            "difficulty": "HARD",
+            "correctOption": "Local",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Global",
+            "option2": "Local",
+            "option3": "Global Function",
+            "option4": "Local to object"
+        }
+    ]
+}

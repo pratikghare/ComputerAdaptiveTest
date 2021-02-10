@@ -1,0 +1,438 @@
+{
+    "quizId" : "111111",
+    "quizTitle" : "MyQuiz",
+    "quizDomain" : {
+        "domainId":120,
+        "domain" : "MySQL"
+},
+    "quizDuration" : "1",
+    "questions" : [     
+ {
+            "questionId" : "841",
+            "question" : "An ________ is a set of entities of the same type that share the same properties, or attributes",
+            "difficulty" : "MED",
+            "correctOption" : "Entity set",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Entity set",
+            "option2" : "Attribute set",
+            "option3" : "Relation set",
+            "option4" : "Entry set"
+        },
+
+        {
+            "questionId" : "842",
+            "question" : "How should a many-to-many relationship be handled?",
+            "difficulty" : "MED",
+            "correctOption" : "By adding a join table",
+           "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "By adding a join table",
+            "option2" : "By adding an intersection table",
+            "option3" : "By adding union table",
+            "option4" : "By adding cartesian table"
+        },
+
+        {
+            "questionId" : "843",
+            "question" : " Which of the following is not true about SQL statements?",
+            "difficulty" : "MED",
+            "correctOption" : "Clauses must be written on separate lines",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "SQL statements are not case sensitive",
+            "option2" : "SQL statements can be written on one or more lines",
+            "option3" : "Keywords cannot be split across lines",
+            "option4" : "Clauses must be written on separate lines"
+        },
+
+        {
+            "questionId" : "844",
+            "question" : " What is returned by INSTR(‘TUTORIALS POINT’, ‘P’)?",
+            "difficulty" : "MED",
+            "correctOption" : "11",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "11",
+            "option2" : "10",
+            "option3" : "POINT",
+            "option4" : "TUTORIALS"
+        },
+
+         {
+            "questionId" : "845",
+            "question" : " What is returned by TRUNC(789.8389, 2)?",
+            "difficulty" : "MED",
+            "correctOption" : "789.83",
+          "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "789.84",
+            "option2" : "789.83",
+            "option3" : "78",
+            "option4" : "789.00"
+        },
+        
+          {
+            "questionId" : "846",
+            "question" : " Which of the following is true about Cartesian Products?",
+            "difficulty" : "MED",
+            "correctOption" : "A Cartesian product is formed when a join condition is omitted",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "A Cartesian product is formed when a join condition is omitted",
+            "option2" : "A Cartesian product is formed when a join condition is valid",
+            "option3" : "Some rows in the first table are joined to all rows in the second table",
+            "option4" : "All rows in the first table are joined to some rows in the second table"
+        },
+    
+    
+
+        {
+            "questionId" : "848",
+            "question" : "Which data manipulation command is used to combines the records from one or more tables? ",
+           "difficulty" : "MED",
+            "correctOption" : "JOIN",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "SELECT",
+            "option2" : "JOIN",
+            "option3" : "PROJECT",
+            "option4" : "PRODUCT"
+        },
+    
+        {
+            "questionId" : "849",
+            "question" : "Which operator is used to compare a value to a specified list of values? ",
+           "difficulty" : "MED",
+            "correctOption" : "IN",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "BETWEEN",
+            "option2" : "ANY",
+            "option3" : "IN",
+            "option4" : "ALL"
+        },
+
+        {
+            "questionId" : "850",
+            "question" : "The SQL used by front-end application programs to request data from the DBMS is called _______? ",
+           "difficulty" : "MED",
+            "correctOption" : "DML",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "DML",
+            "option2" : "DDL",
+            "option3" : "VDL",
+            "option4" : "SDL"
+        },
+            
+        {
+
+        "questionId" : "851",
+            "question" : "Which of the following is a comparison operator in SQL?",
+           "difficulty" : "MED",
+            "correctOption" : "Double equal sign ( == )",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Double equal sign ( == )",
+            "option2" : "LIKE",
+            "option3" : "BETWEEN",
+            "option4" : "Single equal sign ( = )"
+       
+         },
+
+
+        {
+
+        "questionId" : "853",
+            "question" : "Which data type can store unstructured data in a column? ",
+           "difficulty" : "MED",
+            "correctOption" : "RAW",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "RAW",
+            "option2" : "CHAR",
+            "option3" : "NUMERIC",
+            "option4" : "VARCHAR"
+       
+         },
+   
+        {
+
+             "questionId" : "854",
+            "question" : "The virtual table that its created by data from the result of an SQL 'Select' statement is called __? ",
+            "difficulty" : "MED",
+            "correctOption" : "view",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "view",
+            "option2" : "synonym",
+            "option3" : "sequence",
+            "option4" : "transaction"
+       
+         },
+
+
+          {
+
+            "questionId" : "855",
+            "question" : "To delete a database ____ command is uesd ",
+           "difficulty" : "MED",
+            "correctOption" : "drop database database_name",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Delete database database_name",
+            "option2" : "Delete database_name",
+            "option3" : "drop database database_name",
+            "option4" : "drop databse_name"
+       
+         },
+
+
+        {
+
+            "questionId" : "856",
+            "question" : "Which of the following procedures are created by user for own actions? ",
+           "difficulty" : "MED",
+            "correctOption" : "user defined stored procedure",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Extented procedure",
+            "option2" : "user defined stored procedure",
+            "option3" : "CLR stored procedure",
+            "option4" : "All of the above"
+       
+         },
+
+          {
+
+            "questionId" : "857",
+            "question" : "system defined procedure logically appear in? ",
+           "difficulty" : "MED",
+            "correctOption" : "sys schema",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "sys schema",
+            "option2" : "stor schema",
+            "option3" : "proc schema",
+            "option4" : "All of the above"
+       
+         },
+
+          {
+           "questionId" : "858",
+            "question" : "The ----- operator is usedfor patten matching",
+            "difficulty" : "MED",
+            "correctOption" : "LIKE",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : " DISTINCT ",
+            "option2" : "LIKE",
+            "option3" : "GROUP BY ",
+            "option4" : "ORDER BY"
+        },
+
+         {
+           "questionId" : "859",
+            "question" : "which of the following is not a relational database",
+            "difficulty" : "MED",
+            "correctOption" : "Reflex",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : " dBASE",
+            "option2" : "4th Dimension",
+            "option3" : "foxPro ",
+            "option4" : "Reflex"
+        },
+        
+        {
+           "questionId" : "860",
+            "question" : " A level that describes data stored in a database and the relationships among the data",
+            "difficulty" : "MED",
+            "correctOption" :"logical",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : " physical",
+            "option2" : "logical",
+            "option3" : "user ",
+            "option4" : "view"
+        },
+        {
+        "questionId" : "861",
+            "question" : " What is a view?",
+            "difficulty" : "MED",
+            "correctOption" :"A view is a virtual table which results of executing a pre-compiled query",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "A view is a special stored procedure executed when certain event occurs",
+            "option2" : "A view is a virtual table which results of executing a pre-compiled query",
+            "option3" : "A view is a database diagram",
+            "option4" : "None of the Mentioned"
+        },
+        {
+        "questionId" : "862",
+            "question" : " Dynamic Management View is a type of ___________",
+            "difficulty" : "MED",
+            "correctOption" :"System Defined Views",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "System Defined Views",
+            "option2" : "User Defined View",
+            "option3" : "Simple View",
+            "option4" : "Complex View"
+        },      
+
+        {
+
+            "questionId" : "863",
+            "question" : "  ___________ is stored only in the Master database",
+            "difficulty" : "MED",
+            "correctOption" :"None of the mentioned",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : " Database-scoped Dynamic Management View",
+            "option2" : "Complex View",
+            "option3" : "Catalog View",
+            "option4" : "None of the mentioned"
+        },      
+  
+        {
+
+            "questionId" : "864",
+            "question" : "  Which of the following is not a NoSQL database?",
+            "difficulty" : "MED",
+            "correctOption" :"SQL server",
+           "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "SQL server",
+            "option2" : "MongoDB",
+            "option3" : "Cassandra",
+            "option4" : "None of the mentioned"
+        },      
+
+        
+        {
+
+            "questionId" : "865",
+            "question" : "Which of the following are the simplest NoSQL databases?",
+            "difficulty" : "MED",
+            "correctOption" :"key-value",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "key-value",
+            "option2" : "wide-column",
+            "option3" : "Document",
+            "option4" : "All of the mentioned"
+        },   
+     
+       {
+
+            "questionId" : "867",
+            "question" : " Transaction processing is associated with everything below except",
+            "difficulty" : "MED",
+            "correctOption" :"Conforming an action or triggering a response",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Conforming an action or triggering a response",
+            "option2" : "Producing detail summary or exception report",
+            "option3" : "Recording a business activity",
+            "option4" : "Maintaining a data"
+        },      
+
+        {
+
+            "questionId" : "868",
+            "question" : "Point out the correct statement?",
+            "difficulty" : "MED",
+            "correctOption" :"All of the mentioned",
+           "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "A Cursor is opened and populated by executing the SQL statement defined by the cursor",
+            "option2" : "After data manipulation, we should close the cursor explicitly",
+            "option3" : "A cursor is declared by defining the SQL statement that returns a result set",
+            "option4" : "All of the mentioned"
+        },     
+      
+       {
+
+            "questionId" : "869",
+            "question" : "Aggregate functions are functions that take a ___________ as input and return a single value?",
+            "difficulty" : "MED",
+            "correctOption" :"Collection of values",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Collection of values",
+            "option2" : "Single value",
+            "option3" : "Aggregate value",
+            "option4" : "Both Collection of values & Single value"
+        }
+    
+     
+   ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,447 @@
+{
+    "quizId" : "111111",
+    "quizTitle" : "MyQuiz",
+    "quizDomain" :  {
+        "domainId":119,
+        "domain" : "Operating Systems"
+},
+    "quizDuration" : "1",
+    "questions" : [
+        {
+            "questionId" : "751",
+            "question" : "When several processes access the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place, is called?",
+            "difficulty" : "MED",
+            "correctOption" : "race condition",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "essential condition",
+            "option2" : "race condition",
+            "option3" : "critical condition",
+            "option4" : "dynamic condition"
+        },
+        
+        {
+            "questionId" : "752",
+            "question" : "A CPU generates 32-bit virtual addresses. The page size is 4 KB. The processor has a translation look-aside buffer (TLB) which can hold a total of 128 page table entries and is 4-way set associative. The minimum size of the TLB tag is",
+            "difficulty" : "MED",
+            "correctOption" : "15bits",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "11bits",
+            "option2" : "13bits",
+            "option3" : "15bits",
+            "option4" : "20bits"
+        },
+        
+       {
+            "questionId" : "753",
+            "question" : " External fragmentation exists when ",
+            "difficulty" : "MED",
+            "correctOption" : "enough total memory exists to satisfy a request but it is not contiguous",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "enough total memory exists to satisfy a request but it is not contiguous",
+            "option2" : "the total memory is insufficient to satisfy a request",
+            "option3" : "a request cannot be satisfied even when the total memory is free",
+            "option4" : "None of these"
+        },
+        
+       {
+            "questionId" : "754",
+            "question" : "The circular wait condition can be prevented by",
+            "difficulty" : "MED",
+            "correctOption" : "defining a linear ordering of resource types",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "defining a linear ordering of resource types",
+            "option2" : "using thread",
+            "option3" : "all of the mentioned",
+            "option4" : "using pipes"
+        },
+        
+        {
+            "questionId" : "755",
+            "question" : " The time required to create a new thread in an existing process is",
+            "difficulty" : "MED",
+            "correctOption" : "less than the time required to create a new process",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "greater than the time required to create a new process",
+            "option2" : "less than the time required to create a new process",
+            "option3" : " equal to the time required to create a new process",
+            "option4" : " none of the mentioned"
+        },
+        
+        {
+            "questionId" : "756",
+            "question" : " To run the script, we should make it executable first by using _____",
+            "difficulty" : "MED",
+            "correctOption" : "chmod +x",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "chmod +x",
+            "option2" : "chmod +r",
+            "option3" : "chmod +w",
+            "option4" : "chmod +rwx"
+        },
+
+       {
+            "questionId" : "757",
+            "question" : "Multiple processes are permitted to concurrently acquire a reader–writer lock in read mode, but only one process may acquire the lock for ___, as exclusive access is required for _________",
+            "difficulty" : "MED",
+            "correctOption" : "writing, writers",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : " reading, readers",
+            "option2" : "reading, writers",
+            "option3" : "writing, writers",
+            "option4" : " writing, readers"
+        },
+
+        {
+            "questionId" : "758",
+            "question" : "The process invoking the wait operation is",
+            "difficulty" : "MED",
+            "correctOption" : "suspended until another process invokes the signal operation",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "suspended until another process invokes the signal operation",
+            "option2" : "waiting for another process to complete before it can itself call the signal operation",
+            "option3" : "stopped until the next process in the queue finishes execution",
+            "option4" : "None of the mentioned"
+        },
+
+       {
+            "questionId" : "759",
+            "question" : "The systems which allow only one process execution at a time, are called __________",
+            "difficulty" : "MED",
+            "correctOption" : "uniprocessing systems",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "uniprogramming systems",
+            "option2" : "uniprocessing systems",
+            "option3" : "unitasking systems",
+            "option4" : "none of the mentioned"
+        },
+
+       {
+            "questionId" : "760",
+            "question" : " A process stack does not contain __________",
+            "difficulty" : "MED",
+            "correctOption" : "PID of child process",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "Function parameters",
+            "option2" : "Local variables",
+            "option3" : "Return addresses",
+            "option4" : "PID of child process"
+        },
+
+
+      {
+            "questionId" : "761",
+            "question" : "If all processes I/O bound, the ready queue will almost always be ______ and the Short term Scheduler will have a ______ to do",
+            "difficulty" : "MED",
+            "correctOption" : "empty,little",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "full,little",
+            "option2" : "full,lot",
+            "option3" : "empty,little",
+            "option4" : "empty,lot"
+        },
+
+        {
+            "questionId" : "762",
+            "question" : "The primary distinction between the short term scheduler and the long term scheduler is _________",
+            "difficulty" : "MED",
+            "correctOption" : "The frequency of their execution",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "The length of their queues",
+            "option2" : "The type of processes they schedule",
+            "option3" : "The frequency of their execution",
+            "option4" : "None of the mentioned"
+        },
+    
+  
+
+        {
+            "questionId" : "764",
+            "question" : "Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the __________",
+            "difficulty" : "MED",
+            "correctOption" : "Ready state",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "Running state",
+            "option2" : "Ready state",
+            "option3" : "Suspended state",
+            "option4" : "Terminated state"
+        },
+
+        {
+            "questionId" : "765",
+            "question" : "What is ‘Aging’?",
+            "difficulty" : "MED",
+            "correctOption" : "increasing the priority of jobs to ensure termination in a finite time",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "keeping track of cache contents",
+            "option2" : "keeping track of what pages are currently residing in memory",
+            "option3" : "keeping track of how many times a given page is referenced",
+            "option4" : "increasing the priority of jobs to ensure termination in a finite time"
+        },
+
+        {
+            "questionId" : "766",
+            "question" : "Each request requires that the system consider the _____________ to decide whether the current request can be satisfied or must wait to avoid a future possible deadlock",
+            "difficulty" : "MED",
+            "correctOption" : "resources currently available",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "resources currently available",
+            "option2" : "processes that have previously been in the system",
+            "option3" : "resources currently allocated to each process",
+            "option4" : "future requests and releases of each process"
+        },
+
+        {
+            "questionId" : "767",
+            "question" : "Which of the following does not interrupt a running process?",
+            "difficulty" : "MED",
+            "correctOption" : "Scheduler process",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "A device",
+            "option2" : "Timer",
+            "option3" : "Scheduler process",
+            "option4" : "Power failure"
+        },
+
+       {
+            "questionId" : "768",
+            "question" : " A system is in a safe state only if there exists a ________",
+            "difficulty" : "MED",
+            "correctOption" : "safe sequence",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "safe allocation",
+            "option2" : "safe resource",
+            "option3" : "safe sequence",
+            "option4" : "all of the mentioned"
+        },
+
+        {
+            "questionId" : "769",
+            "question" : "If no cycle exists in the resource allocation graph _______",
+            "difficulty" : "MED",
+            "correctOption" : "then the system will be in a safe state",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "then the system will not be in a safe state",
+            "option2" : "then the system will be in a safe state",
+            "option3" : "all of the mentioned",
+            "option4" : "none of the mentioned"
+        },
+
+       {
+            "questionId" : "770",
+            "question" : "The data structures available in the Banker’s algorithm are ________",
+            "difficulty" : "MED",
+            "correctOption" : "All of the mentioned",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "Available",
+            "option2" : "Need",
+            "option3" : "Allocation",
+            "option4" : "All of the mentioned"
+        },
+
+       {
+            "questionId" : "771",
+            "question" : "The _______ maintains pending and blocked bit vectors in context of each process",
+            "difficulty" : "MED",
+            "correctOption" : "kernal",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "CPU",
+            "option2" : "kernal",
+            "option3" : "Process",
+            "option4" : "Memory"
+        },
+
+         {
+            "questionId" : "772",
+            "question" : "In UNIX, the _____ system call is used to send a signal",
+            "difficulty" : "MED",
+            "correctOption" : "kill",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "sig",
+            "option2" : "send",
+            "option3" : "kill",
+            "option4" : "sigsend"
+        },
+
+       {
+            "questionId" : "773",
+            "question" : "Which one of the following command is invalid?",
+            "difficulty" : "MED",
+            "correctOption" : "3d",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "20h",
+            "option2" : "5l",
+            "option3" : "4k",
+            "option4" : "3d"
+        },
+
+       {
+            "questionId" : "774",
+            "question" : "Using ‘w’ command we can ______",
+            "difficulty" : "MED",
+            "correctOption" : "move forward to the beginning of the word",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "move back to the beginning of the word",
+            "option2" : "move forward to the end of the word",
+            "option3" : "move forward to the beginning of the word",
+            "option4" : "move back to the end of the word"
+        },
+  
+       {
+            "questionId" : "775",
+            "question" : "In segmentation, each address is specified by _______",
+            "difficulty" : "MED",
+            "correctOption" : "a segment number & offset",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "a segment number & offset",
+            "option2" : "an offset & value",
+            "option3" : "a value & segment number",
+            "option4" : "a key & value"
+        },
+
+        {
+            "questionId" : "776",
+            "question" : "The protection bit is 0/1 based on ____________",
+            "difficulty" : "MED",
+            "correctOption" : "read – write",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "write only",
+            "option2" : "read only",
+            "option3" : "read – write",
+            "option4" : "none of the mentioned"
+        },
+
+       {
+            "questionId" : "777",
+            "question" : "The algorithm in which we split m frames among n processes, to give everyone an equal share, m/n frames is known as _______",
+            "difficulty" : "MED",
+            "correctOption" : "equal allocation algorithm",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "proportional allocation algorithm",
+            "option2" : "none of the mentioned",
+            "option3" : "equal allocation algorithm",
+            "option4" : "split allocation algorithm"
+        },
+
+        {
+            "questionId" : "778",
+            "question" : "In FIFO page replacement when a page must be replaced",
+            "difficulty" : "MED",
+            "correctOption" : "oldest page is chosen",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "oldest page is chosen",
+            "option2" : "newest page is chosen",
+            "option3" : "random page is chosen",
+            "option4" : "none of the mentioned"
+        },
+         {
+            "questionId" : "779",
+            "question" : "Which of the following addressing modes, facilitates access to an operand whose location is defined relative to the beginning of the data structure in which it appears?",
+            "difficulty" : "MED",
+            "correctOption" : "index",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "ascending",
+            "option2" : "sorting",
+            "option3" : "index",
+            "option4" : "indirect"
+        },
+        
+        {
+            "questionId" : "780",
+            "question" : "which of the following is a synchronization tool?",
+            "difficulty" : "MED",
+            "correctOption" : "semaphore",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "thread",
+            "option2" : "pipe",
+            "option3" : "semaphore",
+            "option4" : "socket"
+        }
+   ]
+}

@@ -1,0 +1,431 @@
+{
+    "quizId": "111118",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 111,
+        "domain": "Data Structures"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "61",
+            "question": " If we start our function call with default arguments means, what will be proceeding arguments?",
+            "difficulty": "HARD",
+            "correctOption": "default arguments",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": " user argument",
+            "option2": "empty arguments",
+            "option3": "default arguments",
+            "option4": " leading arguments"
+        },
+        {
+            "questionId": "62",
+            "question": "Which header file is used to pass unknown number of arguments to function?",
+            "difficulty": "HARD",
+            "correctOption": "stdarg.h",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "stdlib.h",
+            "option2": "string.h",
+            "option3": "stdarg.h",
+            "option4": "stdio.h"
+        },
+        {
+            "questionId": "63",
+            "question": "How can you access the arguments that are manipulated in the function?",
+            "difficulty": "HARD",
+            "correctOption": "va_list",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "va_list",
+            "option2": "arg_list",
+            "option3": "both va_list & arg_list",
+            "option4": "vg_list"
+        },
+        {
+            "questionId": "64",
+            "question": " What is the default calling convention for a compiler in c++?",
+            "difficulty": "HARD",
+            "correctOption": "__cdecl",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "__cdecl",
+            "option2": "__stdcall",
+            "option3": "__pascal",
+            "option4": "__fastcall"
+        },
+        {
+            "questionId": "65",
+            "question": "What is the meaning of the following declaration? int(*ptr[5])();",
+            "difficulty": "HARD",
+            "correctOption": "ptr is array of pointer to function",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "ptr is pointer to function",
+            "option2": "ptr is array of pointer to function",
+            "option3": "ptr is pointer to such function which return type is array",
+            "option4": "ptr is pointer to array of function"
+        },
+        {
+            "questionId": "66",
+            "question": "Mark the correct one.",
+            "difficulty": "HARD",
+            "correctOption": "Many spanning tree possible for a connected graph and results acyclic subgraph",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": " Only one spanning tree is possible for a connected graph and results acyclic subgraph",
+            "option2": "Many spanning tree possible for a connected graph and results cyclic subgraph",
+            "option3": "Only one spanning tree is possible for a connected graph and results cyclic subgraph",
+            "option4": "Many spanning tree possible for a connected graph and results acyclic subgraph"
+        },
+        {
+            "questionId": "67",
+            "question": "For which of the following inputs would Kadane’s algorithm produce the INCORRECT output?",
+            "difficulty": "HARD",
+            "correctOption": "{-4,-3,-2,-1}",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": " {0,1,2,3}",
+            "option2": "{-1,0,1}",
+            "option3": " {-1,-2,-3,0}",
+            "option4": "{-4,-3,-2,-1}"
+        },
+        {
+            "questionId": "68",
+            "question": " In the brute force implementation to find the longest increasing subsequence, all the subsequences of a  given sequence are found. All the increasing subsequences are then selected and the length of the longest                           subsequence is found. What is the time complexity of this brute force implementation?",
+            "difficulty": "HARD",
+            "correctOption": "O(2n)",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "O(n)",
+            "option2": "O(n2)",
+            "option3": "O(n!)",
+            "option4": "O(2n)"
+        },
+        {
+            "questionId": "69",
+            "question": "What is the maximum number of possible non zero values in an adjacency matrix of a simple graph with n vertices?",
+            "difficulty": "HARD",
+            "correctOption": "n*(n-1)",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "(n*(n-1))/2",
+            "option2": "(n*(n+1))/2",
+            "option3": "n*(n-1)",
+            "option4": "n*(n+1)"
+        },
+        {
+            "questionId": "70",
+            "question": "On which of the following statements does the time complexity of checking if an edge exists between two particular vertices is not, depends?",
+            "difficulty": "HARD",
+            "correctOption": "Is independent of both the number of edges and vertices",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Depends on the number of edges",
+            "option2": " Depends on the number of vertices",
+            "option3": "Is independent of both the number of edges and vertices",
+            "option4": "It depends on both the number of edges and vertices"
+        },
+        {
+            "questionId": "71",
+            "question": "If there are more than 1 topological sorting of a DAG is possible, which of the following is true.",
+            "difficulty": "HARD",
+            "correctOption": "No Hamiltonian path is possible",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Many Hamiltonian paths are possible",
+            "option2": "No Hamiltonian path is possible",
+            "option3": "Exactly 1 Hamiltonian path is possible",
+            "option4": "Given information is insufficient to comment anything"
+        },
+        {
+            "questionId": "72",
+            "question": "Assuming value of every weight to be greater than 10, in which of the following cases the shortest path of a directed weighted graph from 2 vertices u and v will never change?",
+            "difficulty": "HARD",
+            "correctOption": "multiply all values by 10",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "add all values by 10",
+            "option2": "subtract 10 from all the values",
+            "option3": "multiply all values by 10",
+            "option4": "In both the cases of multiplying and adding by 10"
+        },
+        {
+            "questionId": "73",
+            "question": "What are the applications of binary search?",
+            "difficulty": "HARD",
+            "correctOption": "All of the mentioned",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "To find the lower/upper bound in an ordered sequence",
+            "option2": "Union of intervals",
+            "option3": "Debugging",
+            "option4": "All of the mentioned"
+        },
+        {
+            "questionId": "74",
+            "question": " What is the best case and worst case complexity of ordered linear search?",
+            "difficulty": "HARD",
+            "correctOption": "O(1), O(n)",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": " O(nlogn), O(logn)",
+            "option2": "O(logn), O(nlogn)",
+            "option3": "O(n), O(1)",
+            "option4": "O(1), O(n)"
+        },
+        {
+            "questionId": "75",
+            "question": "What is the output of the following piece of code? public class array { public static void main(String args[]){ int []arr = {1,2,3,4,5}; System.out.println(arr[5]); }}",
+            "difficulty": "HARD",
+            "correctOption": "ArrayIndexOutOfBoundsException",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "4",
+            "option2": "5",
+            "option3": "ArrayIndexOutOfBoundsException",
+            "option4": "InavlidInputException"
+        },
+        {
+            "questionId": "76",
+            "question": " What is not a disadvantage of priority scheduling in operating systems?",
+            "difficulty": "HARD",
+            "correctOption": "Interrupt handling",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "A low priority process might have to wait indefinitely for the CPU",
+            "option2": "If the system crashes, the low priority systems may be lost permanently",
+            "option3": "Interrupt handling",
+            "option4": "None of the mentioned"
+        },
+        {
+            "questionId": "77",
+            "question": "Which of the following array position will be occupied by a new element being pushed for a stack of size N  elements(capacity of stack > N).",
+            "difficulty": "HARD",
+            "correctOption": "S[N]",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "S[N-1].",
+            "option2": "S[N]",
+            "option3": "S[1]",
+            "option4": "S[0]"
+        },
+        {
+            "questionId": "78",
+            "question": "What is buddy memory management of free lists ?",
+            "difficulty": "HARD",
+            "correctOption": "buddy allocation keeps several free lists, each one holds blocks which are of one particular size",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": " modified version of first fit",
+            "option2": "buddy allocation keeps several free lists, each one holds blocks which are of one particular size",
+            "option3": " modified version of best fit",
+            "option4": "a tree representation of free lists"
+        },
+        {
+            "questionId": "79",
+            "question": "How does implicit free lists(garbage collection) works in adding memory to free list ?",
+            "difficulty": "HARD",
+            "correctOption": "certain blocks cannot be used if there are no pointers to them and hence they can be freed.",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "whichever comes last will be added to free list",
+            "option2": "whichever comes first will be added to free list",
+            "option3": "certain blocks cannot be used if there are no pointers to them and hence they can be freed.",
+            "option4": "makes a probabilistic guess"
+        },
+        {
+            "questionId": "80",
+            "question": "What is the time complexity improvement of skip lists from linked lists in insertion and deletion?",
+            "difficulty": "HARD",
+            "correctOption": "O(n) to O(logn) where n is number of elements",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "O(n) to O(logn) where n is number of elements",
+            "option2": "O(n) to O(1) where n is number of elements",
+            "option3": " no change",
+            "option4": "O(n) to O(n2) where n is number of elements"
+        },
+        {
+            "questionId": "81",
+            "question": "What is the space complexity of the above recursive implementation to find the factorial of a number?",
+            "difficulty": "HARD",
+            "correctOption": "O(1)",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "O(1)",
+            "option2": "O(n)",
+            "option3": "O(n2)",
+            "option4": "O(n3)"
+        },
+        {
+            "questionId": "82",
+            "question": "Mark the correct statement regarding Heap sort. ",
+            "difficulty": "HARD",
+            "correctOption": "Needs N-1 swap",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": " Heap creation =N-1",
+            "option2": " Needs O(Nlog N) swap",
+            "option3": "Needs N+1 swap",
+            "option4": "Needs N-1 swap"
+        },
+        {
+            "questionId": "83",
+            "question": "In addition to the pancake sorting problem, there is the case of the burnt pancake problem in which we are dealing with pancakes (discs) that are burnt on one side only. In this case it is taken that the burnt side must always end up _______",
+            "difficulty": "HARD",
+            "correctOption": "Faced down",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Faced down",
+            "option2": "Faced up",
+            "option3": "It doesn’t matter",
+            "option4": "Both sides are burnt"
+        },
+        {
+            "questionId": "84",
+            "question": "Assuming value of every weight to be greater than 10, in which of the following cases the shortest path of a directed weighted graph from 2 vertices u and v will never change?",
+            "difficulty": "HARD",
+            "correctOption": "multiply all values by 10",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "add all values by 10",
+            "option2": "subtract 10 from all the values",
+            "option3": "multiply all values by 10",
+            "option4": "In both the cases of multiplying and adding by 10"
+        },
+        {
+            "questionId": "85",
+            "question": " What does this pseudo_code return ? int myfun(heap_arr[]) { int mini=INF; for(int i=0;i mini=min(mini,heap_arr) return mini;}",
+            "difficulty": "HARD",
+            "correctOption": "Root of the heap",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Last added element to heap",
+            "option2": "First element added to heap",
+            "option3": "Root of the heap",
+            "option4": " Leftmost node of the heap"
+        },
+        {
+            "questionId": "86",
+            "question": "An array consist of n elements.We want to create a heap using the elements.The time complexity of building a heap will be in order of",
+            "difficulty": "HARD",
+            "correctOption": "O(n*logn)",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "O(n*n*logn)",
+            "option2": "O(n*logn)",
+            "option3": "O(n*n)",
+            "option4": "O(n *logn *logn)"
+        },
+        {
+            "questionId": "87",
+            "question": "In a computational complexity theory, a problem with decision making is said to be NP-complete when it is both in NP and NP-hard. What does NP mean?",
+            "difficulty": "HARD",
+            "correctOption": "Non-deterministic Polynomial time",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Non Polynomial time",
+            "option2": "Non-deterministic Probabilistic",
+            "option3": "Non-deterministic Polynomial time",
+            "option4": "Non Probabilistic time"
+        },
+        {
+            "questionId": "88",
+            "question": " Given an empty AVL tree, how would you construct AVL tree when a set of numbers are given without performing any rotations?",
+            "difficulty": "HARD",
+            "correctOption": "find the median of the set of elements given, make it as root and construct the tree",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "just build the tree with the given input",
+            "option2": "find the median of the set of elements given, make it as root and construct the tree",
+            "option3": "use trial and error",
+            "option4": "use dynamic programming to build the tree"
+        },
+        {
+            "questionId": "89",
+            "question": " If the tree is not a complete binary tree then what changes can be made for easy access of children of a node in the array ?",
+            "difficulty": "HARD",
+            "correctOption": "every node stores data saying which of its children exist in the array",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "every node stores data saying which of its children exist in the array",
+            "option2": " no need of any changes continue with 2w and 2w+1, if node is at i",
+            "option3": "keep a seperate table telling children of a node",
+            "option4": "use another array parallel to the array with tree"
+        },
+        {
+            "questionId": "90",
+            "question": " What are the operations that can be performed on weight balanced tree?",
+            "difficulty": "HARD",
+            "correctOption": "all basic operations and set intersection, set union and subset test",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "all basic operations and set intersection, set union and subset test",
+            "option2": "all basic operations",
+            "option3": "only insertion and deletion",
+            "option4": "set intersection, set union and subset test"
+        }
+    ]
+}

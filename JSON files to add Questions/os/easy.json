@@ -1,0 +1,463 @@
+{
+    "quizId" : "111111",
+    "quizTitle" : "MyQuiz",
+    "quizDomain" : {
+        "domainId":119,
+        "domain" : "Operating Systems"
+},
+    "quizDuration" : "1",
+    "questions" : [
+        {
+            "questionId" : "721",
+            "question" : "Which command is used to record a user login session in a file",
+            "difficulty" : "EASY",
+            "correctOption" : "script",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "script",
+            "option2" : "read",
+            "option3" : "macro",
+            "option4" : "none of the mentioned"
+        },
+        
+        {
+            "questionId" : "722",
+            "question" : "Which process can be affected by other processes executing in the system?",
+            "difficulty" : "EASY",
+            "correctOption" : "cooperating process",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "cooperating process",
+            "option2" : "child process",
+            "option3" : " parent process",
+            "option4" : "init process"
+        },
+        
+       {
+            "questionId" : "723",
+            "question" : " Which command is used to print a file",
+            "difficulty" : "EASY",
+            "correctOption" : "lpr",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+             },
+            "option1" : "print",
+            "option2" : "ptr",
+            "option3" : "lpr",
+            "option4" : "none of the mentioned"
+        },
+        
+       {
+            "questionId" : "724",
+            "question" : "Which one of the following is a synchronization tool?",
+            "difficulty" : "EASY",
+            "correctOption" : "semaphore",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "thread",
+            "option2" : "semaphore",
+            "option3" : "pipe",
+            "option4" : "socket"
+        },
+        
+        {
+            "questionId" : "725",
+            "question" : "what command is used to remove files?",
+            "difficulty" : "EASY",
+            "correctOption" : "rm",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "rm",
+            "option2" : "delete",
+            "option3" : "erase",
+            "option4" : "None of the above"
+        },
+        
+        {
+            "questionId" : "726",
+            "question" : "Process synchronization can be done on ______",
+            "difficulty" : "EASY",
+            "correctOption" : "both hardware and software level",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "hardware level",
+            "option2" : "software level",
+            "option3" : "both hardware and software level",
+            "option4" : "none of the mentioned"
+        },
+
+       {
+            "questionId" : "727",
+            "question" : "Which module gives control of the CPU to the process selected by the short-term scheduler?",
+            "difficulty" : "EASY",
+            "correctOption" : "dispatcher",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "dispatcher",
+            "option2" : "interrupt",
+            "option3" : "scheduler",
+            "option4" : "none of the mentioned"
+        },
+
+        {
+            "questionId" : "728",
+            "question" : "Mutual exclusion can be provided by the __________",
+            "difficulty" : "EASY",
+            "correctOption" : "both mutex locks and binary semaphores",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "mutex locks",
+            "option2" : "binary semaphores",
+            "option3" : "both mutex locks and binary semaphores",
+            "option4" : "none of the mentioned"
+        },
+
+       {
+            "questionId" : "729",
+            "question" : " Which scheduling algorithm allocates the CPU first to the process that requests the CPU first",
+            "difficulty" : "EASY",
+            "correctOption" : "first-come, first-served scheduling",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "first-come, first-served scheduling",
+            "option2" : "shortest job scheduling",
+            "option3" : "priority scheduling",
+            "option4" : "none of the mentioned"
+        },
+
+       {
+            "questionId" : "730",
+            "question" : " Which one of the following can not be scheduled by the kernel?",
+            "difficulty" : "EASY",
+            "correctOption" : "user level thread",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "user level thread",
+            "option2" : " none of the mentioned",
+            "option3" : "process",
+            "option4" : "kernel level thread"
+        },
+
+
+      {
+            "questionId" : "731",
+            "question" : "Which algorithm is defined in Time quantum?",
+            "difficulty" : "EASY",
+            "correctOption" : "round robin scheduling algorithm",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "round robin scheduling algorithm",
+            "option2" : "multilevel queue scheduling algorithm",
+            "option3" : "shortest job scheduling algorithm",
+            "option4" : "priority scheduling algorithm"
+        },
+
+        {
+            "questionId" : "732",
+            "question" : "CPU fetches the instruction from memory according to the value of _________",
+            "difficulty" : "EASY",
+            "correctOption" : "program counter",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "program counter",
+            "option2" : " status register",
+            "option3" : "instruction register",
+            "option4" : "program status word"
+        },
+    
+        {
+            "questionId" : "733",
+            "question" : "What command is used to remove the directory?",
+            "difficulty" : "EASY",
+            "correctOption" : "rmdir",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "rdir",
+            "option2" : "remove",
+            "option3" : "rd",
+            "option4" : "rmdir"
+        },
+
+        {
+            "questionId" : "734",
+            "question" : "Memory management technique in which system stores and retrieves data from secondary storage for use in main memory is called?",
+            "difficulty" : "EASY",
+            "correctOption" : "paging",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "fragmentation",
+            "option2" : "paging",
+            "option3" : "mapping",
+            "option4" : "None of the above"
+        },
+
+        {
+            "questionId" : "735",
+            "question" : "Program always deals with ________",
+            "difficulty" : "EASY",
+            "correctOption" : "logical address",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "logical address",
+            "option2" : "absolute addresss",
+            "option3" : "physical addresss",
+            "option4" : "relative address"
+        },
+
+        {
+            "questionId" : "736",
+            "question" : "What is compaction?",
+            "difficulty" : "EASY",
+            "correctOption" : "a technique for overcoming external fragmentation",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "a technique for overcoming internal fragmentation",
+            "option2" : "a paging technique",
+            "option3" : "a technique for overcoming external fragmentation",
+            "option4" : "a technique for overcoming fatal error"
+        },
+
+        {
+            "questionId" : "737",
+            "question" : " Operating System maintains the page table for ___________",
+            "difficulty" : "EASY",
+            "correctOption" : "each process",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "each process",
+            "option2" : "each thread",
+            "option3" : "each instruction",
+            "option4" : "each address"
+        },
+
+       {
+            "questionId" : "738",
+            "question" : "Which of the following page replacement algorithms suffers from Belady’s anomaly?",
+            "difficulty" : "EASY",
+            "correctOption" : "FIFO",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "FIFO",
+            "option2" : "LRU",
+            "option3" : "Optimal Page Replacement",
+            "option4" : "Both LRU and FIFO"
+        },
+
+        {
+            "questionId" : "739",
+            "question" : "What is the swap space in the disk used for?",
+            "difficulty" : "EASY",
+            "correctOption" : "Saving process data",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "Saving temporary html page",
+            "option2" : "Saving process data",
+            "option3" : "Storing the super-block",
+            "option4" : "Storing device drivers"
+        },
+
+       {
+            "questionId" : "740",
+            "question" : "Virtual memory is",
+            "difficulty" : "EASY",
+            "correctOption" : "illusion of large main memory",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "Large secondary memory",
+            "option2" : "Large main memory",
+            "option3" : "illusion of large main memory",
+            "option4" : "None of the above"
+        },
+
+       {
+            "questionId" : "741",
+            "question" : "Thrashing occurs when",
+            "difficulty" : "EASY",
+            "correctOption" : "Processes on system frequently access pages not memory",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "when a page fault occurs",
+            "option2" : "Processes on system frequently access pages not memory",
+            "option3" : "Processes on system are in running state",
+            "option4" : "Processes on system are in waiting state"
+        },
+
+         {
+            "questionId" : "742",
+            "question" : "Run time mapping from virtual to physical address is done by",
+            "difficulty" : "EASY",
+            "correctOption" : "memory management unit",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "CPU",
+            "option2" : "memory management unit",
+            "option3" : "PCI",
+            "option4" : "None of the mentioned"
+        },
+
+       {
+            "questionId" : "743",
+            "question" : " A solution to the problem of external fragmentation is",
+            "difficulty" : "EASY",
+            "correctOption" : "compaction",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "larger memory space",
+            "option2" : "compaction",
+            "option3" : "smaller memory space",
+            "option4" : "none of these"
+        },
+
+       {
+            "questionId" : "744",
+            "question" : " __________ is generally faster than _________ and _________",
+            "difficulty" : "EASY",
+            "correctOption" : "first fit, best fit, worst fit",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "first fit, best fit, worst fit",
+            "option2" : "best fit, first fit, worst fit",
+            "option3" : "worst fit, best fit, first fit",
+            "option4" : "None of these"
+        },
+  
+       {
+            "questionId" : "745",
+            "question" : " Which one of the following is the deadlock avoidance algorithm?",
+            "difficulty" : "EASY",
+            "correctOption" : "banker’s algorithm",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "banker’s algorithm",
+            "option2" : "round-robin algorithm",
+            "option3" : "elevator algorithm",
+            "option4" : " karn’s algorithm"
+        },
+
+        {
+            "questionId" : "746",
+            "question" : "What is a shell script?",
+            "difficulty" : "EASY",
+            "correctOption" : "a file containing a series of commands",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "group of commands",
+            "option2" : "a file containing special symbols",
+            "option3" : "group of functions",
+            "option4" : "a file containing a series of commands"
+        },
+
+       {
+            "questionId" : "747",
+            "question" : " Which one of the following is not shared by threads",
+            "difficulty" : "EASY",
+            "correctOption" : "Both a & b",
+             "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "program counter",
+            "option2" : "stack",
+            "option3" : "Both a & b",
+            "option4" : "none of the above"
+        },
+
+        {
+            "questionId" : "748",
+            "question" : "IPC stands for__",
+            "difficulty" : "EASY",
+            "correctOption" : "Inter Process Communication",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "Inter Process Communication",
+            "option2" : "Intra Process Communication",
+            "option3" : "nter Process Command",
+            "option4" : "Intra Process Command"
+        },
+        
+        
+        {
+            "questionId" : "749",
+            "question" : "The first line in any shell script begins with a _____",
+            "difficulty" : "EASY",
+            "correctOption" : "#",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "#",
+            "option2" : "&",
+            "option3" : "$",
+            "option4" : "!"
+        },
+ 
+        
+        {
+            "questionId" : "750",
+            "question" : "Message passing system allows processes to __________",
+            "difficulty" : "EASY",
+            "correctOption" : "communicate with one another without resorting to shared data",
+            "domain" : {
+                           "domainId":119,
+                           "domain" : "Operating Systems"
+            },
+            "option1" : "communicate with one another without resorting to shared data",
+            "option2" : " communicate with one another by resorting to shared data",
+            "option3" : "share data",
+            "option4" : "name the recipient or sender of the message"
+        }
+   ]
+}

@@ -1,0 +1,431 @@
+{
+    "quizId": "111117",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 111,
+        "domain": "Data Structures"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "1",
+            "question": "The advantage of link list over array is",
+            "difficulty": "EASY",
+            "correctOption": "Link list can grow and shrink in size during the time",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Link list can grow and shrink in size during the time",
+            "option2": "Less space is required for storing elements",
+            "option3": "Both 1 and 2 are correct",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "2",
+            "question": "Which one of the following algorithm is NOT an example of Divide and conquer technique",
+            "difficulty": "EASY",
+            "correctOption": "Bubble Sort",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Quick Sort",
+            "option2": "Merge Sort",
+            "option3": "Bubble Sort",
+            "option4": "Binary Search"
+        },
+        {
+            "questionId": "3",
+            "question": "How many cycles should be contained in a tree?",
+            "difficulty": "EASY",
+            "correctOption": "0",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "0",
+            "option2": "At least 1",
+            "option3": "Any number",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "4",
+            "question": "The end at which a new element gets added to queue is called",
+            "difficulty": "EASY",
+            "correctOption": "Rear",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Front",
+            "option2": "Rear",
+            "option3": "Top",
+            "option4": "Bottom"
+        },
+        {
+            "questionId": "5",
+            "question": "The element at the root of heap is",
+            "difficulty": "EASY",
+            "correctOption": "depending on type of heap it may be smallest or largest",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": " largest",
+            "option2": "smallest",
+            "option3": "depending on type of heap it may be smallest or largest",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "6",
+            "question": " If graph G has no edges then corresponding adjacency matrix is",
+            "difficulty": "EASY",
+            "correctOption": "zero matrix",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "unit matrix",
+            "option2": "zero matrix",
+            "option3": "matrix with all 1’s",
+            "option4": "None of the above "
+        },
+        {
+            "questionId": "7",
+            "question": "What is not true for linear collision processing?",
+            "difficulty": "EASY",
+            "correctOption": "All are true",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "It is easier to program",
+            "option2": "It may include more collision",
+            "option3": "It requires space for links ",
+            "option4": "All are true"
+        },
+        {
+            "questionId": "8",
+            "question": "A graph is said to be a tree, if it satisfies which of the properties:",
+            "difficulty": "EASY",
+            "correctOption": "If it is connected and there are no cycles in the graph",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "If it is connected and there are no cycles in the graph",
+            "option2": "If it is not connected and there are cycles in the graph",
+            "option3": "If it connected and there are cycles in the graph",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "9",
+            "question": "Hashing refers to the process of deriving",
+            "difficulty": "EASY",
+            "correctOption": "Storage address from a record key",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "A record key from storage address",
+            "option2": "Storage address from a record key",
+            "option3": "A floating-point code from a record key",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "10",
+            "question": "The inorder traversal of some binary tree produces the sequence DBEAFC, and the postorder traversal of the same tree produced the sequence DEBFCA. Which of the following is a correct preorder traversal sequence?",
+            "difficulty": "EASY",
+            "correctOption": "ABDECF",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "DBAECF",
+            "option2": "ABEDFC",
+            "option3": "None of the above",
+            "option4": "ABDECF"
+        },
+        {
+            "questionId": "11",
+            "question": "A dynamic data structure where we can search for desired records in O(log2n) time is",
+            "difficulty": "EASY",
+            "correctOption": "binary search tree",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "heap",
+            "option2": "binary search tree",
+            "option3": "circularly linked list",
+            "option4": "array"
+        },
+        {
+            "questionId": "12",
+            "question": "We can efficiently reverse a string using a",
+            "difficulty": "EASY",
+            "correctOption": "stack",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "linear queue",
+            "option2": "circular queue",
+            "option3": "stack",
+            "option4": "doubly linked list"
+        },
+        {
+            "questionId": "13",
+            "question": "How can we describe an array in the best possible way?",
+            "difficulty": "EASY",
+            "correctOption": "Container that stores the elements of similar types",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "The Array shows a hierarchical structure.",
+            "option2": "Arrays are immutable.",
+            "option3": "Container that stores the elements of similar types",
+            "option4": "The Array is not a data structure"
+        },
+        {
+            "questionId": "14",
+            "question": "When the user tries to delete the element from the empty stack then the condition is said to be a ____",
+            "difficulty": "EASY",
+            "correctOption": "Underflow",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Underflow",
+            "option2": "Garbage collection",
+            "option3": "Overflow",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "15",
+            "question": " Which one of the following is not the application of the stack data structure",
+            "difficulty": "EASY",
+            "correctOption": "Asynchronous data transfer",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "String reversal",
+            "option2": "Recursion",
+            "option3": "Backtracking",
+            "option4": "Asynchronous data transfer"
+        },
+        {
+            "questionId": "16",
+            "question": "With what data structure can a priority queue be implemented?",
+            "difficulty": "EASY",
+            "correctOption": "Tree",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Array",
+            "option2": "List",
+            "option3": "Heap",
+            "option4": "Tree"
+        },
+        {
+            "questionId": "17",
+            "question": "What is not a disadvantage of priority scheduling in operating systems?",
+            "difficulty": "EASY",
+            "correctOption": "Interrupt handling",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": " A low priority process might have to wait indefinitely for the CPU",
+            "option2": "If the system crashes, the low priority systems may be lost permanently",
+            "option3": "Interrupt handling",
+            "option4": "Indefinite blocking"
+        },
+        {
+            "questionId": "18",
+            "question": "Which data structure is required to convert the infix to prefix notation?",
+            "difficulty": "EASY",
+            "correctOption": "Stack",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Stack",
+            "option2": "Linked list",
+            "option3": "Binary tree",
+            "option4": "Queue"
+        },
+        {
+            "questionId": "19",
+            "question": "Which of the following is the infix expression?",
+            "difficulty": "EASY",
+            "correctOption": "A+B*C",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "A+B*C",
+            "option2": "+A*BC",
+            "option3": "ABC+*",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "20",
+            "question": " In the linked list implementation of queue, where will the new element be inserted?",
+            "difficulty": "EASY",
+            "correctOption": "At the tail position of the linked list",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "At the middle position of the linked list",
+            "option2": "At the head position of the linked list",
+            "option3": "At the tail position of the linked list",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "21",
+            "question": "Which one of the following is not the application of the Queue data structure?",
+            "difficulty": "EASY",
+            "correctOption": "Balancing of symbols",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Resource shared between various systems",
+            "option2": "Data is transferred asynchronously",
+            "option3": "Load balancing",
+            "option4": "Balancing of symbols"
+        },
+        {
+            "questionId": "22",
+            "question": "The necessary condition to be checked before deletion from the Queue is__",
+            "difficulty": "EASY",
+            "correctOption": "Underflow",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Overflow",
+            "option2": "Underflow",
+            "option3": "Rear value",
+            "option4": "Front value"
+        },
+        {
+            "questionId": "23",
+            "question": "Consider the implementation of the singly linked list having the head pointer only in the representation. Which of the following operations can be performed in O(1) time? i) Deletion of the last node in the linked list . ii) Insertion at the front of the linked list . iii) Deletion of the first node in the linked list .iv) Insertion at the end of the linked list",
+            "difficulty": "EASY",
+            "correctOption": "both ii and iii",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "ii",
+            "option2": "both ii and iii",
+            "option3": "both i and iv",
+            "option4": "both i and ii"
+        },
+        {
+            "questionId": "24",
+            "question": "Which of the following is the time complexity to search an element in the linked list?",
+            "difficulty": "EASY",
+            "correctOption": "O(n)",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "O(1)",
+            "option2": "O(n)",
+            "option3": "O(logn)",
+            "option4": "O(nlogn)"
+        },
+        {
+            "questionId": "25",
+            "question": "Which of the following statement is not true about the doubly linked list?",
+            "difficulty": "EASY",
+            "correctOption": "Implementation of doubly linked list is easier than the singly linked list",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "We can traverse in both the directions.",
+            "option2": "It requires extra space",
+            "option3": "Implementation of doubly linked list is easier than the singly linked list",
+            "option4": "It stores the addresses of the next and the previous node"
+        },
+        {
+            "questionId": "26",
+            "question": "Which one of the following techniques is not used in the Binary tree?",
+            "difficulty": "EASY",
+            "correctOption": "Randomized traversal",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Randomized traversal",
+            "option2": "Preorder traversal",
+            "option3": "Postorder traversal",
+            "option4": "Inorder traversal"
+        },
+        {
+            "questionId": "27",
+            "question": "Which of the following options is not true about the Binary Search tree?",
+            "difficulty": "EASY",
+            "correctOption": "None of the above",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "The value of the left child should be less than the root node",
+            "option2": "The value of the right child should be greater than the root node.",
+            "option3": "The left and right sub trees should also be a binary search tree",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "28",
+            "question": "How can we define a AVL tree?",
+            "difficulty": "EASY",
+            "correctOption": "A tree which is binary search tree and height balanced tree",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "A tree which is binary search tree and height balanced tree",
+            "option2": "A tree which is a binary search tree but unbalanced tree.",
+            "option3": "A tree with utmost two children",
+            "option4": "A tree with utmost three children"
+        },
+        {
+            "questionId": "29",
+            "question": "What would be the color of newly created node while inserting a new element in a Red black tree?",
+            "difficulty": "EASY",
+            "correctOption": "Both 2 and 3",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Black, if the new node is not a root node",
+            "option2": "Red, if the new node is not a root node",
+            "option3": "Black, if the new node is a root node",
+            "option4": "Both 2 and 3"
+        },
+        {
+            "questionId": "30",
+            "question": "Which of the following satisfies the property of the Red Black tree?",
+            "difficulty": "EASY",
+            "correctOption": "Both 1 and 2",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "A  tree which is a binary search tree but not strictly balanced tree.",
+            "option2": "A node must be either Red or Black in color and root node must be black.",
+            "option3": "A tree with maximum three children",
+            "option4": "Both 1 and 2"
+        }
+    ]
+}

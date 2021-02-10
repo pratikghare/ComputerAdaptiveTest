@@ -1,0 +1,431 @@
+{
+    "quizId": "111115",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 113,
+        "domain": "Software Engineering"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "211",
+            "question": "Which of the following is true for proxy pattern?",
+            "difficulty": "MED",
+            "correctOption": "All of the mentioned",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Has exactly the same interface as the real object",
+            "option2": "Handles routine or illegitimate messages without accessing the real object",
+            "option3": "Delegates messages that it cannot handle to the real object",
+            "option4": "All of the mentioned"
+        },
+        {
+            "questionId": "212",
+            "question": "Name the events that will be analyzed, Count the named incidents, Rank the count by frequency using a bar chart & Validate reasonableness of the analysis is called as ",
+            "difficulty": "MED",
+            "correctOption": "Pareto Analysis",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Pareto Analysis",
+            "option2": "Cause and Effect Diagram ",
+            "option3": "SWOT Analysis",
+            "option4": "Pie Charts"
+        },
+        {
+            "questionId": "213",
+            "question": "Which of the following is a non functional requirement of a web based application?",
+            "difficulty": "MED",
+            "correctOption": "When the user clicks a “read me” link, the next page should be opened within 5 secondS",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "When the user clicks a “read me” link, the color of the link should change from blue to pink",
+            "option2": "When the user clicks a “read me” link, the next page should be opened within 5 secondS",
+            "option3": "When the user clicks a “read me” links, the mouse over should show the target page title in a tool tip",
+            "option4": "When the user clicks a “read me” links, the read me page should load successfully without errors"
+        },
+        {
+            "questionId": "214",
+            "question": " Incremental funding methodology (IFM) takes into consideration all but",
+            "difficulty": "MED",
+            "correctOption": "Opportunity cost",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Project RO",
+            "option2": "NPV",
+            "option3": "Opportunity cost",
+            "option4": "Start up cost"
+        },
+        {
+            "questionId": "215",
+            "question": "Which of the following is not a design tool?",
+            "difficulty": "MED",
+            "correctOption": "Rational Robot",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Simple SUMI",
+            "option2": "Rational Rose",
+            "option3": "Rhapsody",
+            "option4": "Rational Robot"
+        },
+        {
+            "questionId": "216",
+            "question": "Build & Fix Model is suitable for programming exercises of ___________ LOC (Line of Code).",
+            "difficulty": "MED",
+            "correctOption": "100-200",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "100-200",
+            "option2": "300-400",
+            "option3": "600-700",
+            "option4": "Above 800+"
+        },
+        {
+            "questionId": "217",
+            "question": "In the maintenance phase the product must be tested against previous test cases. This is known as __________ testing",
+            "difficulty": "MED",
+            "correctOption": "Regression",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Unit",
+            "option2": "Regression",
+            "option3": "Acceptance",
+            "option4": "Integration"
+        },
+        {
+            "questionId": "218",
+            "question": "Waterfall model is not suitable for:",
+            "difficulty": "MED",
+            "correctOption": "Accommodating changes",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Small projects",
+            "option2": "Complex projects",
+            "option3": "Accommodating changes",
+            "option4": "Maintenance Projects"
+        },
+        {
+            "questionId": "219",
+            "question": "Which type of integration testing uses stubs?",
+            "difficulty": "MED",
+            "correctOption": "Top down testing",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Top down testing",
+            "option2": "Bottom up testing",
+            "option3": "Both in top down and bottom up testing",
+            "option4": "System testing"
+        },
+        {
+            "questionId": "220",
+            "question": "Which of the following is not a type of maintenance?",
+            "difficulty": "MED",
+            "correctOption": "Performative Maintenance",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Adaptive Maintenance",
+            "option2": "Preventive Maintenance",
+            "option3": "Perfective Maintenance",
+            "option4": "Performative Maintenance"
+        },
+        {
+            "questionId": "221",
+            "question": "The cost of maintenance is as high as _______ of the cost of entire software process cycle.",
+            "difficulty": "MED",
+            "correctOption": "0.67",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "0.61",
+            "option2": "0.63",
+            "option3": "0.67",
+            "option4": "0.71"
+        },
+        {
+            "questionId": "222",
+            "question": "What type of software testing is generally used in Software Maintenance?",
+            "difficulty": "MED",
+            "correctOption": "Regression Testing",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Regression Testing",
+            "option2": "System Testing",
+            "option3": "Black-box testing",
+            "option4": "White-box testing"
+        },
+        {
+            "questionId": "223",
+            "question": "Which process is used to achieve system specification by thoroughly analyzing, understanding the existing system?",
+            "difficulty": "MED",
+            "correctOption": "Reverse Engineering",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Program Restructuring",
+            "option2": "Reverse Engineering",
+            "option3": "Forward Engineering",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "224",
+            "question": "Which type of DFD concentrates on the system process, and flow of data in the system?",
+            "difficulty": "MED",
+            "correctOption": "Logical DFD",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Physical DFD",
+            "option2": "Logical DFD",
+            "option3": "Flowchart DFD",
+            "option4": "System DFD"
+        },
+        {
+            "questionId": "225",
+            "question": "HIPO model was developed by?",
+            "difficulty": "MED",
+            "correctOption": "IBM",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Microsoft",
+            "option2": "AT&T Labs",
+            "option3": "IBM",
+            "option4": "Oracle"
+        },
+        {
+            "questionId": "226",
+            "question": "A directed arc or line in DFD represents",
+            "difficulty": "MED",
+            "correctOption": "Data Flow",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Data Store",
+            "option2": "Data Process",
+            "option3": "Data Flow",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "227",
+            "question": "Which of the following is not an Advantage of modularization?",
+            "difficulty": "MED",
+            "correctOption": "Program cannot be divided based on functional aspects",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Smaller components are easier to maintain",
+            "option2": "Concurrent execution can be made possible",
+            "option3": "Program cannot be divided based on functional aspects",
+            "option4": "Desired level of abstraction can be brought in the program"
+        },
+        {
+            "questionId": "228",
+            "question": "Choose the option that does not define Function Oriented Software Design.",
+            "difficulty": "MED",
+            "correctOption": "Modules represent data abstraction",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "It consists of module definitions",
+            "option2": "Modules represent data abstraction",
+            "option3": "Modules support functional abstraction",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "229",
+            "question": "Which of the following model in system modelling depicts the dynamic behaviour of the system?",
+            "difficulty": "MED",
+            "correctOption": "Behavioral Model",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Behavioral Model",
+            "option2": "Context Model",
+            "option3": "Structural Model",
+            "option4": "Object Model"
+        },
+        {
+            "questionId": "230",
+            "question": " A hybrid cloud combines multiple clouds where those clouds retain their unique identities but are bound together as a unit.",
+            "difficulty": "MED",
+            "correctOption": "Hybrid",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Public",
+            "option2": "Private",
+            "option3": "Community",
+            "option4": "Hybrid"
+        },
+        {
+            "questionId": "231",
+            "question": "Which of the following provides development frameworks and control structures?",
+            "difficulty": "MED",
+            "correctOption": "PaaS",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "IaaS",
+            "option2": "SaaS",
+            "option3": "PaaS",
+            "option4": "All of the mentioned"
+        },
+        {
+            "questionId": "232",
+            "question": "Which of the following benefit is related to creates resources that are pooled together in a system that supports multi-tenant  usage?",
+            "difficulty": "MED",
+            "correctOption": "On-demand self-service",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "On-demand self-service",
+            "option2": "Broad network access",
+            "option3": "Resource pooling",
+            "option4": "All of the mentioned"
+        },
+        {
+            "questionId": "233",
+            "question": "All cloud computing applications suffer from the inherent _______ that is intrinsic in their WAN connectivity.",
+            "difficulty": "MED",
+            "correctOption": "latency",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "propagation",
+            "option2": "latency",
+            "option3": "noise",
+            "option4": "all of the mentioned"
+        },
+        {
+            "questionId": "234",
+            "question": "A _________ role is a virtual machine instance running the Microsoft IIS Web server that can accept and respond to HTTP or HTTPS  requests.",
+            "difficulty": "MED",
+            "correctOption": "Web",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Web",
+            "option2": "Server",
+            "option3": "Worker",
+            "option4": "Client"
+        },
+        {
+            "questionId": "235",
+            "question": "A particular set of endpoints and its associated Access Control rules for an application is referred to as the _______________",
+            "difficulty": "MED",
+            "correctOption": "service namespace",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "service namespace",
+            "option2": "service rules",
+            "option3": "service agents",
+            "option4": "all of the mentioned"
+        },
+        {
+            "questionId": "236",
+            "question": "Debugging Program is a program which runs concurrently with the program under test & provide commands to",
+            "difficulty": "MED",
+            "correctOption": "all of the mentioned",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "examine memory & registers",
+            "option2": "stop execution at a particular point",
+            "option3": "search for references for particular variables, constant and registers",
+            "option4": "all of the mentioned"
+        },
+        {
+            "questionId": "237",
+            "question": "By collecting ________ during software testing, it is possible to develop meaningful guidelines to halt the testing process.",
+            "difficulty": "MED",
+            "correctOption": "Metrics",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Failure intensity",
+            "option2": "Testing time",
+            "option3": "Metrics",
+            "option4": "All of the mentioned"
+        },
+        {
+            "questionId": "238",
+            "question": " Which of the following is one of the steps in the integration testing of OO software?",
+            "difficulty": "MED",
+            "correctOption": "cluster testing",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "cluster testing",
+            "option2": "thread-based testing",
+            "option3": "use-based testing",
+            "option4": "none of the mentioned"
+        },
+        {
+            "questionId": "239",
+            "question": "Which of the following is not used in measuring the size of the software",
+            "difficulty": "MED",
+            "correctOption": "Size of module",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "KLOC",
+            "option2": "Function Points",
+            "option3": "Size of module",
+            "option4": "None of the mentioned"
+        },
+        {
+            "questionId": "240",
+            "question": "The _________ portion of Azure AppFabric is a claims access control system that provides a token-based trust mechanism for identity  management.",
+            "difficulty": "MED",
+            "correctOption": "Access Control",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Web Control",
+            "option2": "Server Control",
+            "option3": "Access Control",
+            "option4": "All of the mentioned"
+        }
+    ]
+}

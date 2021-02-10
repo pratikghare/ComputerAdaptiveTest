@@ -1,0 +1,288 @@
+{
+    "quizId": "111113",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 112,
+        "domain": "CPP"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "151",
+            "question": "Which is the proper prototype for overloading the “>>” operator for a class like Cpoint",
+            "difficulty": "HARD",
+            "correctOption": "istream& operator>>(istream&, CPoint&);",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "istream operator>>(istream, CPoint);",
+            "option2": "istream operator>>(istream&, CPoint);",
+            "option3": "istream& operator>>(istream&, CPoint);",
+            "option4": "istream& operator>>(istream&, CPoint&);"
+        },
+        {
+            "questionId": "152",
+            "question": "Namespaces",
+            "difficulty": "HARD",
+            "correctOption": "Provide a logical grouping of classes",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Provide a logical grouping of objects",
+            "option2": "Provide a logical grouping of classes",
+            "option3": "Provide a physical grouping of objects",
+            "option4": "Provide a physical grouping of classes"
+        },
+      
+     
+        {
+            "questionId": "155",
+            "question": "Which DS is used to implement BFS",
+            "difficulty": "HARD",
+            "correctOption": "Queue",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Stack",
+            "option2": "Queue",
+            "option3": "LinkedList",
+            "option4": "Circular LinkedList"
+        },
+       
+        
+      
+        {
+            "questionId": "159",
+            "question": "Which of the following operator is overloaded for object cout?",
+            "difficulty": "HARD",
+            "correctOption": "<<",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": ">>",
+            "option2": "<<",
+            "option3": "+",
+            "option4": "="
+        },
+      
+        {
+            "questionId": "161",
+            "question": "Which operator is having right to left associativity in the following?",
+            "difficulty": "HARD",
+            "correctOption": "Type cast",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Array subscripting",
+            "option2": "Function call",
+            "option3": "Addition and subtraction",
+            "option4": "Type cast"
+        },
+        {
+            "questionId": "162",
+            "question": "Which is more effective while calling the functions?",
+            "difficulty": "HARD",
+            "correctOption": "call by reference",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "call by value",
+            "option2": "call by reference",
+            "option3": "call by pointer",
+            "option4": "none of the mentioned"
+        },
+        {
+            "questionId": "163",
+            "question": "Which header file is used to pass unknown number of arguments to function?",
+            "difficulty": "HARD",
+            "correctOption": "stdarg.h",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "stdlib.h",
+            "option2": "string.h",
+            "option3": "stdarg.h",
+            "option4": "none of the mentioned"
+        },
+        {
+            "questionId": "164",
+            "question": "What is meant by containership?",
+            "difficulty": "HARD",
+            "correctOption": "class contains objects of other class types as its members",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "class contains objects of other class types as its objects",
+            "option2": "class contains objects of other class types as its members",
+            "option3": "both 1 & 2",
+            "option4": "none of the mentioned"
+        },
+        {
+            "questionId": "165",
+            "question": " Which design patterns benefit from the multiple inheritance?",
+            "difficulty": "HARD",
+            "correctOption": "Adapter and observer pattern",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Code pattern",
+            "option2": "Glue pattern",
+            "option3": "Adapter and observer pattern",
+            "option4": "None of the mentioned"
+        },
+        {
+            "questionId": "166",
+            "question": "How can you access the arguments that are manipulated in the function?",
+            "difficulty": "HARD",
+            "correctOption": "va_list",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "va_list",
+            "option2": "arg_list",
+            "option3": "both a & b",
+            "option4": "none of the mentioned"
+        },
+        {
+            "questionId": "167",
+            "question": "What are the parts of the literal constants?",
+            "difficulty": "HARD",
+            "correctOption": "literals",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "integer numerals",
+            "option2": "floating-point numerals",
+            "option3": "literals",
+            "option4": "none of the mentioned"
+        },
+     
+        {
+            "questionId": "169",
+            "question": "What are the parts of the literal constants?",
+            "difficulty": "HARD",
+            "correctOption": "all of the mentioned",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "integer numerals",
+            "option2": "floating-point numerals",
+            "option3": "strings and boolean values",
+            "option4": "all of the mentioned"
+        },
+        {
+            "questionId": "170",
+            "question": "Which DS is used to implement BFS",
+            "difficulty": "HARD",
+            "correctOption": "Queue",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Stack",
+            "option2": "Queue",
+            "option3": "LinkedList",
+            "option4": "Circular LinkedList"
+        },
+        {
+            "questionId": "171",
+            "question": "How many specifiers are present in access specifiers in class?",
+            "difficulty": "HARD",
+            "correctOption": "3",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "1",
+            "option2": "2",
+            "option3": "3",
+            "option4": "4"
+        },
+        {
+            "questionId": "172",
+            "question": " Which other keywords are also used to declare the class other than class?",
+            "difficulty": "HARD",
+            "correctOption": "both 1 & 2",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "struct",
+            "option2": "union",
+            "option3": "object",
+            "option4": "both 1 & 2"
+        },
+        {
+            "questionId": "173",
+            "question": "Where does a cin stops it extraction of data?",
+            "difficulty": "HARD",
+            "correctOption": "By seeing a blankspace",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "By seeing ()",
+            "option2": "By seeing a blankspace",
+            "option3": "Both 1 & 2",
+            "option4": "None of the mentioned"
+        },
+      
+        {
+            "questionId": "175",
+            "question": "How many max number of arguments can present in function in c99 compiler?",
+            "difficulty": "HARD",
+            "correctOption": "127",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "99",
+            "option2": "90",
+            "option3": "102",
+            "option4": "127"
+        },
+        {
+            "questionId": "176",
+            "question": "What are mandatory parts in function declaration?",
+            "difficulty": "HARD",
+            "correctOption": "return type,function name",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": " return type,function name,parameters",
+            "option2": "return type,function name",
+            "option3": "both 1 and 2",
+            "option4": "none of the mentioned"
+        },
+      
+        
+        
+        {
+            "questionId": "180",
+            "question": " What is the use of dynamic_cast operator?",
+            "difficulty": "HARD",
+            "correctOption": "it converts virtual base class to derived class",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "it converts virtual base class to derived class",
+            "option2": "it converts virtual base object to derived objeccts",
+            "option3": "it will convert the operator based on precedence",
+            "option4": "None of the mentioned"
+        }
+    ]
+}

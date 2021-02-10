@@ -1,0 +1,373 @@
+{
+    "quizId" : "111111",
+    "quizTitle" : "MyQuiz",
+    "quizDomain" :  {
+        "domainId":120,
+        "domain" : "MySQL"
+},
+    "quizDuration" : "1",
+    "questions" : [
+        {
+            "questionId" : "811",
+            "question" : "Row is synonymous with the term",
+            "difficulty" : "EASY",
+            "correctOption" : "record",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "record",
+            "option2" : "relation",
+            "option3" : "column",
+            "option4" : "field"
+        },
+        
+        {
+            "questionId" : "812",
+            "question" : "SQL stands for",
+            "difficulty" : "EASY",
+            "correctOption" : "Structured Query Language",
+               "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Sequential Query Language",
+            "option2" : "Structural Query Language",
+            "option3" : "Sequential Question Language",
+            "option4" : "Structured Query Language"
+        },
+        
+       {
+            "questionId" : "813",
+            "question" : "A relation is considered a",
+            "difficulty" : "EASY",
+            "correctOption" : "Column",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Column",
+            "option2" : "one-dimensional table",
+            "option3" : "two-dimensional table",
+            "option4" : "three-dimensional table"
+        },
+    
+      {
+            "questionId" : "814",
+            "question" : "A key",
+            "difficulty" : "EASY",
+            "correctOption" : "identifies a row",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "must always be composed of two or more columns",
+            "option2" : "can only be one column",
+            "option3" : "identifies a row",
+            "option4" : "identifies a column"
+        },
+
+       {
+            "questionId" : "815",
+            "question" : "The primary key is selected from the?",
+            "difficulty" : "EASY",
+            "correctOption" : "candidate keys",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "determinants",
+            "option2" : "candidate keys",
+            "option3" : "composite keys",
+            "option4" : "foreign keys"
+        },
+       
+        {
+            "questionId" : "816",
+            "question" : "In the relational model, relationships between relations or tables are created by using?",
+            "difficulty" : "EASY",
+            "correctOption" : "foreign keys",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "determinants.",
+            "option2" : "candidate keys",
+            "option3" : "composite keys",
+            "option4" : "foreign keys"
+        },
+        
+        {
+            "questionId" : "817",
+            "question" : "A tuple is a(n)",
+            "difficulty" : "EASY",
+            "correctOption" : "row of a table",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "two dimensional table",
+            "option2" : "column of a table",
+            "option3" : "row of a table",
+            "option4" : "key of a table"
+        },
+
+       {
+            "questionId" : "818",
+            "question" : "A relation in this form is free of all modification anomalies",
+            "difficulty" : "EASY",
+            "correctOption" : "Domain/key normal form",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "First normal form",
+            "option2" : "Second normal form",
+            "option3" : "Third normal form",
+            "option4" : "Domain/key normal form"
+        },
+         
+     
+         
+       {
+            "questionId" : "820",
+            "question" : " The  ________  clause is used to list the attributes desired in the result of a query",
+            "difficulty" : "EASY",
+            "correctOption" : "select",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "where",
+            "option2" : "select",
+            "option3" : "from",
+            "option4" : "Distinct"
+        },
+
+        {
+            "questionId" : "821",
+            "question" : " SELECT * FROM employee WHERE salary>10000 AND dept_id=101;",
+            "difficulty" : "EASY",
+            "correctOption" : "All the field of employee relation",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Salary, dept_id",
+            "option2" : " Employee",
+            "option3" : "Salary",
+            "option4" : "All the field of employee relation"
+        },
+
+   
+        
+        
+       {
+            "questionId" : "823",
+            "question" : "SELECT * FROM employee WHERE dept_name='Comp Sci'; In the SQL given above there is an error. Identify the error",
+            "difficulty" : "EASY",
+            "correctOption" : " “Comp Sci”",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : " Dept_name ",
+            "option2" : "Employee",
+            "option3" : " “Comp Sci”",
+            "option4" : "From"
+        },
+
+   
+
+       {
+           
+            "questionId" : "825",
+            "question" : "  _____ operator is used for appending two strings",
+            "difficulty" : "EASY",
+            "correctOption" : "||",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "&",
+            "option2" : " %",
+            "option3" : "||",
+            "option4" : "_"
+        },
+  
+       {
+
+           "questionId" : "826",
+            "question" : "A _________ consists of a sequence of query and/or update statements",
+            "difficulty" : "EASY",
+            "correctOption" : "Transaction",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Transaction",
+            "option2" : "Commit",
+            "option3" : "Rollback",
+            "option4" : "Flasback"
+        },
+
+        {
+           "questionId" : "827",
+            "question" : "Which of the following makes the transaction permanent in the database?",
+            "difficulty" : "EASY",
+            "correctOption" : "commit",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "view",
+            "option2" : "commit",
+            "option3" : "rollback",
+            "option4" : "flasback"
+        },
+        
+  
+          {
+           "questionId" : "829",
+            "question" : "______ will undo all statements up to commit ",
+            "difficulty" : "EASY",
+            "correctOption" : "Rollback",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Transaction",
+            "option2" : "Flashback",
+            "option3" : "Rollback",
+            "option4" : "Abort"
+        },
+     
+       
+          {
+           "questionId" : "830",
+            "question" : "A stored procedure in SQL is a___________",
+            "difficulty" : "EASY",
+            "correctOption" : "Group of Transact-SQL statements compiled into a single execution plan",
+              "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Group of Transact-SQL statements compiled into a single execution plan",
+            "option2" : "Block of functions",
+            "option3" : "Group of distinct SQL statements ",
+            "option4" : "None of the mentioned"
+        },
+
+         {
+           "questionId" : "831",
+            "question" : "How many types of stored procedure are present in SQL server?",
+            "difficulty" : "EASY",
+            "correctOption" : "4",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "3",
+            "option2" : "4",
+            "option3" : "8",
+            "option4" : "5"
+        },
+       
+  
+         
+       {
+           "questionId" : "833",
+            "question" : " The number of attributes in relation is called as its",
+            "difficulty" : "EASY",
+            "correctOption" : "Degree",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Cardinality",
+            "option2" : "Degree",
+            "option3" : "Tuples ",
+            "option4" : " Entity"
+        },
+        
+        {
+           "questionId" : "834",
+            "question" : " _________ joins are SQL server default",
+            "difficulty" : "EASY",
+            "correctOption" : "Inner",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Outer",
+            "option2" : "Inner",
+            "option3" : "Equi ",
+            "option4" : " None of the mentioned"
+        },
+        
+        {
+           "questionId" : "835",
+            "question" : " The _____________ is essentially used to search for patterns in target string",
+            "difficulty" : "EASY",
+            "correctOption" : "Like Predicate",
+             "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Like Predicate",
+            "option2" : "Null Predicate",
+            "option3" : "In Predicate ",
+            "option4" : "Out Predicate"
+        },
+       
+        {
+           "questionId" : "836",
+            "question" : " Which of the join operations do not preserve non matched tuples",
+            "difficulty" : "EASY",
+            "correctOption" : "Inner join",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Left outer join",
+            "option2" : "Right outer join",
+            "option3" : "Inner join",
+            "option4" : "Natural join"
+        },
+        
+          
+    
+        
+         {
+           "questionId" : "838",
+            "question" : "Which of the following invokes functions in sql",
+            "difficulty" : "EASY",
+            "correctOption" : "Callable statements",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "Prepared Statements",
+            "option2" : "Connection statement",
+            "option3" : "Callable statements",
+            "option4" : "All of the mentioned"
+        },
+        
+        
+       {
+           "questionId" : "840",
+            "question" : "Nesting limit pf stored procedure is upto ___level?",
+            "difficulty" : "EASY",
+            "correctOption" : "32",
+            "domain" : {
+                           "domainId":120,
+                           "domain" : "MySQL"
+            },
+            "option1" : "30",
+            "option2" : "34",
+            "option3" : "32",
+            "option4" : "36"
+        }
+    ]
+}        
+

@@ -1,0 +1,431 @@
+{
+    "quizId": "111111",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 117,
+        "domain": "Advanced Web Programming"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "541",
+            "question": "_____________ property of the Radiobutton in a form indicates the default status of the element",
+            "difficulty": "EASY",
+            "correctOption": "Default Checked",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Default Checked",
+            "option2": "Checked",
+            "option3": "Default Value",
+            "option4": "Default Selected"
+        },
+        {
+            "questionId": "542",
+            "question": "Which is not an attribute of the cookie property?",
+            "difficulty": "EASY",
+            "correctOption": "Host",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Path",
+            "option2": "Host",
+            "option3": "Secure",
+            "option4": "Domain"
+        },
+        {
+            "questionId": "543",
+            "question": " What does isNaN function do in JavaScript?",
+            "difficulty": "EASY",
+            "correctOption": "Return true if the argument is not a number.",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Return true if the argument is not a number.",
+            "option2": "Return false if the argument is not a number.",
+            "option3": "Return true if the argument is a number",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "544",
+            "question": " What PHP stands for?",
+            "difficulty": "EASY",
+            "correctOption": "Hypertext Preprocessor",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Hypertext Preprocessor",
+            "option2": "Pre Hypertext Processor",
+            "option3": "Pre Hyper Processor",
+            "option4": "Pre Hypertext Process"
+        },
+        {
+            "questionId": "545",
+            "question": " Which of the following tags is not a valid way to begin and end a PHP code block?",
+            "difficulty": "EASY",
+            "correctOption": "<?php ?>",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "<% %>",
+            "option2": "<? ?>",
+            "option3": "<?php ?>",
+            "option4": "<?= ?>"
+        },
+        {
+            "questionId": "546",
+            "question": "What is the difference between XML and HTML?",
+            "difficulty": "EASY",
+            "correctOption": "XML is used for exchanging data, HTML is not.",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "HTML is used for exchanging data, XML is not.",
+            "option2": "XML is used for exchanging data, HTML is not.",
+            "option3": "HTML can have user defined tags, XML cannot",
+            "option4": "Both b and c above"
+        },
+        {
+            "questionId": "547",
+            "question": "Which tags are most commonly used by search engines?",
+            "difficulty": "EASY",
+            "correctOption": "Heading",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Heading",
+            "option2": "Title",
+            "option3": "Paragrah",
+            "option4": "All of above"
+        },
+        {
+            "questionId": "548",
+            "question": "What is the <br> tag for?",
+            "difficulty": "EASY",
+            "correctOption": "Line break",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Space",
+            "option2": "Paragraph break",
+            "option3": "Line break",
+            "option4": "Word break"
+        },
+        {
+            "questionId": "549",
+            "question": "What is the attribute for <image> tag?",
+            "difficulty": "EASY",
+            "correctOption": "src",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "pt",
+            "option2": "url",
+            "option3": "path",
+            "option4": "src"
+        },
+        {
+            "questionId": "550",
+            "question": "Each list item in an ordered or unordered list has which tag?",
+            "difficulty": "EASY",
+            "correctOption": "ol tag",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "list tag",
+            "option2": "ls tag",
+            "option3": "li tag",
+            "option4": "ol tag"
+        },
+        {
+            "questionId": "551",
+            "question": "Which of the following tags below are used for a multi-line text input control?",
+            "difficulty": "EASY",
+            "correctOption": "textarea tag",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "textml tag",
+            "option2": "text tag",
+            "option3": "textarea tag",
+            "option4": " Both b and c above"
+        },
+        {
+            "questionId": "552",
+            "question": "Which of the following attributes below are used for a font name?",
+            "difficulty": "EASY",
+            "correctOption": "font",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "fontname",
+            "option2": "fn",
+            "option3": "font",
+            "option4": "face"
+        },
+        {
+            "questionId": "553",
+            "question": " What are <div> tags used for?",
+            "difficulty": "EASY",
+            "correctOption": "To logically divide the document",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "To replace paragraphs. i.e. p tags",
+            "option2": "To logically divide the paragraphs",
+            "option3": "To logically divide the document",
+            "option4": "To provide space between tables"
+        },
+        {
+            "questionId": "554",
+            "question": "Which of the following are capable of Java Script functions?",
+            "difficulty": "EASY",
+            "correctOption": "Accepting parameters",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Returning multiple values",
+            "option2": "Accepting parameters and returning values",
+            "option3": "Accepting parameters",
+            "option4": "all of the above"
+        },
+        {
+            "questionId": "555",
+            "question": "Which of the following is correct to write “Hello World” on the web page?",
+            "difficulty": "EASY",
+            "correctOption": "document.write(“Hello World”)",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "System.out.println(“Hello World”)",
+            "option2": "print(“Hello World”)",
+            "option3": "document.write(“Hello World”)",
+            "option4": "response.write(“Hello World”)"
+        },
+        {
+            "questionId": "556",
+            "question": "Which of the following syntax is correct to refer an external script called “formValidation.js”?",
+            "difficulty": "EASY",
+            "correctOption": "< script src = “formValidation.js”>",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "< script href = “formValidation.js”>",
+            "option2": "< script source = “formValidation.js”>",
+            "option3": "< script name = “formValidation.js”>",
+            "option4": "< script src = “formValidation.js”>"
+        },
+        {
+            "questionId": "557",
+            "question": "What type of image maps could be used with Java Script?",
+            "difficulty": "EASY",
+            "correctOption": "Client-side image maps",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Client-side image maps",
+            "option2": "Server-side image maps",
+            "option3": "Both",
+            "option4": "Localhost image maps"
+        },
+        {
+            "questionId": "558",
+            "question": "What is the purpose of <noscript> tag in Java Script?",
+            "difficulty": "EASY",
+            "correctOption": "Enclose text to be displayed by non-JavaScript browsers",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Prevents scripts on the page from executing.",
+            "option2": "Enclose text to be displayed by non-JavaScript browsers",
+            "option3": "Suppresses the result to be displayed on the web page",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "559",
+            "question": "Which of the following is a server-side Java Script object?",
+            "difficulty": "EASY",
+            "correctOption": "Date",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Function",
+            "option2": "File",
+            "option3": "FileUpload",
+            "option4": "Date"
+        },
+        {
+            "questionId": "560",
+            "question": "Which of the following is a client-side Java Script object?",
+            "difficulty": "EASY",
+            "correctOption": "FileUpload",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "File",
+            "option2": "Function",
+            "option3": "FileUpload",
+            "option4": "Time"
+        },
+        {
+            "questionId": "561",
+            "question": "If we don’t want the script to write page content, under which HTML tag should the JS tag be placeD?",
+            "difficulty": "EASY",
+            "correctOption": "< body>",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "< body>",
+            "option2": "< head>",
+            "option3": "Any of a and b above",
+            "option4": "Both b and c above"
+        },
+        {
+            "questionId": "562",
+            "question": "Which of the following statements are true for Java script?",
+            "difficulty": "EASY",
+            "correctOption": "Both 1 and 2 above",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "JavaScript is case sensitive",
+            "option2": "JavaScript statements can be grouped together in blocks",
+            "option3": "semicolon at the end of statement is mandatory",
+            "option4": "Both 1 and 2 above"
+        },
+        {
+            "questionId": "563",
+            "question": "Which of the following statements are false for Java script?",
+            "difficulty": "EASY",
+            "correctOption": "Variable names are not case sensitive",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Variable names are not case sensitive",
+            "option2": "Variable names must begin with a letter or the underscore character",
+            "option3": "Var is used to declare a variable",
+            "option4": "Both b and c above"
+        },
+        {
+            "questionId": "564",
+            "question": " Which of the ways below is incorrect of instantiating a date?",
+            "difficulty": "EASY",
+            "correctOption": "new Date(dateString)",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "new Date(dateString)",
+            "option2": "new Date()",
+            "option3": "new Date(seconds)",
+            "option4": "new Date(year, month, day, hours, minutes, seconds, milliseconds)"
+        },
+        {
+            "questionId": "565",
+            "question": " Which of the following statements are false for Java script?",
+            "difficulty": "EASY",
+            "correctOption": "JavaScript cannot be used to create cookies",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "JavaScript can react to events",
+            "option2": "JavaScript can read and write HTML elements",
+            "option3": "JavaScript cannot be used to create cookies",
+            "option4": "Both b and c above"
+        },
+        {
+            "questionId": "566",
+            "question": "____________ tag simply jumps to the next line.",
+            "difficulty": "EASY",
+            "correctOption": "<br>",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "<br>",
+            "option2": "<br/>",
+            "option3": "</br>",
+            "option4": "<break>"
+        },
+        {
+            "questionId": "567",
+            "question": "________ sets the font to the specified font name.",
+            "difficulty": "EASY",
+            "correctOption": "Face",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Font",
+            "option2": "Size",
+            "option3": "Face",
+            "option4": "Color"
+        },
+        {
+            "questionId": "568",
+            "question": "The  ____________ layer is pure hardware in any network infrastructure.",
+            "difficulty": "EASY",
+            "correctOption": "Physical",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Physical",
+            "option2": "Network",
+            "option3": "Transport",
+            "option4": " Application"
+        },
+        {
+            "questionId": "569",
+            "question": "When any client wishes to communicate with an IS using browser software, the client sends out a broadcast using the Server’s _________________ as the identifier.",
+            "difficulty": "EASY",
+            "correctOption": "IP address",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "IP address",
+            "option2": "Domain Name",
+            "option3": "IP address & Domain name",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "570",
+            "question": "_____________ is not a type of lists",
+            "difficulty": "EASY",
+            "correctOption": "numeric",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "unordered",
+            "option2": "ordered ",
+            "option3": "numeric",
+            "option4": "definition"
+        }
+    ]
+}

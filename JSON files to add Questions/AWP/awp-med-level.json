@@ -1,0 +1,418 @@
+{
+    "quizId": "111111",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 117,
+        "domain": "Advanced Web Programming"
+    },
+    "quizDuration": "571",
+    "questions": [
+        {
+            "questionId": "1",
+            "question": "Which of the following is the correct way for writing Java Script array?",
+            "difficulty": "MED",
+            "correctOption": "var salaries = new Array(39438,39839,83729)",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "var salaries = new Array( 1:39438, 2:39839 3:83729)",
+            "option2": "var salaries = new (Array:1=39438, Array:2=39839, Array:3=83729)",
+            "option3": "var salaries = new Array(39438,39839,83729)",
+            "option4": "var salaries = new Array() values=39438,39839,83729"
+        },
+        {
+            "questionId": "572",
+            "question": "Java Script entities start with ____________ and end with ______________",
+            "difficulty": "MED",
+            "correctOption": "Ampersand, semicolon",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Semicolon, colon",
+            "option2": "Semicolon, Ampersand",
+            "option3": "Ampersand, colon",
+            "option4": "Ampersand, semicolon"
+        },
+        {
+            "questionId": "573",
+            "question": "Which of the following method is used to evaluate a string of Java Script code in the context of the specified object?",
+            "difficulty": "MED",
+            "correctOption": "Eval",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Eval",
+            "option2": "ParseDoule",
+            "option3": "ParseObject",
+            "option4": "Efloat"
+        },
+        {
+            "questionId": "574",
+            "question": "What is the event that fires when the form elements : <button>.<textarea> loses the focus?",
+            "difficulty": "MED",
+            "correctOption": "Onblur",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Onclick",
+            "option2": " Ondblclick",
+            "option3": "Onfocus",
+            "option4": "Onblur"
+        },
+        {
+            "questionId": "575",
+            "question": "What does the XMLHttpRequest object accomplish in Ajax?",
+            "difficulty": "MED",
+            "correctOption": "It provides the ability to asynchronously exchange data between Web browsers and a Web server.",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "It's the programming language used to develop Ajax applications",
+            "option2": " It provides a means of exchanging structured data between the Web server and client",
+            "option3": "It provides the ability to asynchronously exchange data between Web browsers and a Web server.",
+            "option4": " It provides the ability to mark up and style the display of Web-page text"
+        },
+        {
+            "questionId": "576",
+            "question": "Of the following technologies, which one provides the ability to dynamically interact with Web page layout?",
+            "difficulty": "MED",
+            "correctOption": "Document Object Model",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": " JavaScript",
+            "option2": "XML",
+            "option3": "Document Object Model",
+            "option4": "HTML."
+        },
+        {
+            "questionId": "577",
+            "question": "A hacker contacts you my phone or email and attempts to acquire your password",
+            "difficulty": "MED",
+            "correctOption": "phishing",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "spoofing",
+            "option2": "phishing",
+            "option3": "spamming",
+            "option4": "bugging"
+        },
+        {
+            "questionId": "578",
+            "question": "The phrase__________ describes viruses, worms, Trojan horse attack applets, and attackscripts.",
+            "difficulty": "MED",
+            "correctOption": "malware",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "malware",
+            "option2": "spam",
+            "option3": "phish",
+            "option4": "virus"
+        },
+        {
+            "questionId": "579",
+            "question": "A hacker that changes or forges information in an electronic resource, is engaging in__________",
+            "difficulty": "MED",
+            "correctOption": "data diddling",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "denial of service",
+            "option2": "sniffing",
+            "option3": "terrorism",
+            "option4": "data diddling"
+        },
+        {
+            "questionId": "580",
+            "question": "Hackers often gain entry to a network be pretending to be at a legitimate computer.",
+            "difficulty": "MED",
+            "correctOption": "IP spoofing",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "spoofing",
+            "option2": "forging",
+            "option3": "IP spoofing",
+            "option4": "ID theft"
+        },
+        
+        {
+            "questionId": "582",
+            "question": "Which approach to the control of computer-based information systems might employ methods such as distributing important assets across a wide geographical area or encrypting valuable data?",
+            "difficulty": "MED",
+            "correctOption": "Obfuscation",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Prohibition",
+            "option2": "Recovery",
+            "option3": "Obfuscation",
+            "option4": "Containment"
+        },
+        {
+            "questionId": "583",
+            "question": "In order to prevent any damage being caused to data by the failure of a storage device, such as a hard disk drive, which of the following would you be most likely to use?",
+            "difficulty": "MED",
+            "correctOption": "RAID",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Backup site",
+            "option2": "Incremental backup",
+            "option3": "RAID",
+            "option4": "Data warehouse"
+        },
+        {
+            "questionId": "584",
+            "question": "Which of the following is capable of altering its form in order to avoid discovery by certain virus detection programs?",
+            "difficulty": "MED",
+            "correctOption": "Stealth virus",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Polymorphic virus",
+            "option2": "Stealth virus",
+            "option3": "Worm",
+            "option4": "Trojan"
+        },
+        {
+            "questionId": "585",
+            "question": "A security measure to stop unauthorized access to documents is:",
+            "difficulty": "MED",
+            "correctOption": "network access control",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "network access control",
+            "option2": "business continuity/disaster recovery.",
+            "option3": "physical access restrictions",
+            "option4": "backup/restore"
+        },
+        {
+            "questionId": "586",
+            "question": "A __________ is a small program embedded inside of a GIF image",
+            "difficulty": "MED",
+            "correctOption": "web bug",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "web bug",
+            "option2": "cookie",
+            "option3": "spyware application",
+            "option4": "spam"
+        },
+        {
+            "questionId": "587",
+            "question": "Which Web browser is the least optimized for Microsoft's version of AJAX?",
+            "difficulty": "MED",
+            "correctOption": "Safar",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Firefox",
+            "option2": "Opera",
+            "option3": "Safar",
+            "option4": " Internet Explorer"
+        },
+        {
+            "questionId": "588",
+            "question": "A __________ is anything that can cause harm",
+            "difficulty": "MED",
+            "correctOption": "threat",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "vulnerability",
+            "option2": "phish",
+            "option3": "threat",
+            "option4": "spoof"
+        },
+        {
+            "questionId": "589",
+            "question": "_____ JavaScript is also called client-side JavaScript",
+            "difficulty": "MED",
+            "correctOption": "Navigator",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Microsoft",
+            "option2": "Navigator",
+            "option3": "LiveWire",
+            "option4": "Native"
+        },
+        {
+            "questionId": "590",
+            "question": "What is the alternate name for Java script?",
+            "difficulty": "MED",
+            "correctOption": "Both a and d",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "LimeScript",
+            "option2": "Both a and d",
+            "option3": "ECMScript",
+            "option4": "ECMAScript"
+        },
+        {
+            "questionId": "591",
+            "question": "What java wrapper type is created when a JavaScript object is sent to Java?",
+            "difficulty": "MED",
+            "correctOption": "JSObject",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": " ScriptObject",
+            "option2": "JavaObject",
+            "option3": "Jobject",
+            "option4": "JSObject"
+        },
+        {
+            "questionId": "592",
+            "question": "What is negative infinity in Java script?",
+            "difficulty": "MED",
+            "correctOption": "number in JavaScript, derived by dividing negative number by zero",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Any of below",
+            "option2": "number in JavaScript, derived by dividing number by a negative number.",
+            "option3": "number in JavaScript, derived by dividing number by zero.",
+            "option4": "number in JavaScript, derived by dividing negative number by zero"
+        },
+        {
+            "questionId": "593",
+            "question": "Which attribute is used to hold the Java Script version?",
+            "difficulty": "MED",
+            "correctOption": "LANGUAGE",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": " SCRIPT",
+            "option2": "VERSION",
+            "option3": "LANGUAGE",
+            "option4": "VER"
+        },
+        {
+            "questionId": "594",
+            "question": "How does Java Script store dates in objects of Date type?",
+            "difficulty": "MED",
+            "correctOption": "The number of milliseconds since January 1st, 1970",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "The number of days since January 1st, 1900",
+            "option2": "The number of seconds since January 1st, 1970",
+            "option3": "The number of milliseconds since January 1st, 1970",
+            "option4": "The number of picoseconds since January 1st, 1970"
+        },
+        {
+            "questionId": "595",
+            "question": " When a form submits data via the GET method, the CGI program receives information through the ____________________ environment variable.",
+            "difficulty": "MED",
+            "correctOption": "QUERY_STRING",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "SCRIPT_NAME",
+            "option2": " PATH_INFO",
+            "option3": "QUERY_STRING",
+            "option4": "CONTENT_TYPE"
+        },
+        {
+            "questionId": "596",
+            "question": " What is cell padding?",
+            "difficulty": "MED",
+            "correctOption": "Used to separate cell walls from their contents.",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Used to separate cell walls from their contents.",
+            "option2": "Used to set space between cells",
+            "option3": "Both a and b above",
+            "option4": "Used to provide width to a cell"
+        },
+        {
+            "questionId": "597",
+            "question": "What attribute is used to specify number of rows?",
+            "difficulty": "MED",
+            "correctOption": "Rowspan",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Rownum",
+            "option2": "Rownumb",
+            "option3": "rn",
+            "option4": "Rowspan"
+        },
+        {
+            "questionId": "598",
+            "question": " What are meta tags used for?",
+            "difficulty": "MED",
+            "correctOption": "To store information usually relevant to browsers and search engines.",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "To store information usually relevant to browsers and search engines.",
+            "option2": "To only store information usually relevant to browsers",
+            "option3": "To only store information about search engines",
+            "option4": "To store information about external links"
+        },
+        {
+            "questionId": "599",
+            "question": "Which of the following is the tainted property of a window object in Java Script?",
+            "difficulty": "MED",
+            "correctOption": "Defaultstatus",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "Pathname",
+            "option2": " Protocol",
+            "option3": "Defaultstatus",
+            "option4": " Host"
+        },
+        {
+            "questionId": "600",
+            "question": "How to append a value to an array of Java Script?",
+            "difficulty": "MED",
+            "correctOption": "arr[arr.length] = value",
+            "domain": {
+                "domainId": 117,
+                "domain": "Advanced Web Programming"
+            },
+            "option1": "arr[arr.length] = value",
+            "option2": "arr[arr.length+1] = new Arrays()",
+            "option3": "arr[arr.length-1] = value",
+            "option4": "arr[arr.length*1] = value"
+        }
+    ]
+}

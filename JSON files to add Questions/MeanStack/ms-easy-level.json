@@ -1,0 +1,431 @@
+{
+    "quizId": "111111",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 118,
+        "domain": "MEAN Stack"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "631",
+            "question": "What is the data type of first parameter of ng Include directive of Angular?",
+            "difficulty": "EASY",
+            "correctOption": "string",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "string",
+            "option2": "object",
+            "option3": "list",
+            "option4": "character"
+        },
+        {
+            "questionId": "632",
+            "question": "Which Angular package should be included to create web components?",
+            "difficulty": "EASY",
+            "correctOption": "None of these",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Attribute",
+            "option2": "ContentChlid",
+            "option3": "Elements",
+            "option4": "None of these"
+        },
+        {
+            "questionId": "633",
+            "question": "Which decorator is applicable for component class coded using TypeScript?",
+            "difficulty": "EASY",
+            "correctOption": "@Component()",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "@Component()",
+            "option2": "@component()",
+            "option3": "@Component",
+            "option4": "@component"
+        },
+        {
+            "questionId": "634",
+            "question": "Which special key is added by MongoDB in each document of a collection?",
+            "difficulty": "EASY",
+            "correctOption": "_id",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "_key",
+            "option2": "_id",
+            "option3": "_no",
+            "option4": "_sno"
+        },
+        {
+            "questionId": "635",
+            "question": "What is the name of default database present after MongoDB installation?",
+            "difficulty": "EASY",
+            "correctOption": "test",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "default",
+            "option2": "sample",
+            "option3": "test",
+            "option4": "local"
+        },
+        {
+            "questionId": "636",
+            "question": "Where does the ExpressJS is placed in MEAN stack?",
+            "difficulty": "EASY",
+            "correctOption": "backend component",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "backend component",
+            "option2": "frontend framework",
+            "option3": "middle processing pipeline",
+            "option4": "None of these"
+        },
+        {
+            "questionId": "637",
+            "question": "Which type of web application are more suitable for Angular?",
+            "difficulty": "EASY",
+            "correctOption": "CURD applications",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Online gaming",
+            "option2": "Online IDE",
+            "option3": "CURD applications",
+            "option4": "Depends upon the requirement"
+        },
+        {
+            "questionId": "638",
+            "question": "Depends upon the requirement",
+            "difficulty": "EASY",
+            "correctOption": "Document-oriented",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Document-oriented",
+            "option2": "Relational",
+            "option3": "Hierarchical",
+            "option4": "None of these"
+        },
+        {
+            "questionId": "639",
+            "question": "Node REPL is used to _____________.",
+            "difficulty": "EASY",
+            "correctOption": "get the last command used",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "get the last command used",
+            "option2": "evaluate simple expressions",
+            "option3": "print informational warning",
+            "option4": "perform heavy computation"
+        },
+        {
+            "questionId": "640",
+            "question": "________ module is required for path specific operations.",
+            "difficulty": "EASY",
+            "correctOption": "Path module",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Fs module",
+            "option2": "Os module",
+            "option3": "Path module",
+            "option4": "None of the these"
+        },
+        {
+            "questionId": "641",
+            "question": "We can use node.js in ___________",
+            "difficulty": "EASY",
+            "correctOption": "All of these.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "web applications (especially real-time web apps)",
+            "option2": "network applications",
+            "option3": "distributed systems",
+            "option4": "All of these."
+        },
+        {
+            "questionId": "642",
+            "question": "REPL stands for.",
+            "difficulty": "EASY",
+            "correctOption": "Read Eval Print Loop",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Read Eval Print Loop",
+            "option2": "Research Eval Program Learn",
+            "option3": "Read Earn Point Learn",
+            "option4": "Read Eval Point Loop"
+        },
+        {
+            "questionId": "643",
+            "question": "Which of the following code can create a web server?",
+            "difficulty": "EASY",
+            "correctOption": "http.createServercallback",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "http.createServercallback",
+            "option2": "http.createWebServercallback",
+            "option3": "http.createHTTPServercallback",
+            "option4": "None of these."
+        },
+        {
+            "questionId": "644",
+            "question": "What is the number of bytes taken by an ObjectId?",
+            "difficulty": "EASY",
+            "correctOption": "12",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "8",
+            "option2": "12",
+            "option3": "16",
+            "option4": "32"
+        },
+        {
+            "questionId": "645",
+            "question": "Which option value for directive class, affects the CSS selector that identifies this directive in a template and triggers instantiation of the directive?",
+            "difficulty": "EASY",
+            "correctOption": "selector",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "selector",
+            "option2": "selectors",
+            "option3": "CSS selector",
+            "option4": "CSS selectorS"
+        },
+        {
+            "questionId": "646",
+            "question": "What is Express?",
+            "difficulty": "EASY",
+            "correctOption": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Express is a application framework that provides a robust set of features to develop desktop based applications.",
+            "option2": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications.",
+            "option3": "Both of the above.",
+            "option4": "None of the above."
+        },
+        {
+            "questionId": "647",
+            "question": "Which type of the forms places from handling logic within a component's class properties and provides interaction through observables?",
+            "difficulty": "EASY",
+            "correctOption": "Reactive Forms",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Template-Driven Forms",
+            "option2": "Reactive Forms",
+            "option3": "Display Forms",
+            "option4": "Permanent Forms"
+        },
+        {
+            "questionId": "648",
+            "question": "What is the default file flag used by fs.readFile() method of Node.js ?",
+            "difficulty": "EASY",
+            "correctOption": "r",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "r",
+            "option2": "w",
+            "option3": "r+",
+            "option4": "w+"
+        },
+        {
+            "questionId": "649",
+            "question": "What elements are mandatory in an XHTML document?",
+            "difficulty": "EASY",
+            "correctOption": "doctype, html, head and body",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "doctype, html, head and body",
+            "option2": "doctype, html, head, body and title",
+            "option3": "doctype, html and body",
+            "option4": "None of these"
+        },
+        {
+            "questionId": "650",
+            "question": "In Angular routing, below tag is used to render matched component via active route.",
+            "difficulty": "EASY",
+            "correctOption": "<router-outlet></router-outlet>",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "<router></router>",
+            "option2": "<router-output></router-output>",
+            "option3": "<router-outlet></router-outlet>",
+            "option4": "<router-display></router-display>"
+        },
+        {
+            "questionId": "651",
+            "question": "Select correct form control class name which is set to true via [(ngModel)] whenever value is modified.",
+            "difficulty": "EASY",
+            "correctOption": ".ng-dirty",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": ".ng-invalid",
+            "option2": ".ng-pending",
+            "option3": ".ng-pristine",
+            "option4": ".ng-dirty"
+        },
+        {
+            "questionId": "652",
+            "question": "Which of the following is the first step of an AJAX operation?",
+            "difficulty": "EASY",
+            "correctOption": "A client event occurs",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "HTML DOM is being updated",
+            "option2": "XMLHttpRequest Object is created",
+            "option3": "None of them",
+            "option4": "A client event occurs"
+        },
+        {
+            "questionId": "653",
+            "question": "What does the XMLHttpRequest object accomplish in Ajax?",
+            "difficulty": "EASY",
+            "correctOption": "It provides the ability to asynchronously exchange data between Web browsers and a Web server.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "It's the programming language used to develop Ajax applications.",
+            "option2": "It provides a means of exchanging structured data between the Web server and client.",
+            "option3": "It provides the ability to asynchronously exchange data between Web browsers and a Web server.",
+            "option4": "It provides the ability to mark up and style the display of Web-page text."
+        },
+        {
+            "questionId": "654",
+            "question": "Which of the following is the last step of an AJAX operation?",
+            "difficulty": "EASY",
+            "correctOption": "HTML DOM is being updated.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "A client event occurs",
+            "option2": "XMLHttpRequest Object is created",
+            "option3": "HTML DOM is being updated.",
+            "option4": "Web Server returns the XML which contains the result."
+        },
+        {
+            "questionId": "655",
+            "question": "Which of the following code will throw an error?",
+            "difficulty": "EASY",
+            "correctOption": "JSON.parse(undefined);",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "JSON.parse('{}');",
+            "option2": "JSON.parse(null);",
+            "option3": "JSON.parse(undefined);",
+            "option4": "JSON.parse('[]');"
+        },
+        {
+            "questionId": "656",
+            "question": "__________________ is a Javascript object that performs asynchronous interaction with the server.",
+            "difficulty": "EASY",
+            "correctOption": "XMLHttpRequest",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "None of them",
+            "option2": "XMLHttp",
+            "option3": "XMLHttpResponse",
+            "option4": "XMLHttpRequest"
+        },
+        {
+            "questionId": "657",
+            "question": "__ event handler will be called when textfield and  textarea is modified and loses the current input focus.",
+            "difficulty": "EASY",
+            "correctOption": "onFocus",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "onChange",
+            "option2": "onFocus",
+            "option3": "onError",
+            "option4": "onClick"
+        },
+        {
+            "questionId": "658",
+            "question": "Which Angular component's lifecycle hook for the components children, is invoked after angular performs any content projection into the components view?",
+            "difficulty": "EASY",
+            "correctOption": "ngAfterContentInit",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "ngAfterContentInit",
+            "option2": "ngAfterContentChecked",
+            "option3": "ngAfterViewInit",
+            "option4": "ngAfterViewChecked"
+        },
+        {
+            "questionId": "659",
+            "question": "Which best explains getSelection()?",
+            "difficulty": "EASY",
+            "correctOption": "Returns the value of cursor-selected text",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Returns the VALUE of a selected OPTION.",
+            "option2": "Returns document.URL of the window in focus",
+            "option3": "Returns the value of cursor-selected text",
+            "option4": " Returns the VALUE of a checked radio input."
+        },
+        {
+            "questionId": "660",
+            "question": "What is not an Angular feature, with respect to bulid a CURD app in a cohesive set?",
+            "difficulty": "EASY",
+            "correctOption": "None of these.",
+            "domain": {
+                "domainId": 118,
+                "domain": "MEAN Stack"
+            },
+            "option1": "Data-binding",
+            "option2": "basic templating directives",
+            "option3": "form validation",
+            "option4": "None of these."
+        }
+    ]
+}

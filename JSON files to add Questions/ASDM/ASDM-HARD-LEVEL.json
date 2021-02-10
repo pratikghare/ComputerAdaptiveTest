@@ -1,0 +1,389 @@
+{
+    "quizId": "111116",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 113,
+        "domain": "Software Engineering"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "241",
+            "question": "The order in which test levels are performed is:",
+            "difficulty": "HARD",
+            "correctOption": "It depends on the nature of a project",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Unit, Integration, Acceptance, System",
+            "option2": "Unit, System, Integration, Acceptance",
+            "option3": "Unit, Integration, System, Acceptance",
+            "option4": "It depends on the nature of a project"
+        },
+        {
+            "questionId": "242",
+            "question": "Test cases are designed during which of the following stages?",
+            "difficulty": "HARD",
+            "correctOption": "Test specification",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Test configuration",
+            "option2": "Test specification",
+            "option3": "Test planning",
+            "option4": "Test recording"
+        },
+        {
+            "questionId": "243",
+            "question": "The technique applied for usability testing is:",
+            "difficulty": "HARD",
+            "correctOption": "Black box",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": " White box",
+            "option2": "Grey box",
+            "option3": "Black box",
+            "option4": " Combination of all"
+        },
+        {
+            "questionId": "244",
+            "question": "Static analysis can be best described as:",
+            "difficulty": "HARD",
+            "correctOption": "The analysis of program code",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "The reviewing of test plans",
+            "option2": "The analysis of batch programs",
+            "option3": "The use of black box testing",
+            "option4": "The analysis of program code"
+        },
+        {
+            "questionId": "245",
+            "question": "What is group with the responsibility for reviewing and approving changes to baselines?",
+            "difficulty": "HARD",
+            "correctOption": "Configuration Control Board",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Software Configuration Item",
+            "option2": "Baseline",
+            "option3": "Configuration",
+            "option4": "Configuration Control Board"
+        },
+        {
+            "questionId": "246",
+            "question": "Which of the following is not a main phase in Configuration Management (CM) Process?",
+            "difficulty": "HARD",
+            "correctOption": "None of the mentioned",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "CM Planning",
+            "option2": "Executing the CM process",
+            "option3": "CM audits",
+            "option4": "None of the mentioned"
+        },
+        {
+            "questionId": "247",
+            "question": "Alpha testing is:",
+            "difficulty": "HARD",
+            "correctOption": "Pre-release testing by end user representatives at the developer’s site",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": " Post-release testing by end user representatives at the developer’s site",
+            "option2": "The first testing that is performed",
+            "option3": "Pre-release testing by end user representatives at their sites",
+            "option4": "Pre-release testing by end user representatives at the developer’s site"
+        },
+        {
+            "questionId": "248",
+            "question": "What is one or more software configuration items that have been formally reviewed and agreed upon and serve as a basis for further development?",
+            "difficulty": "HARD",
+            "correctOption": "Baseline",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Baseline",
+            "option2": "Cumulative changes",
+            "option3": " CM",
+            "option4": "Change Control"
+        },
+        {
+            "questionId": "249",
+            "question": "Keeping the requirements of QFD in mind which of the following is not an example of an Expected Requirement ?",
+            "difficulty": "HARD",
+            "correctOption": "Specific system functions",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Ease of software installation",
+            "option2": "Overall operational correctness and reliability",
+            "option3": "Specific system functions",
+            "option4": " Quality graphical display"
+        },
+        {
+            "questionId": "250",
+            "question": " Which of the following is not a white box technique?",
+            "difficulty": "HARD",
+            "correctOption": "State transition testing",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "State transition testing",
+            "option2": "Path testing",
+            "option3": "Statement testing",
+            "option4": "Data flow testing"
+        },
+        {
+            "questionId": "251",
+            "question": "A program with high cyclometic complexity is likely to be:",
+            "difficulty": "HARD",
+            "correctOption": "Difficult to test",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Large",
+            "option2": "Small",
+            "option3": " Difficult to write",
+            "option4": "Difficult to test"
+        },
+        {
+            "questionId": "252",
+            "question": "Which software works strictly according to defined specifications and solutions?",
+            "difficulty": "HARD",
+            "correctOption": "Static-type",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Static-type",
+            "option2": "Practical-type",
+            "option3": "Embedded-type",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "253",
+            "question": "What is the software component repository is referred by designers to search for the matching component on the basis of  functionality and intended software requirements?",
+            "difficulty": "HARD",
+            "correctOption": "Search suitable components",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Specify components",
+            "option2": " Requirement specification",
+            "option3": "Incorporate components",
+            "option4": "Search suitable components"
+        },
+        {
+            "questionId": "254",
+            "question": "Match the following List 1 with List 2: a. Good quality ----- i. Program does not fail for a specified time in a given environment b. Correctness ------- ii. Meets the functional requirements c. Predictable -------- iii. Meets both functional and non-functional requirementsd. Reliable ------------ iv. Process is under statistical control Codes",
+            "difficulty": "HARD",
+            "correctOption": "a - iii, b - ii, c - iv, d – i",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "a - ii, b - iii, c - iv, d - i",
+            "option2": "a - iii, b - ii, c - iv, d – i",
+            "option3": " a - i, b - ii, c - iv, d - iii",
+            "option4": "a - i, b - ii, c - iii, d – iv"
+        },
+        {
+            "questionId": "255",
+            "question": "The process togather the software requirements from Client, Analyze and Document is known as ______ .",
+            "difficulty": "HARD",
+            "correctOption": "Requirement engineering process",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Requirement engineering process",
+            "option2": "Requirement elicitation process",
+            "option3": "User interface requirements",
+            "option4": "Software system analyst"
+        },
+        {
+            "questionId": "256",
+            "question": "What is the designers may like to have list of all functional and non-functional requirements of GUI that can be taken from user  and their existing software solution?",
+            "difficulty": "HARD",
+            "correctOption": "GUI requirement gathering",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "User analysis",
+            "option2": "Task analysis",
+            "option3": "GUI requirement gathering",
+            "option4": "GUI design & implementation"
+        },
+        {
+            "questionId": "257",
+            "question": "Building an excellent product or system that no one really want a risk is a________ .",
+            "difficulty": "HARD",
+            "correctOption": "Business risk",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Technical risk",
+            "option2": "Schedule risk",
+            "option3": "Business risk",
+            "option4": "Performance risk"
+        },
+        {
+            "questionId": "258",
+            "question": " In project execution and monitoring, every project is divided into multiple phases according to that in which phase of SDLC all major tasks are performed?",
+            "difficulty": "HARD",
+            "correctOption": "Milestones checklist",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Milestones checklist",
+            "option2": " Status reports",
+            "option3": " Activity monitoring",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "259",
+            "question": "Which is the publishing subsystem that does not require any further processing and are transmitted directly to the client side?",
+            "difficulty": "HARD",
+            "correctOption": "Static elements",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Publication services",
+            "option2": "Static elements",
+            "option3": "External services",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "260",
+            "question": " To compute Function Point (FP) which of the following relationship is used? Where Fi = complexity adjustment values.",
+            "difficulty": "HARD",
+            "correctOption": "FP = count total *[0.65 + 0.01 *S(Fi)]",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "FP = count total *[0.65 + 0.01 *S(Fi)]",
+            "option2": "FP = count total *[0.01 *S(Fi)]",
+            "option3": "FP = count total *[0.65]",
+            "option4": "None of the above."
+        },
+        {
+            "questionId": "261",
+            "question": "In the Empirical Estimation Technique which model is developed by Barry W. Boehm?",
+            "difficulty": "HARD",
+            "correctOption": "COCOMO",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Putnam model",
+            "option2": "COCOMO",
+            "option3": "Both A & B",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "262",
+            "question": " Line of code(LOC) can be used to normalize quality and/or productivity measure for _______ .",
+            "difficulty": "HARD",
+            "correctOption": "Size oriented metrics.",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Extended function point metrics",
+            "option2": "Function point metrics",
+            "option3": "Size oriented metrics.",
+            "option4": "None of the above."
+        },
+        {
+            "questionId": "263",
+            "question": " What is Fault Masking?",
+            "difficulty": "HARD",
+            "correctOption": "Error condition hiding another error condition",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Creating a test case which does not reveal a fault",
+            "option2": "Error condition hiding another error condition",
+            "option3": "Masking a fault by developer",
+            "option4": "Masking a fault by a tester"
+        },
+        {
+            "questionId": "265",
+            "question": "Arrange the given sequence to form a SRS Prototype outline as per IEEE SRS Standard. i. General description ii. Introduction iii. Index iv. Appendices v. Specific Requirements",
+            "difficulty": "HARD",
+            "correctOption": "ii, i, v, iv, iii",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "iii, i, ii,v, iv",
+            "option2": " iii, ii, i, v, iv",
+            "option3": "ii, i, v, iv, iii",
+            "option4": "iii, i, ii"
+        },
+        {
+            "questionId": "266",
+            "question": "Which of the following statements about SRS is/are true ? i. SRS is written by customer ii. SRS is written by a developer iii. SRS serves as a contract between customer and developer",
+            "difficulty": "HARD",
+            "correctOption": "All are true",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Only i is true",
+            "option2": "Both ii and iii are true",
+            "option3": "All are true",
+            "option4": "None of the mentioned"
+        },
+        {
+            "questionId": "267",
+            "question": "What are KPAs and how many KPAs should be satisfied for a company to achieve CMMLs",
+            "difficulty": "HARD",
+            "correctOption": "Key process areas, 18",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": "Key project areas,17",
+            "option2": "Key project areas,18",
+            "option3": "Key process areas, 17",
+            "option4": "Key process areas, 18"
+        },
+        {
+            "questionId": "269",
+            "question": "Retesting of a single program or component after a change has been made?",
+            "difficulty": "HARD",
+            "correctOption": "Unit Regression",
+            "domain": {
+                "domainId": 113,
+                "domain": "Software Engineering"
+            },
+            "option1": " Full Regression Testing",
+            "option2": "Unit Regression",
+            "option3": " Regional Regression ",
+            "option4": "Retesting"
+        }
+    ]
+}

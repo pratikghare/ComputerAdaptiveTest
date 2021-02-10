@@ -1,0 +1,431 @@
+{
+    "quizId": "111118",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 111,
+        "domain": "Data Structures"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "31",
+            "question": "Maximum number of nodes in a binary tree with height k, where root is height 0, is",
+            "difficulty": "MED",
+            "correctOption": "2k+1 − 1",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "2k − 1",
+            "option2": "2k+1 − 1",
+            "option3": "2k-1 + 1",
+            "option4": "2k − 1"
+        },
+        {
+            "questionId": "32",
+            "question": "Which of the following asymptotic notation is the worst among all?",
+            "difficulty": "MED",
+            "correctOption": "Ο(n3)",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Ο(n+9378)",
+            "option2": "Ο(n3)",
+            "option3": "nΟ(1)",
+            "option4": "2 Ο(n)"
+        },
+        {
+            "questionId": "33",
+            "question": "For a binary search algorithm to work, it is necessary that the array (list) must be",
+            "difficulty": "MED",
+            "correctOption": "sorted",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "sorted",
+            "option2": "unsorted",
+            "option3": "in a heap",
+            "option4": "popped out of stack"
+        },
+        {
+            "questionId": "34",
+            "question": "Which of the following searching techniques do not require the data to be in sorted form",
+            "difficulty": "MED",
+            "correctOption": "Binary Search",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Binary Search",
+            "option2": "Interpolation Search",
+            "option3": "Linear Search",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "35",
+            "question": " In a min heap",
+            "difficulty": "MED",
+            "correctOption": "parent nodes have less value than child nodes.",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "minimum values are stored.",
+            "option2": "child nodes have less value than parent nodes.",
+            "option3": "parent nodes have less value than child nodes.",
+            "option4": "maximum value is contained by the root node"
+        },
+        {
+            "questionId": "36",
+            "question": "Which of these alogrithmic approach tries to achieve localized optimum solution −",
+            "difficulty": "MED",
+            "correctOption": "Greedy approach",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Greedy approach",
+            "option2": "Divide and conquer approach",
+            "option3": "Dynamic approach",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "37",
+            "question": "If we choose Prim's Algorithm for uniquely weighted spanning tree instead of Kruskal's Algorithm, then",
+            "difficulty": "MED",
+            "correctOption": "we'll get the same spanning tree.",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "we'll get a different spanning tree.",
+            "option2": "we'll get the same spanning tree.",
+            "option3": "spanning will have less edges.",
+            "option4": "spanning will not cover all vertices."
+        },
+        {
+            "questionId": "38",
+            "question": "Identify the infix expression from the list of options given below.",
+            "difficulty": "MED",
+            "correctOption": "a/b+(c-d)",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "a/b+(c-d)",
+            "option2": "abc*+d+ab+cd+*ce-f-",
+            "option3": "ab-c-",
+            "option4": "+ab"
+        },
+        {
+            "questionId": "39",
+            "question": " Evaluate the following and choose the correct answer.a/b+c*d where a=4, b=2, c=2, d=1.",
+            "difficulty": "MED",
+            "correctOption": "4",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "1",
+            "option2": "4",
+            "option3": "5",
+            "option4": "2"
+        },
+        {
+            "questionId": "40",
+            "question": "While evaluating a postfix expression, when an operator is encountered, what is the correct operation to be performed?",
+            "difficulty": "MED",
+            "correctOption": "pop 2 operands, evaluate them and push the result on to the stack",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "push it directly on to the stack",
+            "option2": "pop 2 operands, evaluate them and push the result on to the stack",
+            "option3": "pop the entire stack",
+            "option4": "ignore the operator"
+        },
+        {
+            "questionId": "41",
+            "question": " What would be the Prefix notation for the given equation? a+b-c/d&e|f",
+            "difficulty": "MED",
+            "correctOption": "|&-+ab/cdef",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "|&-+ab/cdef",
+            "option2": "&|-+ab/cdef",
+            "option3": "|&-ab+/cdef",
+            "option4": "|&-+/abcdef"
+        },
+        {
+            "questionId": "42",
+            "question": "Which of the following statement is incorrect with respect to infix to postfix conversion algorithm?",
+            "difficulty": "MED",
+            "correctOption": "parenthesis are included in the output",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "operand is always placed in the output",
+            "option2": "operator is placed in the stack when the stack operator has lower precedence",
+            "option3": "parenthesis are included in the output",
+            "option4": "higher and equal priority operators follow the same condition"
+        },
+        {
+            "questionId": "43",
+            "question": "What is the corresponding postfix expression for the given infix expression? a+(b*c(d/e^f)*g)*h)",
+            "difficulty": "MED",
+            "correctOption": "abcdef^/*g*h*+",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "ab*cdef/^*g-h+",
+            "option2": "abcdef^/*g*h*+",
+            "option3": "abcd*^ed/g*-h*+",
+            "option4": "abc*de^fg/*-*h+"
+        },
+        {
+            "questionId": "44",
+            "question": "Given two processes (conversion of postfix equation to infix notation and conversion of prefix notation to infix notation), which of the following is easier to implement?",
+            "difficulty": "MED",
+            "correctOption": "Conversion of postfix equation to infix equation is easier than converting a prefix notation to infix notation",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Both are easy to implement",
+            "option2": "Conversion of postfix equation to infix equation is harder than converting a prefix notation to infix notation",
+            "option3": "Conversion of postfix equation to infix equation is easier than converting a prefix notation to infix notation",
+            "option4": "insufficient data"
+        },
+        {
+            "questionId": "45",
+            "question": "The postfix expression abc+de/*- is equivalent to which of the following infix expression?",
+            "difficulty": "MED",
+            "correctOption": "a-(b+c)*(d/e)",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "abc+-de*/",
+            "option2": " (a+b)-d/e*c",
+            "option3": "a-(b+c)*(d/e)",
+            "option4": "abc+*-(d/e)"
+        },
+        {
+            "questionId": "46",
+            "question": "What will be the word obtained if the word “abbcabb” is reversed using a stack?",
+            "difficulty": "MED",
+            "correctOption": "bbacbba",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "bbabbca",
+            "option2": "abbcabb",
+            "option3": "bbacbba",
+            "option4": "bbacabb"
+        },
+        {
+            "questionId": "47",
+            "question": "What will be output if the following sequence of operations are executed? Push(a,s); Push(b,s); Pop(b); Push(c,s);",
+            "difficulty": "MED",
+            "correctOption": "b",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "abc",
+            "option2": "b",
+            "option3": "ac",
+            "option4": "acb"
+        },
+        {
+            "questionId": "48",
+            "question": "What are the set of functions that are to be executed to get the following output? cat",
+            "difficulty": "MED",
+            "correctOption": "push(c,s); pop(s); push(a,s); pop(s);push(t,s);pop(s);",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "push(c, s); push(a, s); push(t, s);pop(s); pop(s); pop(s);",
+            "option2": "push(c,s); pop(s); push(a,s); pop(s);push(t,s);pop(s);",
+            "option3": "pop(c ); pop(a); pop(t);",
+            "option4": "push(c,s); push(a,s); pop(t);"
+        },
+        {
+            "questionId": "49",
+            "question": " Which of the following statement is invalid with respect to balancing symbols?",
+            "difficulty": "MED",
+            "correctOption": "((A+B) + (C+D)",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": " [(A+B) + (C-D)]",
+            "option2": "[{A+B}-{C-[D+E]}]",
+            "option3": "((A+B) + (C+D)",
+            "option4": "{(A+B) + [C+D]}"
+        },
+        {
+            "questionId": "50",
+            "question": " Which of the following bitwise operations will you use to set a particular bit to 0?",
+            "difficulty": "MED",
+            "correctOption": "AND",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": " OR",
+            "option2": "AND",
+            "option3": "XOR",
+            "option4": "NAND"
+        },
+        {
+            "questionId": "51",
+            "question": "What does Hamming weight/population count mean in Bit arrays?",
+            "difficulty": "MED",
+            "correctOption": "Finding the number of 1 bit in a bit array",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Finding the number of 1 bit in a bit array",
+            "option2": " Finding the number of 0 bit in a bit array",
+            "option3": "Finding the sum of bits in a bit array",
+            "option4": "Finding the average number of 1’s and 0’s in bit arrays"
+        },
+        {
+            "questionId": "52",
+            "question": " What will happen while using pass by reference?",
+            "difficulty": "MED",
+            "correctOption": "The location of variable in memory is passed to the function so that it can use the same memory area for its processing",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "The values of those variables are passed to the function so that it can manipulate them",
+            "option2": "The location of variable in memory is passed to the function so that it can use the same memory area for its processing",
+            "option3": "The function declaration should contain ampersand (& in its type declaration)",
+            "option4": " The function declaration should contain $"
+        },
+        {
+            "questionId": "53",
+            "question": "What are the advantages of passing arguments by reference?",
+            "difficulty": "MED",
+            "correctOption": "All of the mentioned",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Changes to parameter values within the function also affect the original arguments",
+            "option2": "There is need to copy parameter values (i.e. less memory used)",
+            "option3": "There is no need to call constructors for parameters (i.e. faster)",
+            "option4": "All of the mentioned"
+        },
+        {
+            "questionId": "54",
+            "question": "In a circular queue implementation using array of size 5, the array index starts with 0 where front and rear values are 3 and 4 respectively. Determine the array index at which the insertion of the next element will take place.",
+            "difficulty": "MED",
+            "correctOption": "0",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "5",
+            "option2": "0",
+            "option3": "1",
+            "option4": "2"
+        },
+        {
+            "questionId": "55",
+            "question": "The inorder traversal of some binary tree produces the sequence DBEAFC, and the postorder transversal of the same tree produced the sequence DEBFCA. Which of the following is correct preorder transversal sequence?",
+            "difficulty": "MED",
+            "correctOption": "ABDECF",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "DBAECF",
+            "option2": "ABEDFC",
+            "option3": "ABDECF",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "56",
+            "question": "Consider the following code: struct node {  int data; struct node *next;}  node ptr;Which one of the following is the correct option to create a new node?",
+            "difficulty": "MED",
+            "correctOption": "ptr=(node*)malloc(sizeof(node))",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "ptr= (node*)malloc(sizeof(node*))",
+            "option2": "ptr=(node)malloc(sizeof(node))",
+            "option3": "ptr=(node*)malloc(sizeof(node))",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "57",
+            "question": "If circular queue is implemented using array having size MAX_SIZE in which array index starts with 0, front  points to the first element in the queue, and rear points to the last element in the queue. Which one of the following conditions used to specify that the circular queue is empty?",
+            "difficulty": "MED",
+            "correctOption": "Front=rear= -1",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Front=rear= -1",
+            "option2": "Front=rear=0",
+            "option3": "Front=rear+1",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "58",
+            "question": "What is the functionality of the following piece of code? public void fun(int x){q1.offer(x); }",
+            "difficulty": "MED",
+            "correctOption": "Perform push() with pop as the costlier operation",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Perform push() with push as the costlier operation",
+            "option2": "Perform push() with pop as the costlier operation",
+            "option3": "Perform pop() with push as the costlier operation",
+            "option4": "Perform pop() with pop as the costlier operation"
+        },
+        {
+            "questionId": "59",
+            "question": " Match the following.a) Completeness i) How long does it take to find a solution b) Time Complexity ii) How much memory need to perform the search. c) Space Complexity iii) Is the strategy guaranteed to find the solution when there in one.",
+            "difficulty": "MED",
+            "correctOption": "a-iii, b-i, c-i",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "a-iii, b-ii, c-i",
+            "option2": "a-i, b-ii, c-iii",
+            "option3": "a-iii, b-i, c-i",
+            "option4": "a-i, b-iii, c-ii"
+        },
+        {
+            "questionId": "60",
+            "question": "All the following return same value except _________.",
+            "difficulty": "MED",
+            "correctOption": "Both Tree and Graph",
+            "domain": {
+                "domainId": 111,
+                "domain": "Data Structures"
+            },
+            "option1": "Tree",
+            "option2": "Graph",
+            "option3": "Both Tree and Graph",
+            "option4": "None of the above"
+        }
+    ]
+}

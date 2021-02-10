@@ -1,0 +1,392 @@
+{
+    "quizId": "111111",
+    "quizTitle": "MyQuiz",
+    "quizDomain": {
+        "domainId": 112,
+        "domain": "CPP"
+    },
+    "quizDuration": "1",
+    "questions": [
+        {
+            "questionId": "91",
+            "question": "To get polymorphism for a class you have to mark your methods as",
+            "difficulty": "EASY",
+            "correctOption": "Virtual",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Static",
+            "option2": "Pure virtual",
+            "option3": "Virtual",
+            "option4": "Final"
+        },
+        {
+            "questionId": "92",
+            "question": "Where does memory get allocated for a static data members of a class",
+            "difficulty": "EASY",
+            "correctOption": "Data",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Code/text",
+            "option2": "Stack",
+            "option3": "Heap",
+            "option4": "Data"
+        },
+        {
+            "questionId": "93",
+            "question": "The default access scope for a method in a C++ class is",
+            "difficulty": "EASY",
+            "correctOption": "Private",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Private",
+            "option2": "Public",
+            "option3": "Protected",
+            "option4": "Default"
+        },
+        {
+            "questionId": "94",
+            "question": "The operator used for getting the type_info object is",
+            "difficulty": "EASY",
+            "correctOption": "Typeid",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Typeof",
+            "option2": "Typeid",
+            "option3": "Type",
+            "option4": "Typeinfo"
+        },
+        {
+            "questionId": "95",
+            "question": "Which of the following is the base class of C++ steam class hierarchy?",
+            "difficulty": "EASY",
+            "correctOption": "ios",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "istream",
+            "option2": "iostream",
+            "option3": "stream",
+            "option4": "ios"
+        },
+        {
+            "questionId": "96",
+            "question": "class Foo {  int i; }; In the above sample, what is the member access specifier of the member data i ?",
+            "difficulty": "EASY",
+            "correctOption": "private",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "default",
+            "option2": "virtual",
+            "option3": "private",
+            "option4": "protected"
+        },
+        {
+            "questionId": "97",
+            "question": "Which of the following is the default namespace of C++?",
+            "difficulty": "EASY",
+            "correctOption": "stdio",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "iostream",
+            "option2": "standard",
+            "option3": "std",
+            "option4": "stdio"
+        },
+        {
+            "questionId": "98",
+            "question": "what happens to the automatic objects that have been constructed in a try block when that block throws an exception ?",
+            "difficulty": "EASY",
+            "correctOption": "Destructors are called for each of the objects",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "only throws exception",
+            "option2": "Destructors are called for each of the objects",
+            "option3": "same as for other variables.",
+            "option4": "None of the above."
+        },
+        {
+            "questionId": "99",
+            "question": " In C++ programs the operation of the assignment operator and that of the copy constructor are",
+            "difficulty": "EASY",
+            "correctOption": "similar except that the copy constructor creates a new object",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "similar except that the copy constructor creates a new object",
+            "option2": "different except that they both copy member data.",
+            "option3": "both  (1)  and (2)",
+            "option4": "None of the above."
+        },
+        {
+            "questionId": "100",
+            "question": "when two or more objects are derived from a common base class, u can prevent multiple copies of the base                           class from being present in an object derived from those objects by declaring base class when it is                           inherited.",
+            "difficulty": "EASY",
+            "correctOption": "Virtual",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "public",
+            "option2": "Protected",
+            "option3": "Virtual",
+            "option4": "Private"
+        },
+        {
+            "questionId": "101",
+            "question": "which one support unknown data types in a single framework ?",
+            "difficulty": "EASY",
+            "correctOption": "templates",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "inheritance",
+            "option2": "virtual functions",
+            "option3": "abstract base class",
+            "option4": "templates"
+        },
+        {
+            "questionId": "102",
+            "question": "Which of the following is the correct syntax to print the message in C++ language?",
+            "difficulty": "EASY",
+            "correctOption": "cout <<'Hello world!';",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "cout <<'Hello world!';",
+            "option2": "Cout << Hello world! ;",
+            "option3": "Out <<Hello world!;",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "103",
+            "question": "Which of the following is the correct identifier?",
+            "difficulty": "EASY",
+            "correctOption": "VAR_123",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "$var_name",
+            "option2": "VAR_123",
+            "option3": "varname@",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "104",
+            "question": "Which of the following is the address operator?",
+            "difficulty": "EASY",
+            "correctOption": "&",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "@",
+            "option2": "#",
+            "option3": "&",
+            "option4": "%"
+        },
+        {
+            "questionId": "105",
+            "question": "Which of the following features must be supported by any programming language to become a pure object-oriented programming language?",
+            "difficulty": "EASY",
+            "correctOption": "All of the above",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Encapsulation",
+            "option2": "Inheritance",
+            "option3": "Polymorphism",
+            "option4": "All of the above"
+        },
+        {
+            "questionId": "106",
+            "question": "The programming language that has the ability to create new data types is called___.",
+            "difficulty": "EASY",
+            "correctOption": "Extensible",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Overloaded",
+            "option2": "Encapsulated",
+            "option3": "Reprehensible",
+            "option4": "Extensible"
+        },
+        {
+            "questionId": "107",
+            "question": "Which of the following is the original creator of the C++ language?",
+            "difficulty": "EASY",
+            "correctOption": "Bjarne Stroustrup",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Dennis Ritchie",
+            "option2": "Ken Thompson",
+            "option3": "Bjarne Stroustrup",
+            "option4": "Brian Kernighan"
+        },
+        {
+            "questionId": "108",
+            "question": "Which of the following statements is correct about the formal parameters in C++?",
+            "difficulty": "EASY",
+            "correctOption": "Parameters with which functions are called",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Parameters with which functions are called",
+            "option2": "Parameters which are used in the definition of the function",
+            "option3": "Variables other than passed parameters in a function",
+            "option4": "Variables that are never used in the function"
+        },
+        {
+            "questionId": "109",
+            "question": "Which of the following is the correct syntax to read the single character to console in the C++ language?",
+            "difficulty": "EASY",
+            "correctOption": "get(ch)",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Read ch()",
+            "option2": "Getline vh()",
+            "option3": "get(ch)",
+            "option4": "Scanf(ch)"
+        },
+        {
+            "questionId": "110",
+            "question": "The C++ language is ______ object-oriented language.",
+            "difficulty": "EASY",
+            "correctOption": "Semi Object-oriented or Partial Object-oriented",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Pure Object oriented",
+            "option2": "Not Object oriented",
+            "option3": "Semi Object-oriented or Partial Object-oriented",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "111",
+            "question": "Which of the following comment syntax is correct to create a single-line comment in the C++ program?",
+            "difficulty": "EASY",
+            "correctOption": "//Comment",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "//Comment",
+            "option2": "/ Comment",
+            "option3": "Comment//",
+            "option4": "None of the above"
+        },
+       
+        {
+            "questionId": "113",
+            "question": "Which of the following refers to characteristics of an array?",
+            "difficulty": "EASY",
+            "correctOption": "An array is a set of similar data items",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "An array is a set of similar data items",
+            "option2": "An array is a set of distinct data items",
+            "option3": "An array can hold different types of datatypes",
+            "option4": "None of the above"
+        },
+      
+        {
+            "questionId": "115",
+            "question": "If we stored five elements or data items in an array, what will be the index address or the index number of the array's last data item?",
+            "difficulty": "EASY",
+            "correctOption": "4",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "3",
+            "option2": "5",
+            "option3": "4",
+            "option4": "88"
+        },
+        {
+            "questionId": "116",
+            "question": "If we stored five elements or data items in an array, what will be the index address or the index number of the array's last data item?",
+            "difficulty": "EASY",
+            "correctOption": "Sorting is a type of process in which the data or information is ordered into a specific order. Example  increasing orders, decreasing.",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Sorting is a type of process in which the data or information is ordered into a specific order. Example  increasing orders, decreasing.",
+            "option2": "Sorting information or data only in increasing order",
+            "option3": "Sorting is a type of process in which data elements are modified or manipulated",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "117",
+            "question": "How many types of the array are there in the C++ programming language?",
+            "difficulty": "EASY",
+            "correctOption": "In the C++ programming language, there are two types of arrays",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "In the C++ programming language, there are three types of arrays",
+            "option2": "In the C++ programming language, there are four types of arrays",
+            "option3": "In the C++ programming language, there are two types of arrays",
+            "option4": "Both 1 and 2"
+        },
+        {
+            "questionId": "118",
+            "question": "In C++, for what purpose the rank() is used?",
+            "difficulty": "EASY",
+            "correctOption": "It returns the dimension of the specified array",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "It returns the size of each dimension",
+            "option2": "It returns the maximum number of elements that can be stored in the array",
+            "option3": "It returns the dimension of the specified array",
+            "option4": "None of the above"
+        },
+        {
+            "questionId": "119",
+            "question": " Which of the following can be considered as the object of an array?",
+            "difficulty": "EASY",
+            "correctOption": "Elements of the Array",
+            "domain": {
+                "domainId": 112,
+                "domain": "CPP"
+            },
+            "option1": "Elements of the Array",
+            "option2": "Functions of the Array",
+            "option3": "Index of an array",
+            "option4": "All of the above"
+        }
+       
+    ]
+}
